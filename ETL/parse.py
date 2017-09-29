@@ -8,8 +8,7 @@ def dayOfWeek(date):
 
 
 def isWeekend(date):
-    dayNum = date.weekday()
-    if dayNum < 5:
+    if date.weekday() < 5:
         return "0"
     else:
         return "1"
@@ -23,8 +22,8 @@ def travelSpan():
     return "1"  # FIXME
 
 
-def marketShare(ms_perc):
-    return str(ms_perc / 100.0)
+def marketShare(value):
+    return str(value / 100.0)
 
 
 def printLine(lineList):
