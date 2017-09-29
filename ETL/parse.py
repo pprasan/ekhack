@@ -44,6 +44,7 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
         line.append(dayOfWeek(departureDate))
         line.append(isWeekend(departureDate))
         line.append(month(departureDate))
+        line.append(str(row["MS_PERC"]/100.0))
         # line.append(airportID(row["ORIG"])) #origin
         # line.append(airportID(row["DEST"])) #destination
 
