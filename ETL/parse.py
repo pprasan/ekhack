@@ -38,6 +38,8 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
         line.append(dayOfWeek(departureDate))
         line.append(isWeekend(departureDate))
         line.append(month(departureDate))
+        # line.append(airport_dict[row["ORIG"]]) #origin
+        # line.append(airport_dict[row["DEST"]]) #destination
 
         #Write to file
         outputFile.write(printLine(line))
