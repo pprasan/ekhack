@@ -34,6 +34,17 @@ def printLine(lineList):
 
 pricingDF = pd.read_csv("../data/emirates/pricing.csv")
 
+
+def loadOilPrices():
+    oil_dict = {}
+    with open("../data/external/oilPricesChange.csv", "r") as prices:
+        for line in prices:
+            data = line.split(",")
+            dateOrigFormat = data[0]
+            date = datetime.strptime(dateOrigFormat.strip(), "%Y-%m-%d")
+            oil_dict[date] = data[2].strip()
+    return oil_dict
+
 def loadAirportData():
     airport_dict = {}
     with open("../data/external/airports.txt", "r") as airports:
@@ -46,6 +57,8 @@ def loadAirportData():
 
 
 airport_dict = loadAirportData()
+oil_dict = loadOilPrices()
+print oil_dict
 def airportID(airportCode):
     return airport_dict[airportCode]
 
@@ -64,7 +77,8 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
                   "baseFare",
                   "taxes",
                   "miscAmt",
-                  "totalAmt"
+                  "totalAmt",
+                  "changeInOilPrice"
                   ]
     outputFile.write(printLine(headerLine))
     for i, row in pricingDF.iterrows():
