@@ -1,23 +1,6 @@
 import pandas as pd
+import Utils
 from datetime import datetime, timedelta
-
-# FIELD COLUMN LABELS
-FARE_ID = "FAREID"
-DEPARTURE_DATE = "DEPARTURE_DATE"
-MARKET_SHARE = "MS_PERC"
-ORIGIN = "ORIG"
-DESTINATION = "DEST"
-FARE_FUEL_INSURANCE = "YQ_YR_AMT_BC"
-FARE_FUEL_SURCHARGE = "Q_FUEL_AMT_BC"
-FARE_BASE = "FAREAMT_BC"
-FARE_TAX = "TAX_AMT_BC"
-FARE_MISC = "Q_OTHERS_AMT_BC"
-FARE_TOTAL = "TOTAL_AMT_BC"
-
-
-def isBlank(string):
-    s = str(string)
-    return not bool(s and s.strip())
 
 
 def dayOfWeek(date):
@@ -112,39 +95,39 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
     outputFile.write(printLine(headerLine))
     for i, row in pricingDF.iterrows():
         if (row is None) or \
-                isBlank(row[FARE_ID]) or \
-                isBlank(row[DEPARTURE_DATE]) or \
-                isBlank(row[MARKET_SHARE]) or \
-                isBlank(row[ORIGIN]) or \
-                isBlank(row[DESTINATION]) or \
-                isBlank(row[FARE_FUEL_INSURANCE]) or \
-                isBlank(row[FARE_FUEL_SURCHARGE]) or \
-                isBlank(row[FARE_BASE]) or \
-                isBlank(row[FARE_TAX]) or \
-                isBlank(row[FARE_MISC]) or \
-                isBlank(row[FARE_TOTAL]):
+                Utils.isBlank(row[Utils.FARE_ID]) or \
+                Utils.isBlank(row[Utils.DEPARTURE_DATE]) or \
+                Utils.isBlank(row[Utils.MARKET_SHARE]) or \
+                Utils.isBlank(row[Utils.ORIGIN]) or \
+                Utils.isBlank(row[Utils.DESTINATION]) or \
+                Utils.isBlank(row[Utils.FARE_FUEL_INSURANCE]) or \
+                Utils.isBlank(row[Utils.FARE_FUEL_SURCHARGE]) or \
+                Utils.isBlank(row[Utils.FARE_BASE]) or \
+                Utils.isBlank(row[Utils.FARE_TAX]) or \
+                Utils.isBlank(row[Utils.FARE_MISC]) or \
+                Utils.isBlank(row[Utils.FARE_TOTAL]):
             continue
 
         # Input Values
-        line = [str(row[FARE_ID])]
-        departureDate = datetime.strptime(row[DEPARTURE_DATE], "%m/%d/%y")
+        line = [str(row[Utils.FARE_ID])]
+        departureDate = datetime.strptime(row[Utils.DEPARTURE_DATE], "%m/%d/%y")
         line.append(dayOfWeek(departureDate))
         line.append(isWeekend(departureDate))
         line.append(month(departureDate))
         line.append(travelSpan())
-        line.append(marketShare(row[MARKET_SHARE]))
-        line.append(airportID(row[ORIGIN]))  # origin
-        line.append(airportID(row[DESTINATION]))  # destination
-        oilPrice = findClosetOilPrice(row[DEPARTURE_DATE])  # probably need to give purchase date?
+        line.append(marketShare(row[Utils.MARKET_SHARE]))
+        line.append(airportID(row[Utils.ORIGIN]))  # origin
+        line.append(airportID(row[Utils.DESTINATION]))  # destination
+        oilPrice = findClosetOilPrice(row[Utils.DEPARTURE_DATE])  # probably need to give purchase date?
         # line.append(oilPrice)
 
         # Output Values
-        line.append(str(row[FARE_FUEL_INSURANCE]))  # Fuel & Insurance
-        line.append(str(row[FARE_FUEL_SURCHARGE]))  # Fuel Surcharge
-        line.append(str(row[FARE_BASE]))  # Base Fare
-        line.append(str(row[FARE_TAX]))  # TAX TAX TAX
-        line.append(str(row[FARE_MISC]))  # Other Shit
-        line.append(str(row[FARE_TOTAL]))  # Total Amount
+        line.append(str(row[Utils.FARE_FUEL_INSURANCE]))  # Fuel & Insurance
+        line.append(str(row[Utils.FARE_FUEL_SURCHARGE]))  # Fuel Surcharge
+        line.append(str(row[Utils.FARE_BASE]))  # Base Fare
+        line.append(str(row[Utils.FARE_TAX]))  # TAX TAX TAX
+        line.append(str(row[Utils.FARE_MISC]))  # Other Shit
+        line.append(str(row[Utils.FARE_TOTAL]))  # Total Amount
 
         # Write to file
         outputFile.write(printLine(line))
