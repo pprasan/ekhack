@@ -1,6 +1,26 @@
 import pandas as pd
 from datetime import datetime
 
+
+def dayOfWeek(date):
+    return str(date.weekday()+1)
+
+def isWeekend(date):
+    dayNum = date.weekday()
+    if dayNum < 5:
+        return "0"
+    else:
+        return "1"
+
+def month(date):
+    return str(date.month)
+
+def printLine(lineList):
+    line = ",".join(lineList)
+    line += "\n"
+    return line
+
+
 pricingDF = pd.read_csv("../data/emirates/pricing.csv")
 
 airport_dict = {}
@@ -13,9 +33,14 @@ with open("../data/external/airports.txt", "r") as airports:
 
 with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
     for i, row in pricingDF.iterrows():
+        line = []
         departureDate = datetime.strptime(row["DEPARTURE_DATE"], "%m/%d/%y")
-        outputFile.write(str(departureDate.year) +
-                         "\n")
+        line.append(dayOfWeek(departureDate))
+        line.append(isWeekend(departureDate))
+        line.append(month(departureDate))
+
+        #Write to file
+        outputFile.write(printLine(line))
 
 # why does DOW have many numbers?
 
