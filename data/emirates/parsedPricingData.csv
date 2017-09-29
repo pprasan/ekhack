@@ -1,4 +1,4 @@
-fareID,dayOfWeekisWeekend,month,travelSpan,marketShare,fuelAndInsurance,fuelSurcharge,baseFare,taxes,miscAmt,totalAmt
+fareID,dayOfWeek,isWeekend,month,travelSpan,marketShare,fuelAndInsurance,fuelSurcharge,baseFare,taxes,miscAmt,totalAmt
 2530023919,7,1,8,1,0.0,600,0,1937,103.62,0,2640.62
 2530050567,1,0,8,1,0.071,600,0,1786,108.12,0,2494.12
 2529949414,2,0,8,1,0.5569,600,0,1462,108.12,0,2170.12

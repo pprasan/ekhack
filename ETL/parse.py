@@ -52,7 +52,7 @@ def airportID(airportCode):
 
 with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
     headerLine = ["fareID",
-                  "dayOfWeek"
+                  "dayOfWeek",
                   "isWeekend",
                   "month",
                   "travelSpan",
