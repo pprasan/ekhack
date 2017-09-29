@@ -58,7 +58,7 @@ def loadAirportData():
 
 airport_dict = loadAirportData()
 oil_dict = loadOilPrices()
-print oil_dict
+
 def airportID(airportCode):
     return airport_dict[airportCode]
 
