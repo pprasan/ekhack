@@ -12,7 +12,7 @@ pricingDF = pd.read_csv("../data/emirates/pricing.csv")
 with open("../data/external/airports.txt", "w") as outputFile:
     unsortedAirportCodes = set()
     for i, row in pricingDF.iterrows():
-        if isBlank(row[ORIGIN]) or isBlank(DESTINATION):
+        if isBlank(row[ORIGIN]) or isBlank(row[DESTINATION]):
             continue
         unsortedAirportCodes.add(row[ORIGIN])
         unsortedAirportCodes.add(row[DESTINATION])
