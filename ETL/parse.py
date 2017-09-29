@@ -1,5 +1,5 @@
 import pandas as pd
-from datetime import datetime
+from datetime import datetime, timedelta
 
 
 def dayOfWeek(date):
@@ -62,6 +62,15 @@ oil_dict = loadOilPrices()
 def airportID(airportCode):
     return airport_dict[airportCode]
 
+def findClosetOilPrice(date):
+  dateTime = datetime.strptime(date, "%m/%d/%y")
+  count = 0
+  while dateTime not in oil_dict:
+    if count > 10: return '' #disregard if older than 10 days
+    dateTime -= timedelta(days=1)
+    count += 1
+  return oil_dict[dateTime]
+
 
 with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
     headerLine = ["fareID",
@@ -102,6 +111,8 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
         line.append(str(row["TAX_AMT_BC"])) #TAX TAX TAX
         line.append(str(row["Q_OTHERS_AMT_BC"])) #Other Shit
         line.append(str(row["TOTAL_AMT_BC"])) #Total Amount
+        oilPrice = findClosetOilPrice(row["DEPARTURE_DATE"]) #probably need to give purchase date?
+        line.append(oilPrice)
 
         # Write to file
         outputFile.write(printLine(line))
