@@ -22,6 +22,10 @@ def travelSpan():
     return "1"  # FIXME
 
 
+def marketShare(ms_perc):
+    return str(ms_perc / 100.0)
+
+
 def printLine(lineList):
     line = ",".join(lineList)
     line += "\n"
@@ -47,16 +51,43 @@ def airportID(airportCode):
 
 
 with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
+    headerLine = ["fareID",
+                  "dayOfWeek"
+                  "isWeekend",
+                  "month",
+                  "travelSpan",
+                  "marketShare",
+                  # "orig",
+                  # "dest,
+                  "fuelAndInsurance",
+                  "fuelSurcharge",
+                  "baseFare",
+                  "taxes",
+                  "miscAmt",
+                  "totalAmt"
+                  ]
+    outputFile.write(printLine(headerLine))
     for i, row in pricingDF.iterrows():
         line = []
+
+        #Input Values
+        line.append(str(row["FAREID"]))
         departureDate = datetime.strptime(row["DEPARTURE_DATE"], "%m/%d/%y")
         line.append(dayOfWeek(departureDate))
         line.append(isWeekend(departureDate))
         line.append(month(departureDate))
-        line.append(str(row["MS_PERC"]/100.0))
+        line.append(travelSpan())
+        line.append(marketShare(row["MS_PERC"]))
         # line.append(airportID(row["ORIG"])) #origin
         # line.append(airportID(row["DEST"])) #destination
-        line.append(travelSpan())
+
+        #Output Values
+        line.append(str(row["YQ_YR_AMT_BC"])) #Fuel & Insurance
+        line.append(str(row["Q_FUEL_AMT_BC"])) #Fuel Surcharge
+        line.append(str(row["FAREAMT_BC"])) #Base Fare
+        line.append(str(row["TAX_AMT_BC"])) #TAX TAX TAX
+        line.append(str(row["Q_OTHERS_AMT_BC"])) #Other Shit
+        line.append(str(row["TOTAL_AMT_BC"])) #Total Amount
 
         # Write to file
         outputFile.write(printLine(line))
