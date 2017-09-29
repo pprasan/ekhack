@@ -23,13 +23,19 @@ def printLine(lineList):
 
 pricingDF = pd.read_csv("../data/emirates/pricing.csv")
 
-airport_dict = {}
-with open("../data/external/airports.txt", "r") as airports:
-    for line in airports:
-        data = line.split(",")
-        airport_dict[data[1].strip()] = data[0]
-# To convert the airport code from three letter to ID,
-# simply use, for instance = airport_dict['JFK']
+def loadAirportData():
+    airport_dict = {}
+    with open("../data/external/airports.txt", "r") as airports:
+        for line in airports:
+            data = line.split(",")
+            airport_dict[data[1].strip()] = data[0]
+    return airport_dict
+    # To convert the airport code from three letter to ID,
+    # simply use, for instance = airport_dict['JFK']
+
+airport_dict = loadAirportData()
+def airportID(airportCode):
+    return airport_dict[airportCode];
 
 with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
     for i, row in pricingDF.iterrows():
@@ -38,8 +44,8 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
         line.append(dayOfWeek(departureDate))
         line.append(isWeekend(departureDate))
         line.append(month(departureDate))
-        # line.append(airport_dict[row["ORIG"]]) #origin
-        # line.append(airport_dict[row["DEST"]]) #destination
+        # line.append(airportID(row["ORIG"])) #origin
+        # line.append(airportID(row["DEST"])) #destination
 
         #Write to file
         outputFile.write(printLine(line))
