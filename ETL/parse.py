@@ -3,7 +3,8 @@ from datetime import datetime
 
 
 def dayOfWeek(date):
-    return str(date.weekday()+1)
+    return str(date.weekday() + 1)
+
 
 def isWeekend(date):
     dayNum = date.weekday()
@@ -12,8 +13,14 @@ def isWeekend(date):
     else:
         return "1"
 
+
 def month(date):
     return str(date.month)
+
+
+def travelSpan():
+    return "1"  # FIXME
+
 
 def printLine(lineList):
     line = ",".join(lineList)
@@ -33,9 +40,11 @@ def loadAirportData():
     # To convert the airport code from three letter to ID,
     # simply use, for instance = airport_dict['JFK']
 
+
 airport_dict = loadAirportData()
 def airportID(airportCode):
-    return airport_dict[airportCode];
+    return airport_dict[airportCode]
+
 
 with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
     for i, row in pricingDF.iterrows():
@@ -47,8 +56,9 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
         line.append(str(row["MS_PERC"]/100.0))
         # line.append(airportID(row["ORIG"])) #origin
         # line.append(airportID(row["DEST"])) #destination
+        line.append(travelSpan())
 
-        #Write to file
+        # Write to file
         outputFile.write(printLine(line))
 
 # why does DOW have many numbers?
