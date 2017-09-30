@@ -28,10 +28,6 @@ def month(date):
     return str(date.month)
 
 
-def travelSpan():
-    return "1"  # FIXME
-
-
 def marketShare(value):
     return str(value / 100.0)
 
@@ -187,7 +183,6 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
     headerLine = ["dayOfWeek",
                   "isWeekend",
                   "month",
-                  "travelSpan",
                   "marketShare",
                   "origin",
                   "destination",
@@ -196,6 +191,7 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
                   "ChangeInStockIndex",
                   "origHotelOccupancy",
                   "destHotelOccupancy",
+                  "fareType",
                   "distance",
                   "fuelAndInsurance",
                   "fuelSurcharge",
@@ -211,6 +207,7 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
                 isBlank(row[MARKET_SHARE]) or \
                 isBlank(row[ORIGIN]) or \
                 isBlank(row[DESTINATION]) or \
+                isBlank(row[FARE_TYPE]) or \
                 isBlank(row[FARE_FUEL_INSURANCE]) or \
                 isBlank(row[FARE_FUEL_SURCHARGE]) or \
                 isBlank(row[FARE_BASE]) or \
@@ -229,7 +226,6 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
         line.append(dayOfWeek(departureDate))
         line.append(isWeekend(departureDate))
         line.append(month(departureDate))
-        line.append(travelSpan())
         line.append(marketShare(row[MARKET_SHARE]))
         line.append(airportID(row[ORIGIN]))  # origin
         line.append(airportID(row[DESTINATION]))  # destination
@@ -247,6 +243,7 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
 
         line.append(getHotelOccupancy(departureDate, row[ORIGIN]))
         line.append(getHotelOccupancy(departureDate, row[DESTINATION]))
+        line.append(row[FARE_TYPE])
 
         distance_key = row[ORIGIN]+':'+row[DESTINATION]
         line.append(distanceDict[distance_key])
