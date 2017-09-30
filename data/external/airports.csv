@@ -1169,7 +1169,7 @@ Num,AirportCode,Country,CountryCode,Region
 1168,IXW,India,IN,AsiaPacific
 1169,IYK,United States,US,Americas
 1170,IZM,Turkey,TR,Europe
-1171,JAA,Afghanistan,AF,#N/A
+1171,JAA,Afghanistan,AF,AsiaPacific
 1172,JAC,United States,US,Americas
 1173,JAC,United States,US,Americas
 1174,JAD,Australia,AU,AsiaPacific
@@ -1268,7 +1268,7 @@ Num,AirportCode,Country,CountryCode,Region
 1267,KAJ,Finland,FI,Europe
 1268,KAN,Nigeria,NG,MiddleEastAfrica
 1269,KAO,Finland,FI,Europe
-1270,KBL,Afghanistan,AF,#N/A
+1270,KBL,Afghanistan,AF,AsiaPacific
 1271,KBP,Ukraine,UA,Europe
 1272,KBY,Australia,AU,AsiaPacific
 1273,KCC,United States,US,Americas
@@ -1690,7 +1690,7 @@ Num,AirportCode,Country,CountryCode,Region
 1689,OMD,Namibia,NA,MiddleEastAfrica
 1690,OME,United States,US,Americas
 1691,OMH,Iran,IR,MiddleEastAfrica
-1692,OMO,Bosnia and Herzegovina,BA,#N/A
+1692,OMO,Bosnia and Herzegovina,BA,Europe
 1693,OND,Namibia,NA,MiddleEastAfrica
 1694,ONT,United States,US,Americas
 1695,OOL,Australia,AU,AsiaPacific
@@ -1789,7 +1789,7 @@ Num,AirportCode,Country,CountryCode,Region
 1788,POS,Trinidad and Tobago,TT,Americas
 1789,POU,United States,US,Americas
 1790,POZ,Poland,PL,Europe
-1791,PPG,American Samoa,AS,#N/A
+1791,PPG,American Samoa,AS,AsiaPacific
 1792,PPP,Australia,AU,AsiaPacific
 1793,PQI,United States,US,Americas
 1794,PQQ,Australia,AU,AsiaPacific
@@ -1961,7 +1961,7 @@ Num,AirportCode,Country,CountryCode,Region
 1960,SJC,United States,US,Americas
 1961,SJD,Mexico,MX,Americas
 1962,SJD,Mexico,MX,Americas
-1963,SJJ,Bosnia and Herzegovina,BA,#N/A
+1963,SJJ,Bosnia and Herzegovina,BA,Europe
 1964,SJO,Costa Rica,CR,Americas
 1965,SJT,United States,US,Americas
 1966,SJU,Puerto Rico,PR,Americas
@@ -2002,7 +2002,7 @@ Num,AirportCode,Country,CountryCode,Region
 2001,SPC,Spain,ES,Europe
 2002,SPI,United States,US,Americas
 2003,SPK,Japan,JP,AsiaPacific
-2004,SPN,Northern Mariana Islands,MP,#N/A
+2004,SPN,Northern Mariana Islands,MP,AsiaPacific
 2005,SPS,United States,US,Americas
 2006,SPU,Croatia,HR,Europe
 2007,SPY,Côte d'Ivoire,CI,MiddleEastAfrica
@@ -2189,7 +2189,7 @@ Num,AirportCode,Country,CountryCode,Region
 2188,URC,China,CN,AsiaPacific
 2189,URG,Brazil,BR,Americas
 2190,URM,Venezuela,VE,Americas
-2191,URZ,Afghanistan,AF,#N/A
+2191,URZ,Afghanistan,AF,AsiaPacific
 2192,USH,Argentina,AR,Americas
 2193,USN,South Korea,KR,AsiaPacific
 2194,UTH,Thailand,TH,AsiaPacific

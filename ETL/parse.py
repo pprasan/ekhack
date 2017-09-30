@@ -77,18 +77,22 @@ def loadHotelOccupancyData():
     hotelOccupancyData = pd.read_csv("../data/external/hotelOccupancyRatesMonthlyRegion.csv")
     for i, row in hotelOccupancyData.iterrows():
         data = dict()
-        data[ASIA_PACIFIC] = row[ASIA_PACIFIC]
-        data[AMERICAS] = row[AMERICAS]
-        data[EUROPE] = row[EUROPE]
-        data[ME_AFRICA] = row[ME_AFRICA]
+        data[ASIA_PACIFIC] = row[ASIA_PACIFIC] / 100.0
+        data[AMERICAS] = row[AMERICAS] / 100.0
+        data[EUROPE] = row[EUROPE] / 100.0
+        data[ME_AFRICA] = row[ME_AFRICA] / 100.0
         date = datetime.strptime(row[HOTEL_OCCUPANCY_DATE], "%m/%d/%y")
         hotelOccupancyDict[date] = data
     return hotelOccupancyDict
 
 
-def getHotelOccupancy(date, region):
-    hotelOccupancyDate = datetime(year=date.year, month=date.month)
-    return hotelOccupancyDict[hotelOccupancyDate][region]
+def getHotelOccupancy(date, airportCode):
+    region = airport_dict[airportCode][AIRPORT_REGION]
+    hotelOccupancyDate = datetime(year=date.year, month=date.month, day=1)
+    if hotelOccupancyDict.get(hotelOccupancyDate) is None:
+        return None
+    else:
+        return str(hotelOccupancyDict[hotelOccupancyDate][region])
 
 
 airport_dict = loadAirportData()
@@ -105,6 +109,8 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
                   "origin",
                   "destination",
                   # "changeInOilPrice",
+                  "origHotelOccupancy",
+                  "destHotelOccupancy",
                   "fuelAndInsurance",
                   "fuelSurcharge",
                   "baseFare",
@@ -131,6 +137,10 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
         # Input Values
         line = [str(row[FARE_ID])]
         departureDate = datetime.strptime(row[DEPARTURE_DATE], "%m/%d/%y")
+
+        if getHotelOccupancy(departureDate, row[ORIGIN]) is None or getHotelOccupancy(departureDate, row[DESTINATION]) is None:
+            continue
+
         line.append(dayOfWeek(departureDate))
         line.append(isWeekend(departureDate))
         line.append(month(departureDate))
@@ -140,6 +150,8 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
         line.append(airportID(row[DESTINATION]))  # destination
         oilPrice = findClosetOilPrice(row[DEPARTURE_DATE])  # probably need to give purchase date?
         # line.append(oilPrice)
+        line.append(getHotelOccupancy(departureDate, row[ORIGIN]))
+        line.append(getHotelOccupancy(departureDate, row[DESTINATION]))
 
         # Output Values
         line.append(str(row[FARE_FUEL_INSURANCE]))  # Fuel & Insurance
