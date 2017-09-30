@@ -45,10 +45,9 @@ def loadOilPrices():
 
 def loadAirportData():
     airport_dict = {}
-    with open("../data/external/airports.csv", "r") as airports:
-        for line in airports:
-            data = line.split(",")
-            airport_dict[data[1].strip()] = data[0]
+    airports = pd.read_csv("../data/external/airports.csv")
+    for i, line in airports.iterrows():
+        airport_dict[line['AirportCode']] = str(line['Num'])
     return airport_dict
     # To convert the airport code from three letter to ID,
     # simply use, for instance = airport_dict['JFK']
