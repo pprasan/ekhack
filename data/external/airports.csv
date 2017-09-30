@@ -1,2374 +1,1 @@
-Num,AirportCode,Country,CountryCode,Region
-1,AAA,French Polynesia,PF,AsiaPacific
-2,AAB,Australia,AU,AsiaPacific
-3,AAC,Egypt,EG,MiddleEastAfrica
-4,AAD,Sudan,SD,MiddleEastAfrica
-5,AAE,Algeria,DZ,MiddleEastAfrica
-6,AAF,United States,US,Americas
-7,AAG,Brazil,BR,Americas
-8,AAH,Germany,DE,Europe
-9,AAI,Brazil,BR,Americas
-10,AAJ,Suriname,SR,Americas
-11,AAK,Kiribati,KI,AsiaPacific
-12,AAL,Denmark,DK,Europe
-13,AAM,South Africa,ZA,MiddleEastAfrica
-14,AAN,United Arab Emirates,AE,MiddleEastAfrica
-15,AAO,Venezuela,VE,Americas
-16,AAP,United States,US,Americas
-17,AAQ,Russia,RU,Europe
-18,AAR,Denmark,DK,Europe
-19,AAS,Indonesia,ID,AsiaPacific
-20,AAT,China,CN,AsiaPacific
-21,AAU,Samoa,WS,AsiaPacific
-22,AAV,Philippines,PH,AsiaPacific
-23,AAW,Pakistan,PK,AsiaPacific
-24,AAX,Brazil,BR,Americas
-25,AAY,Yemen,YE,MiddleEastAfrica
-26,AAZ,Guatemala,GT,Americas
-27,ABA,Russia,RU,Europe
-28,ABB,Nigeria,NG,MiddleEastAfrica
-29,ABC,Spain,ES,Europe
-30,ABD,Iran,IR,MiddleEastAfrica
-31,ABE,United States,US,Americas
-32,ABF,Kiribati,KI,AsiaPacific
-33,ABG,Australia,AU,AsiaPacific
-34,ABH,Australia,AU,AsiaPacific
-35,ABI,United States,US,Americas
-36,ABJ,Côte d'Ivoire,CI,MiddleEastAfrica
-37,ABK,Ethiopia,ET,MiddleEastAfrica
-38,ABL,United States,US,Americas
-39,ABM,Australia,AU,AsiaPacific
-40,ABN,Suriname,SR,Americas
-41,ABO,Côte d'Ivoire,CI,MiddleEastAfrica
-42,ABP,Papua New Guinea,PG,AsiaPacific
-43,ABQ,United States,US,Americas
-44,ABR,United States,US,Americas
-45,ABS,Egypt,EG,MiddleEastAfrica
-46,ABT,Saudi Arabia,SA,MiddleEastAfrica
-47,ABU,Indonesia,ID,AsiaPacific
-48,ABV,Nigeria,NG,MiddleEastAfrica
-49,ABW,Papua New Guinea,PG,AsiaPacific
-50,ABX,Australia,AU,AsiaPacific
-51,ABY,United States,US,Americas
-52,ABZ,United Kingdom,GB,Europe
-53,ACA,Mexico,MX,Americas
-54,ACB,United States,US,Americas
-55,ACC,Ghana,GH,MiddleEastAfrica
-56,ACD,Colombia,CO,Americas
-57,ACE,Spain,ES,Europe
-58,ACF,Australia,AU,AsiaPacific
-59,ACH,Switzerland,CH,Europe
-60,ACI,Guernsey,GG,Europe
-61,ACJ,Sri Lanka,LK,AsiaPacific
-62,ACK,United States,US,Americas
-63,ACL,Colombia,CO,Americas
-64,ACM,Colombia,CO,Americas
-65,ACN,Mexico,MX,Americas
-66,ACO,Switzerland,CH,Europe
-67,ACP,Iran,IR,MiddleEastAfrica
-68,ACR,Colombia,CO,Americas
-69,ACS,Russia,RU,Europe
-70,ACT,United States,US,Americas
-71,ACU,Panama,PA,Americas
-72,ACV,United States,US,Americas
-73,ACX,China,CN,AsiaPacific
-74,ACY,United States,US,Americas
-75,ACZ,Iran,IR,MiddleEastAfrica
-76,ADA,Turkey,TR,Europe
-77,ADB,Turkey,TR,Europe
-78,ADC,Papua New Guinea,PG,AsiaPacific
-79,ADD,Ethiopia,ET,MiddleEastAfrica
-80,ADE,Yemen,YE,MiddleEastAfrica
-81,ADF,Turkey,TR,Europe
-82,ADG,United States,US,Americas
-83,ADH,Russia,RU,Europe
-84,ADI,Namibia,NA,MiddleEastAfrica
-85,ADJ,Jordan,JO,MiddleEastAfrica
-86,ADK,United States,US,Americas
-87,ADL,Australia,AU,AsiaPacific
-88,ADM,United States,US,Americas
-89,ADN,Colombia,CO,Americas
-90,ADO,Australia,AU,AsiaPacific
-91,ADP,Sri Lanka,LK,AsiaPacific
-92,ADQ,United States,US,Americas
-93,ADR,United States,US,Americas
-94,ADS,United States,US,Americas
-95,ADT,United States,US,Americas
-96,ADU,Iran,IR,MiddleEastAfrica
-97,ADV,United Kingdom,GB,Europe
-98,ADW,United States,US,Americas
-99,ADX,United Kingdom,GB,Europe
-100,ADY,South Africa,ZA,MiddleEastAfrica
-101,ADZ,Colombia,CO,Americas
-102,AEA,Kiribati,KI,AsiaPacific
-103,AEB,China,CN,AsiaPacific
-104,AED,United States,US,Americas
-105,AEE,South Sudan,SS,MiddleEastAfrica
-106,AEG,Indonesia,ID,AsiaPacific
-107,AEH,Chad,TD,MiddleEastAfrica
-108,AEI,Spain,ES,Europe
-109,AEK,Papua New Guinea,PG,AsiaPacific
-110,AEL,United States,US,Americas
-111,AEO,Mauritania,MR,MiddleEastAfrica
-112,AEP,Argentina,AR,Americas
-113,AER,Russia,RU,Europe
-114,AES,Norway,NO,Europe
-115,AET,United States,US,Americas
-116,AEU,Iran,IR,MiddleEastAfrica
-117,AEX,United States,US,Americas
-118,AEY,Iceland,IS,Europe
-119,AFA,Argentina,AR,Americas
-120,AFD,South Africa,ZA,MiddleEastAfrica
-121,AFF,United States,US,Americas
-122,AFI,Colombia,CO,Americas
-123,AFK,Sri Lanka,LK,AsiaPacific
-124,AFL,Brazil,BR,Americas
-125,AFN,United States,US,Americas
-126,AFO,United States,US,Americas
-127,AFR,Papua New Guinea,PG,AsiaPacific
-128,AFS,Uzbekistan,UZ,AsiaPacific
-129,AFT,Solomon Islands,SB,AsiaPacific
-130,AFW,United States,US,Americas
-131,AFY,Turkey,TR,Europe
-132,AFZ,Iran,IR,MiddleEastAfrica
-133,AGA,Morocco,MA,MiddleEastAfrica
-134,AGB,Germany,DE,Europe
-135,AGC,United States,US,Americas
-136,AGD,Indonesia,ID,AsiaPacific
-137,AGE,Germany,DE,Europe
-138,AGF,France,FR,Europe
-139,AGG,Papua New Guinea,PG,AsiaPacific
-140,AGH,Sweden,SE,Europe
-141,AGI,Suriname,SR,Americas
-142,AGJ,Japan,JP,AsiaPacific
-143,AGK,Papua New Guinea,PG,AsiaPacific
-144,AGL,Papua New Guinea,PG,AsiaPacific
-145,AGM,Greenland,GL,Americas
-146,AGN,United States,US,Americas
-147,AGO,United States,US,Americas
-148,AGP,Spain,ES,Europe
-149,AGQ,Greece,GR,Europe
-150,AGR,India,IN,AsiaPacific
-151,AGS,United States,US,Americas
-152,AGT,Paraguay,PY,Americas
-153,AGU,Mexico,MX,Americas
-154,AGV,Venezuela,VE,Americas
-155,AGW,Australia,AU,AsiaPacific
-156,AGX,India,IN,AsiaPacific
-157,AGY,Australia,AU,AsiaPacific
-158,AGZ,South Africa,ZA,MiddleEastAfrica
-159,AHB,Saudi Arabia,SA,MiddleEastAfrica
-160,AHC,United States,US,Americas
-161,AHD,United States,US,Americas
-162,AHE,French Polynesia,PF,AsiaPacific
-163,AHF,United States,US,Americas
-164,AHH,United States,US,Americas
-165,AHI,Indonesia,ID,AsiaPacific
-166,AHJ,China,CN,AsiaPacific
-167,AHL,Guyana,GY,Americas
-168,AHM,United States,US,Americas
-169,AHN,United States,US,Americas
-170,AHO,Italy,IT,Europe
-171,AHS,Honduras,HN,Americas
-172,AHT,United States,US,Americas
-173,AHU,Morocco,MA,MiddleEastAfrica
-174,AHY,Madagascar,MG,MiddleEastAfrica
-175,AHZ,France,FR,Europe
-176,AIA,United States,US,Americas
-177,AIB,United States,US,Americas
-178,AIC,Marshall Islands,MH,AsiaPacific
-179,AID,United States,US,Americas
-180,AIE,Papua New Guinea,PG,AsiaPacific
-181,AIF,Brazil,BR,Americas
-182,AIG,Central African Republic,CF,MiddleEastAfrica
-183,AIH,Papua New Guinea,PG,AsiaPacific
-184,AII,Djibouti,DJ,MiddleEastAfrica
-185,AIK,United States,US,Americas
-186,AIL,Panama,PA,Americas
-187,AIM,Marshall Islands,MH,AsiaPacific
-188,AIN,United States,US,Americas
-189,AIO,United States,US,Americas
-190,AIR,Brazil,BR,Americas
-191,AIS,Kiribati,KI,AsiaPacific
-192,AIT,Cook Islands,CK,AsiaPacific
-193,AIU,Cook Islands,CK,AsiaPacific
-194,AIV,United States,US,Americas
-195,AIW,Namibia,NA,MiddleEastAfrica
-196,AIY,United States,US,Americas
-197,AIZ,United States,US,Americas
-198,AJA,France,FR,Europe
-199,AJF,Saudi Arabia,SA,MiddleEastAfrica
-200,AJI,Turkey,TR,Europe
-201,AJJ,Mauritania,MR,MiddleEastAfrica
-202,AJK,Iran,IR,MiddleEastAfrica
-203,AJL,India,IN,AsiaPacific
-204,AJN,Comoros,KM,MiddleEastAfrica
-205,AJO,Yemen,YE,MiddleEastAfrica
-206,AJR,Sweden,SE,Europe
-207,AJS,Mexico,MX,Americas
-208,AJU,Brazil,BR,Americas
-209,AJY,Niger,NE,MiddleEastAfrica
-210,AKA,China,CN,AsiaPacific
-211,AKB,United States,US,Americas
-212,AKC,United States,US,Americas
-213,AKD,India,IN,AsiaPacific
-214,AKE,Gabon,GA,MiddleEastAfrica
-215,AKF,Libya,LY,MiddleEastAfrica
-216,AKG,Papua New Guinea,PG,AsiaPacific
-217,AKH,Saudi Arabia,SA,MiddleEastAfrica
-218,AKI,United States,US,Americas
-219,AKJ,Japan,JP,AsiaPacific
-220,AKK,United States,US,Americas
-221,AKL,New Zealand,NZ,AsiaPacific
-222,AKM,Chad,TD,MiddleEastAfrica
-223,AKN,United States,US,Americas
-224,AKO,United States,US,Americas
-225,AKP,United States,US,Americas
-226,AKQ,Indonesia,ID,AsiaPacific
-227,AKR,Nigeria,NG,MiddleEastAfrica
-228,AKS,Solomon Islands,SB,AsiaPacific
-229,AKT,Cyprus,CY,Europe
-230,AKU,China,CN,AsiaPacific
-231,AKV,Canada,CA,Americas
-232,AKW,Iran,IR,MiddleEastAfrica
-233,AKX,Kazakhstan,KZ,AsiaPacific
-234,AKY,Burma,MM,AsiaPacific
-235,ALA,Kazakhstan,KZ,AsiaPacific
-236,ALB,United States,US,Americas
-237,ALC,Spain,ES,Europe
-238,ALD,Perú,PE,Americas
-239,ALE,United States,US,Americas
-240,ALF,Norway,NO,Europe
-241,ALG,Algeria,DZ,MiddleEastAfrica
-242,ALH,Australia,AU,AsiaPacific
-243,ALI,United States,US,Americas
-244,ALJ,South Africa,ZA,MiddleEastAfrica
-245,ALK,Ethiopia,ET,MiddleEastAfrica
-246,ALL,Italy,IT,Europe
-247,ALM,United States,US,Americas
-248,ALN,United States,US,Americas
-249,ALO,United States,US,Americas
-250,ALP,Syria,SY,MiddleEastAfrica
-251,ALQ,Brazil,BR,Americas
-252,ALR,New Zealand,NZ,AsiaPacific
-253,ALS,United States,US,Americas
-254,ALT,Brazil,BR,Americas
-255,ALU,Somalia,SO,MiddleEastAfrica
-256,ALV,Andorra,AD,Europe
-257,ALW,United States,US,Americas
-258,ALX,United States,US,Americas
-259,ALY,Egypt,EG,MiddleEastAfrica
-260,ALZ,United States,US,Americas
-261,AMA,United States,US,Americas
-262,AMB,Madagascar,MG,MiddleEastAfrica
-263,AMC,Chad,TD,MiddleEastAfrica
-264,AMD,India,IN,AsiaPacific
-265,AME,Mozambique,MZ,MiddleEastAfrica
-266,AMF,Papua New Guinea,PG,AsiaPacific
-267,AMG,Papua New Guinea,PG,AsiaPacific
-268,AMH,Ethiopia,ET,MiddleEastAfrica
-269,AMI,Indonesia,ID,AsiaPacific
-270,AMJ,Brazil,BR,Americas
-271,AMK,United States,US,Americas
-272,AML,Panama,PA,Americas
-273,AMM,Jordan,JO,MiddleEastAfrica
-274,AMN,United States,US,Americas
-275,AMO,Chad,TD,MiddleEastAfrica
-276,AMP,Madagascar,MG,MiddleEastAfrica
-277,AMQ,Indonesia,ID,AsiaPacific
-278,AMR,Marshall Islands,MH,AsiaPacific
-279,AMS,Netherlands,NL,Europe
-280,AMT,Australia,AU,AsiaPacific
-281,AMU,Papua New Guinea,PG,AsiaPacific
-282,AMV,Russia,RU,Europe
-283,AMW,United States,US,Americas
-284,AMX,Australia,AU,AsiaPacific
-285,AMY,Madagascar,MG,MiddleEastAfrica
-286,AMZ,New Zealand,NZ,AsiaPacific
-287,ANA,United States,US,Americas
-288,ANB,United States,US,Americas
-289,ANC,United States,US,Americas
-290,AND,United States,US,Americas
-291,ANE,France,FR,Europe
-292,ANF,Chile,CL,Americas
-293,ANG,France,FR,Europe
-294,ANH,Solomon Islands,SB,AsiaPacific
-295,ANI,United States,US,Americas
-296,ANJ,Congo,CG,MiddleEastAfrica
-297,ANK,Turkey,TR,Europe
-298,ANL,Angola,AO,MiddleEastAfrica
-299,ANM,Madagascar,MG,MiddleEastAfrica
-300,ANN,United States,US,Americas
-301,ANO,Mozambique,MZ,MiddleEastAfrica
-302,ANP,United States,US,Americas
-303,ANQ,United States,US,Americas
-304,ANR,Belgium,BE,Europe
-305,ANS,Perú,PE,Americas
-306,ANT,Austria,AT,Europe
-307,ANU,Antigua and Barbuda,AG,Americas
-308,ANV,United States,US,Americas
-309,ANW,United States,US,Americas
-310,ANX,Norway,NO,Europe
-311,ANY,United States,US,Americas
-312,ANZ,Australia,AU,AsiaPacific
-313,AOA,Papua New Guinea,PG,AsiaPacific
-314,AOB,Papua New Guinea,PG,AsiaPacific
-315,AOC,Germany,DE,Europe
-316,AOD,Chad,TD,MiddleEastAfrica
-317,AOE,Turkey,TR,Europe
-318,AOG,China,CN,AsiaPacific
-319,AOH,United States,US,Americas
-320,AOI,Italy,IT,Europe
-321,AOJ,Japan,JP,AsiaPacific
-322,AOK,Greece,GR,Europe
-323,AOL,Argentina,AR,Americas
-324,AOM,Oman,OM,MiddleEastAfrica
-325,AON,Papua New Guinea,PG,AsiaPacific
-326,AOO,United States,US,Americas
-327,AOP,Perú,PE,Americas
-328,AOR,Malaysia,MY,AsiaPacific
-329,AOS,United States,US,Americas
-330,AOT,Italy,IT,Europe
-331,AOU,Laos,LA,AsiaPacific
-332,AOY,Iran,IR,MiddleEastAfrica
-333,APA,United States,US,Americas
-334,APB,Bolivia,BO,Americas
-335,APC,United States,US,Americas
-336,APE,Perú,PE,Americas
-337,APF,United States,US,Americas
-338,APG,United States,US,Americas
-339,APH,United States,US,Americas
-340,API,Colombia,CO,Americas
-341,APK,French Polynesia,PF,AsiaPacific
-342,APL,Mozambique,MZ,MiddleEastAfrica
-343,APN,United States,US,Americas
-344,APO,Colombia,CO,Americas
-345,APP,Papua New Guinea,PG,AsiaPacific
-346,APQ,Brazil,BR,Americas
-347,APR,Papua New Guinea,PG,AsiaPacific
-348,APS,Brazil,BR,Americas
-349,APT,United States,US,Americas
-350,APU,Brazil,BR,Americas
-351,APV,United States,US,Americas
-352,APW,Samoa,WS,AsiaPacific
-353,APX,Brazil,BR,Americas
-354,APY,Brazil,BR,Americas
-355,APZ,Argentina,AR,Americas
-356,AQA,Brazil,BR,Americas
-357,AQB,Guatemala,GT,Americas
-358,AQG,China,CN,AsiaPacific
-359,AQI,Saudi Arabia,SA,MiddleEastAfrica
-360,AQJ,Jordan,JO,MiddleEastAfrica
-361,AQM,Brazil,BR,Americas
-362,AQP,Perú,PE,Americas
-363,AQS,Fiji,FJ,AsiaPacific
-364,AQY,United States,US,Americas
-365,ARA,United States,US,Americas
-366,ARB,United States,US,Americas
-367,ARC,United States,US,Americas
-368,ARD,Indonesia,ID,AsiaPacific
-369,ARE,Puerto Rico,PR,Americas
-370,ARF,Colombia,CO,Americas
-371,ARG,United States,US,Americas
-372,ARH,Russia,RU,Europe
-373,ARI,Chile,CL,Americas
-374,ARJ,Indonesia,ID,AsiaPacific
-375,ARK,Tanzania,TZ,MiddleEastAfrica
-376,ARL,Burkina Faso,BF,MiddleEastAfrica
-377,ARM,Australia,AU,AsiaPacific
-378,ARN,Sweden,SE,Europe
-379,ARO,Colombia,CO,Americas
-380,ARP,Papua New Guinea,PG,AsiaPacific
-381,ARQ,Colombia,CO,Americas
-382,ARR,Argentina,AR,Americas
-383,ARS,Brazil,BR,Americas
-384,ART,United States,US,Americas
-385,ARU,Brazil,BR,Americas
-386,ARV,United States,US,Americas
-387,ARW,Romania,RO,Europe
-388,ARX,United States,US,Americas
-389,ARY,Australia,AU,AsiaPacific
-390,ARZ,Angola,AO,MiddleEastAfrica
-391,ASA,Eritrea,ER,MiddleEastAfrica
-392,ASB,Turkmenistan,TM,AsiaPacific
-393,ASC,Bolivia,BO,Americas
-394,ASD,Bahamas,BS,Americas
-395,ASE,United States,US,Americas
-396,ASF,Russia,RU,Europe
-397,ASG,New Zealand,NZ,AsiaPacific
-398,ASH,United States,US,Americas
-399,ASI,Saint Helena,SH,MiddleEastAfrica
-400,ASJ,Japan,JP,AsiaPacific
-401,ASK,Côte d'Ivoire,CI,MiddleEastAfrica
-402,ASL,United States,US,Americas
-403,ASM,Eritrea,ER,MiddleEastAfrica
-404,ASN,United States,US,Americas
-405,ASO,Ethiopia,ET,MiddleEastAfrica
-406,ASP,Australia,AU,AsiaPacific
-407,ASQ,United States,US,Americas
-408,ASR,Turkey,TR,Europe
-409,AST,United States,US,Americas
-410,ASU,Paraguay,PY,Americas
-411,ASV,Kenya,KE,MiddleEastAfrica
-412,ASW,Egypt,EG,MiddleEastAfrica
-413,ASX,United States,US,Americas
-414,ASY,United States,US,Americas
-415,ASZ,Papua New Guinea,PG,AsiaPacific
-416,ATA,Perú,PE,Americas
-417,ATB,Sudan,SD,MiddleEastAfrica
-418,ATC,Bahamas,BS,Americas
-419,ATD,Solomon Islands,SB,AsiaPacific
-420,ATE,United States,US,Americas
-421,ATF,Ecuador,EC,Americas
-422,ATG,Perú,PE,Americas
-423,ATH,Greece,GR,Europe
-424,ATI,Uruguay,UY,Americas
-425,ATJ,Madagascar,MG,MiddleEastAfrica
-426,ATK,United States,US,Americas
-427,ATL,United States,US,Americas
-428,ATM,Brazil,BR,Americas
-429,ATN,Papua New Guinea,PG,AsiaPacific
-430,ATO,United States,US,Americas
-431,ATP,Papua New Guinea,PG,AsiaPacific
-432,ATQ,India,IN,AsiaPacific
-433,ATR,Mauritania,MR,MiddleEastAfrica
-434,ATS,United States,US,Americas
-435,ATT,United States,US,Americas
-436,ATU,United States,US,Americas
-437,ATV,Chad,TD,MiddleEastAfrica
-438,ATW,United States,US,Americas
-439,ATX,Kazakhstan,KZ,AsiaPacific
-440,ATY,United States,US,Americas
-441,ATZ,Egypt,EG,MiddleEastAfrica
-442,AUA,Aruba,AW,Americas
-443,AUB,Brazil,BR,Americas
-444,AUC,Colombia,CO,Americas
-445,AUD,Australia,AU,AsiaPacific
-446,AUE,Egypt,EG,MiddleEastAfrica
-447,AUF,France,FR,Europe
-448,AUG,United States,US,Americas
-449,AUH,United Arab Emirates,AE,MiddleEastAfrica
-450,AUI,Papua New Guinea,PG,AsiaPacific
-451,AUJ,Papua New Guinea,PG,AsiaPacific
-452,AUK,United States,US,Americas
-453,AUL,Marshall Islands,MH,AsiaPacific
-454,AUM,United States,US,Americas
-455,AUN,United States,US,Americas
-456,AUO,United States,US,Americas
-457,AUP,Papua New Guinea,PG,AsiaPacific
-458,AUQ,French Polynesia,PF,AsiaPacific
-459,AUR,France,FR,Europe
-460,AUS,United States,US,Americas
-461,AUT,Timor-Leste,TL,AsiaPacific
-462,AUU,Australia,AU,AsiaPacific
-463,AUV,Papua New Guinea,PG,AsiaPacific
-464,AUW,United States,US,Americas
-465,AUX,Brazil,BR,Americas
-466,AUY,Vanuatu,VU,AsiaPacific
-467,AUZ,United States,US,Americas
-468,AVA,China,CN,AsiaPacific
-469,AVB,Italy,IT,Europe
-470,AVF,France,FR,Europe
-471,AVG,Australia,AU,AsiaPacific
-472,AVI,Cuba,CU,Americas
-473,AVK,Mongolia,MN,AsiaPacific
-474,AVL,United States,US,Americas
-475,AVN,France,FR,Europe
-476,AVO,United States,US,Americas
-477,AVP,United States,US,Americas
-478,AVU,Solomon Islands,SB,AsiaPacific
-479,AVV,Australia,AU,AsiaPacific
-480,AVW,United States,US,Americas
-481,AVX,United States,US,Americas
-482,AWA,Ethiopia,ET,MiddleEastAfrica
-483,AWD,Vanuatu,VU,AsiaPacific
-484,AWE,Gabon,GA,MiddleEastAfrica
-485,AWH,Ethiopia,ET,MiddleEastAfrica
-486,AWK,United States Minor Outlying Islands,UM,AsiaPacific
-487,AWM,United States,US,Americas
-488,AWN,Australia,AU,AsiaPacific
-489,AWP,Australia,AU,AsiaPacific
-490,AWR,Papua New Guinea,PG,AsiaPacific
-491,AWZ,Iran,IR,MiddleEastAfrica
-492,AXA,Anguilla,AI,Americas
-493,AXB,United States,US,Americas
-494,AXC,Australia,AU,AsiaPacific
-495,AXD,Greece,GR,Europe
-496,AXE,Brazil,BR,Americas
-497,AXG,United States,US,Americas
-498,AXK,Yemen,YE,MiddleEastAfrica
-499,AXL,Australia,AU,AsiaPacific
-500,AXM,Colombia,CO,Americas
-501,AXN,United States,US,Americas
-502,AXP,Bahamas,BS,Americas
-503,AXR,French Polynesia,PF,AsiaPacific
-504,AXS,United States,US,Americas
-505,AXT,Japan,JP,AsiaPacific
-506,AXU,Ethiopia,ET,MiddleEastAfrica
-507,AXV,United States,US,Americas
-508,AXX,United States,US,Americas
-509,AYA,Colombia,CO,Americas
-510,AYC,Colombia,CO,Americas
-511,AYD,Australia,AU,AsiaPacific
-512,AYE,United States,US,Americas
-513,AYG,Colombia,CO,Americas
-514,AYH,United Kingdom,GB,Europe
-515,AYI,Colombia,CO,Americas
-516,AYK,Kazakhstan,KZ,AsiaPacific
-517,AYL,Australia,AU,AsiaPacific
-518,AYN,China,CN,AsiaPacific
-519,AYO,Paraguay,PY,Americas
-520,AYP,Perú,PE,Americas
-521,AYQ,Australia,AU,AsiaPacific
-522,AYR,Australia,AU,AsiaPacific
-523,AYS,United States,US,Americas
-524,AYT,Turkey,TR,Europe
-525,AYU,Papua New Guinea,PG,AsiaPacific
-526,AYW,Indonesia,ID,AsiaPacific
-527,AYY,Sri Lanka,LK,AsiaPacific
-528,AYZ,United States,US,Americas
-529,AZA,United States,US,Americas
-530,AZB,Papua New Guinea,PG,AsiaPacific
-531,AZD,Iran,IR,MiddleEastAfrica
-532,AZG,Mexico,MX,Americas
-533,AZI,United Arab Emirates,AE,MiddleEastAfrica
-534,AZL,Brazil,BR,Americas
-535,AZN,Uzbekistan,UZ,AsiaPacific
-536,AZO,United States,US,Americas
-537,AZP,Mexico,MX,Americas
-538,AZR,Algeria,DZ,MiddleEastAfrica
-539,AZS,Dominican Republic,DO,Americas
-540,AZT,Colombia,CO,Americas
-541,AZZ,Angola,AO,MiddleEastAfrica
-542,BAH,Bahrain,BH,MiddleEastAfrica
-543,BAK,Azerbaijan,AZ,AsiaPacific
-544,BAQ,Colombia,CO,Americas
-545,BBI,India,IN,AsiaPacific
-546,BBT,Central African Republic,CF,MiddleEastAfrica
-547,BBY,Central African Republic,CF,MiddleEastAfrica
-548,BCN,Spain,ES,Europe
-549,BCO,Ethiopia,ET,MiddleEastAfrica
-550,BDA,Bermuda,BM,Americas
-551,BDB,Australia,AU,AsiaPacific
-552,BDL,United States,US,Americas
-553,BDO,Indonesia,ID,AsiaPacific
-554,BDQ,India,IN,AsiaPacific
-555,BDR,United States,US,Americas
-556,BDS,Italy,IT,Europe
-557,BDU,Norway,NO,Europe
-558,BEB,United Kingdom,GB,Europe
-559,BEG,Serbia,RS,Europe
-560,BEH,United States,US,Americas
-561,BEL,Brazil,BR,Americas
-562,BEN,Libya,LY,MiddleEastAfrica
-563,BEO,Australia,AU,AsiaPacific
-564,BER,Germany,DE,Europe
-565,BES,France,FR,Europe
-566,BET,United States,US,Americas
-567,BEW,Mozambique,MZ,MiddleEastAfrica
-568,BEY,Lebanon,LB,MiddleEastAfrica
-569,BFD,United States,US,Americas
-570,BFL,United States,US,Americas
-571,BFN,South Africa,ZA,MiddleEastAfrica
-572,BFO,Zimbabwe,ZW,MiddleEastAfrica
-573,BFS,United Kingdom,GB,Europe
-574,BGA,Colombia,CO,Americas
-575,BGF,Central African Republic,CF,MiddleEastAfrica
-576,BGI,Barbados,BB,Americas
-577,BGM,United States,US,Americas
-578,BGO,Norway,NO,Europe
-579,BGR,United States,US,Americas
-580,BGU,Central African Republic,CF,MiddleEastAfrica
-581,BGW,Iraq,IQ,MiddleEastAfrica
-582,BGY,Italy,IT,Europe
-583,BGY,Italy,IT,Europe
-584,BHC,United States,US,Americas
-585,BHD,United Kingdom,GB,Europe
-586,BHE,New Zealand,NZ,AsiaPacific
-587,BHM,United States,US,Americas
-588,BHO,India,IN,AsiaPacific
-589,BHQ,Australia,AU,AsiaPacific
-590,BHV,Pakistan,PK,AsiaPacific
-591,BHX,United Kingdom,GB,Europe
-592,BIA,France,FR,Europe
-593,BIL,United States,US,Americas
-594,BIO,Spain,ES,Europe
-595,BIQ,France,FR,Europe
-596,BIS,United States,US,Americas
-597,BIV,Central African Republic,CF,MiddleEastAfrica
-598,BJI,United States,US,Americas
-599,BJL,Gambia,GM,MiddleEastAfrica
-600,BJM,Burundi,BI,MiddleEastAfrica
-601,BJS,China,CN,AsiaPacific
-602,BJV,Turkey,TR,Europe
-603,BJX,Mexico,MX,Americas
-604,BJZ,Spain,ES,Europe
-605,BKI,Malaysia,MY,AsiaPacific
-606,BKK,Thailand,TH,AsiaPacific
-607,BKL,United States,US,Americas
-608,BKO,Mali,ML,MiddleEastAfrica
-609,BKW,United States,US,Americas
-610,BKX,United States,US,Americas
-611,BLA,Venezuela,VE,Americas
-612,BLF,United States,US,Americas
-613,BLI,United States,US,Americas
-614,BLK,United Kingdom,GB,Europe
-615,BLL,Denmark,DK,Europe
-616,BLQ,Italy,IT,Europe
-617,BLR,India,IN,AsiaPacific
-618,BLT,Australia,AU,AsiaPacific
-619,BLZ,Malawi,MW,MiddleEastAfrica
-620,BMA,Sweden,SE,Europe
-621,BME,Australia,AU,AsiaPacific
-622,BMG,United States,US,Americas
-623,BMI,United States,US,Americas
-624,BMP,Australia,AU,AsiaPacific
-625,BNA,United States,US,Americas
-626,BNE,Australia,AU,AsiaPacific
-627,BNK,Australia,AU,AsiaPacific
-628,BNN,Norway,NO,Europe
-629,BNP,Pakistan,PK,AsiaPacific
-630,BOB,French Polynesia,PF,AsiaPacific
-631,BOD,France,FR,Europe
-632,BOG,Colombia,CO,Americas
-633,BOH,United Kingdom,GB,Europe
-634,BOI,United States,US,Americas
-635,BOJ,Bulgaria,BG,Europe
-636,BOM,India,IN,AsiaPacific
-637,BON,Netherlands,NL,Europe
-638,BOO,Norway,NO,Europe
-639,BOS,United States,US,Americas
-640,BOY,Burkina Faso,BF,MiddleEastAfrica
-641,BPT,United States,US,Americas
-642,BQK,United States,US,Americas
-643,BRC,Argentina,AR,Americas
-644,BRD,United States,US,Americas
-645,BRE,Germany,DE,Europe
-646,BRI,Italy,IT,Europe
-647,BRL,United States,US,Americas
-648,BRN,Switzerland,CH,Europe
-649,BRR,United Kingdom,GB,Europe
-650,BRS,United Kingdom,GB,Europe
-651,BRU,Belgium,BE,Europe
-652,BSB,Brazil,BR,Americas
-653,BSL,Switzerland,CH,Europe
-654,BSR,Iraq,IQ,MiddleEastAfrica
-655,BTM,United States,US,Americas
-656,BTR,United States,US,Americas
-657,BTS,Slovakia,SK,Europe
-658,BTU,Malaysia,MY,AsiaPacific
-659,BTV,United States,US,Americas
-660,BUD,Hungary,HU,Europe
-661,BUE,Argentina,AR,Americas
-662,BUF,United States,US,Americas
-663,BUG,Angola,AO,MiddleEastAfrica
-664,BUH,Romania,RO,Europe
-665,BUQ,Zimbabwe,ZW,MiddleEastAfrica
-666,BUR,United States,US,Americas
-667,BVB,Brazil,BR,Americas
-668,BWI,United States,US,Americas
-669,BWI,United States,US,Americas
-670,BWN,Brunei,BN,AsiaPacific
-671,BWT,Australia,AU,AsiaPacific
-672,BXO,Guinea-Bissau,GW,MiddleEastAfrica
-673,BXS,United States,US,Americas
-674,BYK,Côte d'Ivoire,CI,MiddleEastAfrica
-675,BYU,Germany,DE,Europe
-676,BZE,Belize,BZ,Americas
-677,BZL,Bangladesh,BD,AsiaPacific
-678,BZN,United States,US,Americas
-679,BZV,Congo,CG,MiddleEastAfrica
-680,CAB,Angola,AO,MiddleEastAfrica
-681,CAE,United States,US,Americas
-682,CAG,Italy,IT,Europe
-683,CAI,Egypt,EG,MiddleEastAfrica
-684,CAL,United Kingdom,GB,Europe
-685,CAN,China,CN,AsiaPacific
-686,CAS,Morocco,MA,MiddleEastAfrica
-687,CAY,French Guiana,GF,Americas
-688,CBB,Bolivia,BO,Americas
-689,CBG,United Kingdom,GB,Europe
-690,CBR,Australia,AU,AsiaPacific
-691,CBU,Germany,DE,Europe
-692,CCJ,India,IN,AsiaPacific
-693,CCR,United States,US,Americas
-694,CCS,Venezuela,VE,Americas
-695,CCU,India,IN,AsiaPacific
-696,CCU,India,IN,AsiaPacific
-697,CCZ,Bahamas,BS,Americas
-698,CDC,United States,US,Americas
-699,CDG,France,FR,Europe
-700,CDV,United States,US,Americas
-701,CEB,Philippines,PH,AsiaPacific
-702,CEC,United States,US,Americas
-703,CED,Australia,AU,AsiaPacific
-704,CEN,Mexico,MX,Americas
-705,CES,Australia,AU,AsiaPacific
-706,CFE,France,FR,Europe
-707,CFG,Cuba,CU,Americas
-708,CFN,Ireland,IE,Europe
-709,CFS,Australia,AU,AsiaPacific
-710,CFU,Greece,GR,Europe
-711,CGA,United States,US,Americas
-712,CGB,Brazil,BR,Americas
-713,CGH,Brazil,BR,Americas
-714,CGK,Indonesia,ID,AsiaPacific
-715,CGN,Germany,DE,Europe
-716,CGN,Germany,DE,Europe
-717,CGP,Bangladesh,BD,AsiaPacific
-718,CGQ,China,CN,AsiaPacific
-719,CGR,Brazil,BR,Americas
-720,CGU,Venezuela,VE,Americas
-721,CHA,United States,US,Americas
-722,CHC,New Zealand,NZ,AsiaPacific
-723,CHG,China,CN,AsiaPacific
-724,CHI,United States,US,Americas
-725,CHO,United States,US,Americas
-726,CHQ,Greece,GR,Europe
-727,CHS,United States,US,Americas
-728,CIA,Italy,IT,Europe
-729,CIC,United States,US,Americas
-730,CID,United States,US,Americas
-731,CIP,Zambia,ZM,MiddleEastAfrica
-732,CIW,Saint Vincent and the Grenadines,VC,Americas
-733,CJB,India,IN,AsiaPacific
-734,CJC,Chile,CL,Americas
-735,CJL,Pakistan,PK,AsiaPacific
-736,CJS,Mexico,MX,Americas
-737,CKB,United States,US,Americas
-738,CKG,China,CN,AsiaPacific
-739,CKY,Guinea,GN,MiddleEastAfrica
-740,CLD,United States,US,Americas
-741,CLE,United States,US,Americas
-742,CLL,United States,US,Americas
-743,CLM,United States,US,Americas
-744,CLO,Colombia,CO,Americas
-745,CLQ,Mexico,MX,Americas
-746,CLT,United States,US,Americas
-747,CLY,France,FR,Europe
-748,CMB,Sri Lanka,LK,AsiaPacific
-749,CME,Mexico,MX,Americas
-750,CMF,France,FR,Europe
-751,CMH,United States,US,Americas
-752,CMI,United States,US,Americas
-753,CMN,Morocco,MA,MiddleEastAfrica
-754,CMQ,Australia,AU,AsiaPacific
-755,CMX,United States,US,Americas
-756,CND,Romania,RO,Europe
-757,CNF,Brazil,BR,Americas
-758,CNS,Australia,AU,AsiaPacific
-759,CNX,Thailand,TH,AsiaPacific
-760,COD,United States,US,Americas
-761,COK,India,IN,AsiaPacific
-762,CON,United States,US,Americas
-763,COO,Benin,BJ,MiddleEastAfrica
-764,COR,Argentina,AR,Americas
-765,COS,United States,US,Americas
-766,CPD,Australia,AU,AsiaPacific
-767,CPH,Denmark,DK,Europe
-768,CPR,United States,US,Americas
-769,CPT,South Africa,ZA,MiddleEastAfrica
-770,CRE,United States,US,Americas
-771,CRF,Central African Republic,CF,MiddleEastAfrica
-772,CRG,United States,US,Americas
-773,CRK,Philippines,PH,AsiaPacific
-774,CRP,United States,US,Americas
-775,CRW,United States,US,Americas
-776,CSG,United States,US,Americas
-777,CSI,Australia,AU,AsiaPacific
-778,CSN,United States,US,Americas
-779,CST,Fiji,FJ,AsiaPacific
-780,CTA,Italy,IT,Europe
-781,CTG,Colombia,CO,Americas
-782,CTN,Australia,AU,AsiaPacific
-783,CTS,Japan,JP,AsiaPacific
-784,CTS,Japan,JP,AsiaPacific
-785,CTU,China,CN,AsiaPacific
-786,CUL,Mexico,MX,Americas
-787,CUN,Mexico,MX,Americas
-788,CUR,Netherlands,NL,Europe
-789,CUU,Mexico,MX,Americas
-790,CVG,United States,US,Americas
-791,CVM,Mexico,MX,Americas
-792,CVQ,Australia,AU,AsiaPacific
-793,CVT,United Kingdom,GB,Europe
-794,CWA,United States,US,Americas
-795,CWB,Brazil,BR,Americas
-796,CWL,United Kingdom,GB,Europe
-797,CXI,Kiribati,KI,AsiaPacific
-798,CXT,Australia,AU,AsiaPacific
-799,CYS,United States,US,Americas
-800,CYU,Philippines,PH,AsiaPacific
-801,CZA,Mexico,MX,Americas
-802,CZL,Algeria,DZ,MiddleEastAfrica
-803,CZM,Mexico,MX,Americas
-804,DAB,United States,US,Americas
-805,DAC,Bangladesh,BD,AsiaPacific
-806,DAL,United States,US,Americas
-807,DAM,Syria,SY,MiddleEastAfrica
-808,DAN,United States,US,Americas
-809,DAR,Tanzania,TZ,MiddleEastAfrica
-810,DAY,United States,US,Americas
-811,DBO,Australia,AU,AsiaPacific
-812,DBQ,United States,US,Americas
-813,DBV,Croatia,HR,Europe
-814,DBY,Australia,AU,AsiaPacific
-815,DCA,United States,US,Americas
-816,DDI,Australia,AU,AsiaPacific
-817,DEC,United States,US,Americas
-818,DEL,India,IN,AsiaPacific
-819,DEN,United States,US,Americas
-820,DET,United States,US,Americas
-821,DFW,United States,US,Americas
-822,DFW,United States,US,Americas
-823,DHA,Saudi Arabia,SA,MiddleEastAfrica
-824,DHN,United States,US,Americas
-825,DIL,Timor-Leste,TL,AsiaPacific
-826,DJB,Indonesia,ID,AsiaPacific
-827,DJE,Tunisia,TN,MiddleEastAfrica
-828,DJJ,Indonesia,ID,AsiaPacific
-829,DJO,Côte d'Ivoire,CI,MiddleEastAfrica
-830,DKI,Australia,AU,AsiaPacific
-831,DKR,Senegal,SN,MiddleEastAfrica
-832,DLA,Cameroon,CM,MiddleEastAfrica
-833,DLC,China,CN,AsiaPacific
-834,DLG,United States,US,Americas
-835,DLH,United States,US,Americas
-836,DLM,Turkey,TR,Europe
-837,DLP,France,FR,Europe
-838,DME,Russia,RU,Europe
-839,DMK,Thailand,TH,AsiaPacific
-840,DMM,Saudi Arabia,SA,MiddleEastAfrica
-841,DND,United Kingdom,GB,Europe
-842,DNR,France,FR,Europe
-843,DNZ,Turkey,TR,Europe
-844,DOD,Tanzania,TZ,MiddleEastAfrica
-845,DOH,Qatar,QA,MiddleEastAfrica
-846,DOM,Dominica,DM,Americas
-847,DPO,Australia,AU,AsiaPacific
-848,DPS,Indonesia,ID,AsiaPacific
-849,DRB,Australia,AU,AsiaPacific
-850,DRO,United States,US,Americas
-851,DRS,Germany,DE,Europe
-852,DRW,Australia,AU,AsiaPacific
-853,DSA,United Kingdom,GB,Europe
-854,DSA,United Kingdom,GB,Europe
-855,DSK,Pakistan,PK,AsiaPacific
-856,DSM,United States,US,Americas
-857,DTM,Germany,DE,Europe
-858,DTT,United States,US,Americas
-859,DTW,United States,US,Americas
-860,DUB,Ireland,IE,Europe
-861,DUD,New Zealand,NZ,AsiaPacific
-862,DUJ,United States,US,Americas
-863,DUR,South Africa,ZA,MiddleEastAfrica
-864,DUS,Germany,DE,Europe
-865,DUT,United States,US,Americas
-866,DVL,United States,US,Americas
-867,DXB,United Arab Emirates,AE,MiddleEastAfrica
-868,DYA,Australia,AU,AsiaPacific
-869,DYU,Tajikistan,TJ,AsiaPacific
-870,DZA,Mayotte,YT,MiddleEastAfrica
-871,EAP,Switzerland,CH,Europe
-872,EAS,Spain,ES,Europe
-873,EAT,United States,US,Americas
-874,EAU,United States,US,Americas
-875,EBA,Italy,IT,Europe
-876,EBB,Uganda,UG,MiddleEastAfrica
-877,EBJ,Denmark,DK,Europe
-878,EBU,France,FR,Europe
-879,EDI,United Kingdom,GB,Europe
-880,EDR,Australia,AU,AsiaPacific
-881,EGC,France,FR,Europe
-882,EGE,United States,US,Americas
-883,EGS,Iceland,IS,Europe
-884,EIN,Netherlands,NL,Europe
-885,EIS,British Virgin Islands,VG,Americas
-886,EKI,United States,US,Americas
-887,EKO,United States,US,Americas
-888,ELH,Bahamas,BS,Americas
-889,ELL,South Africa,ZA,MiddleEastAfrica
-890,ELM,United States,US,Americas
-891,ELP,United States,US,Americas
-892,ELS,South Africa,ZA,MiddleEastAfrica
-893,ELY,United States,US,Americas
-894,EMA,United Kingdom,GB,Europe
-895,EMD,Australia,AU,AsiaPacific
-896,EMY,Egypt,EG,MiddleEastAfrica
-897,ENA,United States,US,Americas
-898,ENC,France,FR,Europe
-899,ENF,Finland,FI,Europe
-900,EPR,Australia,AU,AsiaPacific
-901,ERC,Turkey,TR,Europe
-902,ERF,Germany,DE,Europe
-903,ERI,United States,US,Americas
-904,ERS,Namibia,NA,MiddleEastAfrica
-905,ERZ,Turkey,TR,Europe
-906,ESC,United States,US,Americas
-907,ETH,Israel,IL,MiddleEastAfrica
-908,ETZ,France,FR,Europe
-909,EUG,United States,US,Americas
-910,EVE,Norway,NO,Europe
-911,EVN,Armenia,AM,AsiaPacific
-912,EVV,United States,US,Americas
-913,EWN,United States,US,Americas
-914,EWR,United States,US,Americas
-915,EXT,United Kingdom,GB,Europe
-916,EYW,United States,US,Americas
-917,EZE,Argentina,AR,Americas
-918,FAE,Denmark,DK,Europe
-919,FAI,United States,US,Americas
-920,FAO,Portugal,PT,Europe
-921,FAR,United States,US,Americas
-922,FAT,United States,US,Americas
-923,FAY,United States,US,Americas
-924,FBM,Congo,CG,MiddleEastAfrica
-925,FBU,Norway,NO,Europe
-926,FCA,United States,US,Americas
-927,FCO,Italy,IT,Europe
-928,FDF,Martinique,MQ,Americas
-929,FDH,Germany,DE,Europe
-930,FEZ,Morocco,MA,MiddleEastAfrica
-931,FHU,United States,US,Americas
-932,FIE,United Kingdom,GB,Europe
-933,FIH,Congo,CG,MiddleEastAfrica
-934,FJR,United Arab Emirates,AE,MiddleEastAfrica
-935,FKB,Germany,DE,Europe
-936,FKI,Congo,CG,MiddleEastAfrica
-937,FKL,United States,US,Americas
-938,FKS,Japan,JP,AsiaPacific
-939,FLG,United States,US,Americas
-940,FLL,United States,US,Americas
-941,FLN,Brazil,BR,Americas
-942,FLO,United States,US,Americas
-943,FLR,Italy,IT,Europe
-944,FMN,United States,US,Americas
-945,FMO,Germany,DE,Europe
-946,FMY,United States,US,Americas
-947,FNA,Sierra Leone,SL,MiddleEastAfrica
-948,FNC,Portugal,PT,Europe
-949,FNI,France,FR,Europe
-950,FNJ,North Korea,KP,AsiaPacific
-951,FNT,United States,US,Americas
-952,FOD,United States,US,Americas
-953,FOR,Brazil,BR,Americas
-954,FOU,United Kingdom,GB,Europe
-955,FPO,Bahamas,BS,Americas
-956,FPO,Bahamas,BS,Americas
-957,FRA,Germany,DE,Europe
-958,FRI,United States,US,Americas
-959,FRJ,France,FR,Europe
-960,FRO,Norway,NO,Europe
-961,FRU,Kyrgyzstan,KG,AsiaPacific
-962,FRW,Botswana,BW,MiddleEastAfrica
-963,FSC,France,FR,Europe
-964,FSD,United States,US,Americas
-965,FSM,United States,US,Americas
-966,FSP,Canada,CA,Americas
-967,FUE,Spain,ES,Europe
-968,FUK,Japan,JP,AsiaPacific
-969,FUT,Wallis and Futuna,WF,AsiaPacific
-970,FWA,United States,US,Americas
-971,FYV,United States,US,Americas
-972,GAD,United States,US,Americas
-973,GAJ,Japan,JP,AsiaPacific
-974,GAU,India,IN,AsiaPacific
-975,GBE,Botswana,BW,MiddleEastAfrica
-976,GCC,United States,US,Americas
-977,GCI,United States,US,Americas
-978,GCM,Cayman Islands,KY,Americas
-979,GCN,United States,US,Americas
-980,GDL,Mexico,MX,Americas
-981,GDN,Poland,PL,Europe
-982,GDV,United States,US,Americas
-983,GEG,United States,US,Americas
-984,GEO,Guyana,GY,Americas
-985,GET,Australia,AU,AsiaPacific
-986,GEX,Australia,AU,AsiaPacific
-987,GFF,Australia,AU,AsiaPacific
-988,GFK,United States,US,Americas
-989,GGG,United States,US,Americas
-990,GGW,United States,US,Americas
-991,GHB,Bahamas,BS,Americas
-992,GIB,Gibraltar,GI,Europe
-993,GIG,Brazil,BR,Americas
-994,GIL,Pakistan,PK,AsiaPacific
-995,GJL,Algeria,DZ,MiddleEastAfrica
-996,GJT,United States,US,Americas
-997,GKL,Australia,AU,AsiaPacific
-998,GLA,United Kingdom,GB,Europe
-999,GLH,United States,US,Americas
-1000,GLT,Australia,AU,AsiaPacific
-1001,GNB,France,FR,Europe
-1002,GND,Grenada,GD,Americas
-1003,GNE,Belgium,BE,Europe
-1004,GNV,United States,US,Americas
-1005,GOA,Italy,IT,Europe
-1006,GOI,India,IN,AsiaPacific
-1007,GON,United States,US,Americas
-1008,GOO,Australia,AU,AsiaPacific
-1009,GOT,Sweden,SE,Europe
-1010,GOU,Cameroon,CM,MiddleEastAfrica
-1011,GOV,Australia,AU,AsiaPacific
-1012,GOZ,Bulgaria,BG,Europe
-1013,GPT,United States,US,Americas
-1014,GPZ,United States,US,Americas
-1015,GRB,United States,US,Americas
-1016,GRJ,South Africa,ZA,MiddleEastAfrica
-1017,GRO,Spain,ES,Europe
-1018,GRQ,Netherlands,NL,Europe
-1019,GRR,United States,US,Americas
-1020,GRU,Brazil,BR,Americas
-1021,GRU,Brazil,BR,Americas
-1022,GRX,Spain,ES,Europe
-1023,GRZ,Austria,AT,Europe
-1024,GSI,Solomon Islands,SB,AsiaPacific
-1025,GSO,United States,US,Americas
-1026,GSP,United States,US,Americas
-1027,GTE,Australia,AU,AsiaPacific
-1028,GTF,United States,US,Americas
-1029,GTI,Germany,DE,Europe
-1030,GTN,New Zealand,NZ,AsiaPacific
-1031,GUA,Guatemala,GT,Americas
-1032,GUC,United States,US,Americas
-1033,GUM,Guam,GU,AsiaPacific
-1034,GUM,Guam,GU,AsiaPacific
-1035,GVA,Switzerland,CH,Europe
-1036,GWD,Pakistan,PK,AsiaPacific
-1037,GWE,Zimbabwe,ZW,MiddleEastAfrica
-1038,GWT,Germany,DE,Europe
-1039,GWY,Ireland,IE,Europe
-1040,GYE,Ecuador,EC,Americas
-1041,GYN,Brazil,BR,Americas
-1042,GYP,Australia,AU,AsiaPacific
-1043,GZA,Palestine,PS,MiddleEastAfrica
-1044,GZT,Turkey,TR,Europe
-1045,HAC,Japan,JP,AsiaPacific
-1046,HAG,Netherlands,NL,Europe
-1047,HAH,Comoros,KM,MiddleEastAfrica
-1048,HAJ,Germany,DE,Europe
-1049,HAM,Germany,DE,Europe
-1050,HAN,Vietnam,VN,AsiaPacific
-1051,HAP,Australia,AU,AsiaPacific
-1052,HAR,United States,US,Americas
-1053,HAU,Norway,NO,Europe
-1054,HAV,Cuba,CU,Americas
-1055,HBA,Australia,AU,AsiaPacific
-1056,HDD,Pakistan,PK,AsiaPacific
-1057,HDN,United States,US,Americas
-1058,HDY,Thailand,TH,AsiaPacific
-1059,HEL,Finland,FI,Europe
-1060,HER,Greece,GR,Europe
-1061,HFA,Israel,IL,MiddleEastAfrica
-1062,HFT,Norway,NO,Europe
-1063,HGH,China,CN,AsiaPacific
-1064,HGO,Côte d'Ivoire,CI,MiddleEastAfrica
-1065,HHH,United States,US,Americas
-1066,HHN,Germany,DE,Europe
-1067,HIB,United States,US,Americas
-1068,HII,United States,US,Americas
-1069,HIJ,Japan,JP,AsiaPacific
-1070,HIR,Solomon Islands,SB,AsiaPacific
-1071,HIS,Australia,AU,AsiaPacific
-1072,HKD,Japan,JP,AsiaPacific
-1073,HKG,Hong Kong,HK,AsiaPacific
-1074,HKS,United States,US,Americas
-1075,HKT,Thailand,TH,AsiaPacific
-1076,HKY,United States,US,Americas
-1077,HLA,South Africa,ZA,MiddleEastAfrica
-1078,HLH,China,CN,AsiaPacific
-1079,HLN,United States,US,Americas
-1080,HLP,Indonesia,ID,AsiaPacific
-1081,HLT,Australia,AU,AsiaPacific
-1082,HLZ,New Zealand,NZ,AsiaPacific
-1083,HMH,Australia,AU,AsiaPacific
-1084,HMO,Mexico,MX,Americas
-1085,HNA,Japan,JP,AsiaPacific
-1086,HND,Japan,JP,AsiaPacific
-1087,HNH,United States,US,Americas
-1088,HNK,Australia,AU,AsiaPacific
-1089,HNL,United States,US,Americas
-1090,HNS,United States,US,Americas
-1091,HOG,Cuba,CU,Americas
-1092,HOM,United States,US,Americas
-1093,HON,United States,US,Americas
-1094,HOQ,Germany,DE,Europe
-1095,HOR,Portugal,PT,Europe
-1096,HOU,United States,US,Americas
-1097,HPN,United States,US,Americas
-1098,HRB,China,CN,AsiaPacific
-1099,HRE,Zimbabwe,ZW,MiddleEastAfrica
-1100,HRG,Egypt,EG,MiddleEastAfrica
-1101,HRK,Ukraine,UA,Europe
-1102,HRL,United States,US,Americas
-1103,HSV,United States,US,Americas
-1104,HTA,Russia,RU,Europe
-1105,HTI,Australia,AU,AsiaPacific
-1106,HTS,United States,US,Americas
-1107,HUF,United States,US,Americas
-1108,HUH,French Polynesia,PF,AsiaPacific
-1109,HUI,Vietnam,VN,AsiaPacific
-1110,HUX,Mexico,MX,Americas
-1111,HUY,United Kingdom,GB,Europe
-1112,HVB,Australia,AU,AsiaPacific
-1113,HVN,United States,US,Americas
-1114,HVR,United States,US,Americas
-1115,HWN,Zimbabwe,ZW,MiddleEastAfrica
-1116,HYA,United States,US,Americas
-1117,HYD,India,IN,AsiaPacific
-1118,HYG,United States,US,Americas
-1119,IAD,United States,US,Americas
-1120,IAG,United States,US,Americas
-1121,IAH,United States,US,Americas
-1122,IBZ,Spain,ES,Europe
-1123,ICN,South Korea,KR,AsiaPacific
-1124,ICN,South Korea,KR,AsiaPacific
-1125,ICT,United States,US,Americas
-1126,IDA,United States,US,Americas
-1127,IEV,Ukraine,UA,Europe
-1128,IFL,Australia,AU,AsiaPacific
-1129,IGH,Australia,AU,AsiaPacific
-1130,IGR,Argentina,AR,Americas
-1131,IJX,United States,US,Americas
-1132,IKT,Russia,RU,Europe
-1133,ILE,United States,US,Americas
-1134,ILI,United States,US,Americas
-1135,ILM,United States,US,Americas
-1136,ILP,New Caledonia,NC,AsiaPacific
-1137,ILY,United Kingdom,GB,Europe
-1138,IND,United States,US,Americas
-1139,INI,Serbia,RS,Europe
-1140,INL,United States,US,Americas
-1141,INN,Austria,AT,Europe
-1142,INV,United Kingdom,GB,Europe
-1143,IOU,New Caledonia,NC,AsiaPacific
-1144,IPC,Chile,CL,Americas
-1145,IPL,United States,US,Americas
-1146,IPT,United States,US,Americas
-1147,IQT,Perú,PE,Americas
-1148,IRG,Australia,AU,AsiaPacific
-1149,IRO,Central African Republic,CF,MiddleEastAfrica
-1150,ISA,Australia,AU,AsiaPacific
-1151,ISB,Pakistan,PK,AsiaPacific
-1152,ISG,Japan,JP,AsiaPacific
-1153,ISL,United States,US,Americas
-1154,ISO,United States,US,Americas
-1155,ISP,United States,US,Americas
-1156,IST,Turkey,TR,Europe
-1157,ITH,United States,US,Americas
-1158,ITM,Japan,JP,AsiaPacific
-1159,ITO,United States,US,Americas
-1160,IVC,New Zealand,NZ,AsiaPacific
-1161,IVC,New Zealand,NZ,AsiaPacific
-1162,IVL,Finland,FI,Europe
-1163,IXB,India,IN,AsiaPacific
-1164,IXC,India,IN,AsiaPacific
-1165,IXG,India,IN,AsiaPacific
-1166,IXJ,India,IN,AsiaPacific
-1167,IXR,India,IN,AsiaPacific
-1168,IXW,India,IN,AsiaPacific
-1169,IYK,United States,US,Americas
-1170,IZM,Turkey,TR,Europe
-1171,JAA,Afghanistan,AF,AsiaPacific
-1172,JAC,United States,US,Americas
-1173,JAC,United States,US,Americas
-1174,JAD,Australia,AU,AsiaPacific
-1175,JAF,Sri Lanka,LK,AsiaPacific
-1176,JAG,Pakistan,PK,AsiaPacific
-1177,JAI,India,IN,AsiaPacific
-1178,JAK,Haiti,HT,Americas
-1179,JAL,Mexico,MX,Americas
-1180,JAM,Bulgaria,BG,Europe
-1181,JAN,United States,US,Americas
-1182,JAQ,Papua New Guinea,PG,AsiaPacific
-1183,JAU,Perú,PE,Americas
-1184,JAX,United States,US,Americas
-1185,JBR,United States,US,Americas
-1186,JCB,Brazil,BR,Americas
-1187,JCK,Australia,AU,AsiaPacific
-1188,JCM,Brazil,BR,Americas
-1189,JDF,Brazil,BR,Americas
-1190,JDH,India,IN,AsiaPacific
-1191,JDZ,China,CN,AsiaPacific
-1192,JED,Saudi Arabia,SA,MiddleEastAfrica
-1193,JEE,Haiti,HT,Americas
-1194,JEF,United States,US,Americas
-1195,JER,United States,US,Americas
-1196,JFK,United States,US,Americas
-1197,JGA,India,IN,AsiaPacific
-1198,JGB,India,IN,AsiaPacific
-1199,JGN,China,CN,AsiaPacific
-1200,JGS,China,CN,AsiaPacific
-1201,JHB,Malaysia,MY,AsiaPacific
-1202,JHE,Sweden,SE,Europe
-1203,JHG,China,CN,AsiaPacific
-1204,JHM,United States,US,Americas
-1205,JHQ,Australia,AU,AsiaPacific
-1206,JHW,United States,US,Americas
-1207,JIB,Djibouti,DJ,MiddleEastAfrica
-1208,JIJ,Ethiopia,ET,MiddleEastAfrica
-1209,JIL,China,CN,AsiaPacific
-1210,JIM,Ethiopia,ET,MiddleEastAfrica
-1211,JIN,Uganda,UG,MiddleEastAfrica
-1212,JIP,Ecuador,EC,Americas
-1213,JIR,Nepal,NP,AsiaPacific
-1214,JIU,China,CN,AsiaPacific
-1215,JIW,Pakistan,PK,AsiaPacific
-1216,JJI,Perú,PE,Americas
-1217,JJN,China,CN,AsiaPacific
-1218,JKG,Sweden,SE,Europe
-1219,JKH,Greece,GR,Europe
-1220,JKR,Nepal,NP,AsiaPacific
-1221,JKT,Indonesia,ID,AsiaPacific
-1222,JKV,United States,US,Americas
-1223,JLN,United States,US,Americas
-1224,JLR,India,IN,AsiaPacific
-1225,JLS,Brazil,BR,Americas
-1226,JMB,Angola,AO,MiddleEastAfrica
-1227,JMK,Greece,GR,Europe
-1228,JMO,Nepal,NP,AsiaPacific
-1229,JMS,United States,US,Americas
-1230,JMU,China,CN,AsiaPacific
-1231,JNA,Brazil,BR,Americas
-1232,JNB,South Africa,ZA,MiddleEastAfrica
-1233,JNG,China,CN,AsiaPacific
-1234,JNI,Argentina,AR,Americas
-1235,JNU,United States,US,Americas
-1236,JNX,Greece,GR,Europe
-1237,JNZ,China,CN,AsiaPacific
-1238,JOE,Finland,FI,Europe
-1239,JOI,Brazil,BR,Americas
-1240,JOL,Philippines,PH,AsiaPacific
-1241,JON,United States,US,Americas
-1242,JOS,Nigeria,NG,MiddleEastAfrica
-1243,JPA,Brazil,BR,Americas
-1244,JQE,Panama,PA,Americas
-1245,JRH,India,IN,AsiaPacific
-1246,JRO,Tanzania,TZ,MiddleEastAfrica
-1247,JRS,Israel,IL,MiddleEastAfrica
-1248,JSA,India,IN,AsiaPacific
-1249,JSI,Greece,GR,Europe
-1250,JSM,Argentina,AR,Americas
-1251,JSR,Bangladesh,BD,AsiaPacific
-1252,JST,United States,US,Americas
-1253,JTI,Brazil,BR,Americas
-1254,JTR,Greece,GR,Europe
-1255,JUB,South Sudan,SS,MiddleEastAfrica
-1256,JUI,Germany,DE,Europe
-1257,JUJ,Argentina,AR,Americas
-1258,JUL,Perú,PE,Americas
-1259,JUM,Nepal,NP,AsiaPacific
-1260,JUN,Australia,AU,AsiaPacific
-1261,JUT,Honduras,HN,Americas
-1262,JUV,Greenland,GL,Americas
-1263,JVL,United States,US,Americas
-1264,JWA,Botswana,BW,MiddleEastAfrica
-1265,JXN,United States,US,Americas
-1266,JYV,Finland,FI,Europe
-1267,KAJ,Finland,FI,Europe
-1268,KAN,Nigeria,NG,MiddleEastAfrica
-1269,KAO,Finland,FI,Europe
-1270,KBL,Afghanistan,AF,AsiaPacific
-1271,KBP,Ukraine,UA,Europe
-1272,KBY,Australia,AU,AsiaPacific
-1273,KCC,United States,US,Americas
-1274,KCE,Australia,AU,AsiaPacific
-1275,KCH,Malaysia,MY,AsiaPacific
-1276,KCM,Turkey,TR,Europe
-1277,KCM,Turkey,TR,Europe
-1278,KCZ,Japan,JP,AsiaPacific
-1279,KDD,Pakistan,PK,AsiaPacific
-1280,KDU,Pakistan,PK,AsiaPacific
-1281,KEF,Iceland,IS,Europe
-1282,KEL,Germany,DE,Europe
-1283,KEM,Finland,FI,Europe
-1284,KGC,Australia,AU,AsiaPacific
-1285,KGI,Australia,AU,AsiaPacific
-1286,KGL,Rwanda,RW,MiddleEastAfrica
-1287,KGS,Greece,GR,Europe
-1288,KHH,Taiwan,TW,AsiaPacific
-1289,KHI,Pakistan,PK,AsiaPacific
-1290,KHJ,Finland,FI,Europe
-1291,KHV,Russia,RU,Europe
-1292,KID,Sweden,SE,Europe
-1293,KIJ,Japan,JP,AsiaPacific
-1294,KIK,Iraq,IQ,MiddleEastAfrica
-1295,KIM,South Africa,ZA,MiddleEastAfrica
-1296,KIN,Jamaica,JM,Americas
-1297,KIR,Ireland,IE,Europe
-1298,KIV,Moldova,MD,Europe
-1299,KIW,Zambia,ZM,MiddleEastAfrica
-1300,KIX,Japan,JP,AsiaPacific
-1301,KKN,Norway,NO,Europe
-1302,KLR,Sweden,SE,Europe
-1303,KLU,Austria,AT,Europe
-1304,KLW,United States,US,Americas
-1305,KLX,Greece,GR,Europe
-1306,KLZ,South Africa,ZA,MiddleEastAfrica
-1307,KMI,Japan,JP,AsiaPacific
-1308,KMJ,Japan,JP,AsiaPacific
-1309,KMP,Namibia,NA,MiddleEastAfrica
-1310,KMQ,Japan,JP,AsiaPacific
-1311,KNO,Indonesia,ID,AsiaPacific
-1312,KNS,Australia,AU,AsiaPacific
-1313,KNU,India,IN,AsiaPacific
-1314,KNX,Australia,AU,AsiaPacific
-1315,KOA,United States,US,Americas
-1316,KOI,United Kingdom,GB,Europe
-1317,KOI,United Kingdom,GB,Europe
-1318,KOJ,Japan,JP,AsiaPacific
-1319,KOK,Finland,FI,Europe
-1320,KRB,Australia,AU,AsiaPacific
-1321,KRK,Poland,PL,Europe
-1322,KRN,Sweden,SE,Europe
-1323,KRP,Denmark,DK,Europe
-1324,KRS,Norway,NO,Europe
-1325,KRT,Sudan,SD,MiddleEastAfrica
-1326,KSD,Sweden,SE,Europe
-1327,KSL,Sudan,SD,MiddleEastAfrica
-1328,KSU,Norway,NO,Europe
-1329,KTA,Australia,AU,AsiaPacific
-1330,KTB,United States,US,Americas
-1331,KTM,Nepal,NP,AsiaPacific
-1332,KTN,United States,US,Americas
-1333,KTR,Australia,AU,AsiaPacific
-1334,KTT,Finland,FI,Europe
-1335,KUA,Malaysia,MY,AsiaPacific
-1336,KUH,Japan,JP,AsiaPacific
-1337,KUL,Malaysia,MY,AsiaPacific
-1338,KUO,Finland,FI,Europe
-1339,KVA,Greece,GR,Europe
-1340,KWI,Kuwait,KW,MiddleEastAfrica
-1341,KWL,China,CN,AsiaPacific
-1342,KWM,Australia,AU,AsiaPacific
-1343,KYA,Turkey,TR,Europe
-1344,KYS,Turkey,TR,Europe
-1345,KZN,Russia,RU,Europe
-1346,LAD,Angola,AO,MiddleEastAfrica
-1347,LAE,Papua New Guinea,PG,AsiaPacific
-1348,LAF,United States,US,Americas
-1349,LAI,France,FR,Europe
-1350,LAN,United States,US,Americas
-1351,LAP,Mexico,MX,Americas
-1352,LAR,United States,US,Americas
-1353,LAS,United States,US,Americas
-1354,LAW,United States,US,Americas
-1355,LAX,United States,US,Americas
-1356,LBA,United Kingdom,GB,Europe
-1357,LBB,United States,US,Americas
-1358,LBE,United States,US,Americas
-1359,LBG,France,FR,Europe
-1360,LBQ,Gabon,GA,MiddleEastAfrica
-1361,LBU,Malaysia,MY,AsiaPacific
-1362,LBV,Gabon,GA,MiddleEastAfrica
-1363,LCA,Cyprus,CY,Europe
-1364,LCG,Spain,ES,Europe
-1365,LCH,United States,US,Americas
-1366,LCY,United Kingdom,GB,Europe
-1367,LDC,Australia,AU,AsiaPacific
-1368,LDE,France,FR,Europe
-1369,LDK,Sweden,SE,Europe
-1370,LDY,United Kingdom,GB,Europe
-1371,LDY,United Kingdom,GB,Europe
-1372,LEA,Australia,AU,AsiaPacific
-1373,LEB,United States,US,Americas
-1374,LED,Russia,RU,Europe
-1375,LEJ,Germany,DE,Europe
-1376,LEK,Guinea,GN,MiddleEastAfrica
-1377,LEQ,United Kingdom,GB,Europe
-1378,LER,Australia,AU,AsiaPacific
-1379,LEX,United States,US,Americas
-1380,LEY,Netherlands,NL,Europe
-1381,LFT,United States,US,Americas
-1382,LFW,Togo,TG,MiddleEastAfrica
-1383,LGA,United States,US,Americas
-1384,LGB,United States,US,Americas
-1385,LGG,Belgium,BE,Europe
-1386,LGK,Malaysia,MY,AsiaPacific
-1387,LGW,United Kingdom,GB,Europe
-1388,LHE,Pakistan,PK,AsiaPacific
-1389,LHR,United Kingdom,GB,Europe
-1390,LIG,France,FR,Europe
-1391,LIH,United States,US,Americas
-1392,LIJ,United States,US,Americas
-1393,LIL,France,FR,Europe
-1394,LIM,Perú,PE,Americas
-1395,LIN,Italy,IT,Europe
-1396,LIQ,Congo,CG,MiddleEastAfrica
-1397,LIS,Portugal,PT,Europe
-1398,LIT,United States,US,Americas
-1399,LJU,Slovenia,SI,Europe
-1400,LKL,Norway,NO,Europe
-1401,LKO,India,IN,AsiaPacific
-1402,LLA,Sweden,SE,Europe
-1403,LLW,Malawi,MW,MiddleEastAfrica
-1404,LMM,Mexico,MX,Americas
-1405,LMP,Italy,IT,Europe
-1406,LMT,United States,US,Americas
-1407,LNK,United States,US,Americas
-1408,LNO,Australia,AU,AsiaPacific
-1409,LNS,United States,US,Americas
-1410,LNY,United States,US,Americas
-1411,LNZ,Austria,AT,Europe
-1412,LON,United Kingdom,GB,Europe
-1413,LOS,Nigeria,NG,MiddleEastAfrica
-1414,LPA,Spain,ES,Europe
-1415,LPB,Bolivia,BO,Americas
-1416,LPL,United Kingdom,GB,Europe
-1417,LPP,Finland,FI,Europe
-1418,LRD,United States,US,Americas
-1419,LRE,Australia,AU,AsiaPacific
-1420,LRF,United States,US,Americas
-1421,LRH,France,FR,Europe
-1422,LRM,Dominican Republic,DO,Americas
-1423,LRT,France,FR,Europe
-1424,LSE,United States,US,Americas
-1425,LSI,United Kingdom,GB,Europe
-1426,LST,Australia,AU,AsiaPacific
-1427,LSY,Australia,AU,AsiaPacific
-1428,LSZ,Croatia,HR,Europe
-1429,LTN,United Kingdom,GB,Europe
-1430,LTO,Mexico,MX,Americas
-1431,LUD,Namibia,NA,MiddleEastAfrica
-1432,LUG,Switzerland,CH,Europe
-1433,LUJ,South Africa,ZA,MiddleEastAfrica
-1434,LUM,China,CN,AsiaPacific
-1435,LUN,Zambia,ZM,MiddleEastAfrica
-1436,LUX,Luxembourg,LU,Europe
-1437,LVO,Australia,AU,AsiaPacific
-1438,LWB,United States,US,Americas
-1439,LWK,United Kingdom,GB,Europe
-1440,LWO,Ukraine,UA,Europe
-1441,LWS,United States,US,Americas
-1442,LWT,United States,US,Americas
-1443,LXR,Egypt,EG,MiddleEastAfrica
-1444,LYH,United States,US,Americas
-1445,LYO,United States,US,Americas
-1446,LYP,Pakistan,PK,AsiaPacific
-1447,LYR,Norway,NO,Europe
-1448,LYS,France,FR,Europe
-1449,LYX,United Kingdom,GB,Europe
-1450,LZC,Mexico,MX,Americas
-1451,LZR,Australia,AU,AsiaPacific
-1452,MAA,India,IN,AsiaPacific
-1453,MAA,India,IN,AsiaPacific
-1454,MAD,Spain,ES,Europe
-1455,MAF,United States,US,Americas
-1456,MAH,Spain,ES,Europe
-1457,MAN,United Kingdom,GB,Europe
-1458,MAO,Brazil,BR,Americas
-1459,MAR,Venezuela,VE,Americas
-1460,MAU,French Polynesia,PF,AsiaPacific
-1461,MAZ,Puerto Rico,PR,Americas
-1462,MBA,Kenya,KE,MiddleEastAfrica
-1463,MBH,Australia,AU,AsiaPacific
-1464,MBJ,Jamaica,JM,Americas
-1465,MBM,South Africa,ZA,MiddleEastAfrica
-1466,MBS,United States,US,Americas
-1467,MBX,Slovenia,SI,Europe
-1468,MCE,United States,US,Americas
-1469,MCI,United States,US,Americas
-1470,MCL,United States,US,Americas
-1471,MCN,United States,US,Americas
-1472,MCO,United States,US,Americas
-1473,MCP,Brazil,BR,Americas
-1474,MCT,Oman,OM,MiddleEastAfrica
-1475,MCW,United States,US,Americas
-1476,MCY,Australia,AU,AsiaPacific
-1477,MCZ,Brazil,BR,Americas
-1478,MDC,Indonesia,ID,AsiaPacific
-1479,MDE,Colombia,CO,Americas
-1480,MDL,Burma,MM,AsiaPacific
-1481,MDQ,Argentina,AR,Americas
-1482,MDT,United States,US,Americas
-1483,MDW,United States,US,Americas
-1484,MDY,United States Minor Outlying Islands,UM,AsiaPacific
-1485,MDZ,Argentina,AR,Americas
-1486,MED,Saudi Arabia,SA,MiddleEastAfrica
-1487,MED,Saudi Arabia,SA,MiddleEastAfrica
-1488,MEE,New Caledonia,NC,AsiaPacific
-1489,MEI,United States,US,Americas
-1490,MEL,Australia,AU,AsiaPacific
-1491,MEM,United States,US,Americas
-1492,MES,Indonesia,ID,AsiaPacific
-1493,MEX,Mexico,MX,Americas
-1494,MEX,Mexico,MX,Americas
-1495,MEZ,South Africa,ZA,MiddleEastAfrica
-1496,MFE,United States,US,Americas
-1497,MFF,Gabon,GA,MiddleEastAfrica
-1498,MFG,Pakistan,PK,AsiaPacific
-1499,MFM,China,CN,AsiaPacific
-1500,MFN,New Zealand,NZ,AsiaPacific
-1501,MFO,Papua New Guinea,PG,AsiaPacific
-1502,MFQ,Niger,NE,MiddleEastAfrica
-1503,MFR,United States,US,Americas
-1504,MFU,Zambia,ZM,MiddleEastAfrica
-1505,MGA,Nicaragua,NI,Americas
-1506,MGB,Australia,AU,AsiaPacific
-1507,MGH,South Africa,ZA,MiddleEastAfrica
-1508,MGM,United States,US,Americas
-1509,MGQ,Somalia,SO,MiddleEastAfrica
-1510,MGW,United States,US,Americas
-1511,MHD,Iran,IR,MiddleEastAfrica
-1512,MHE,United States,US,Americas
-1513,MHH,Bahamas,BS,Americas
-1514,MHQ,Finland,FI,Europe
-1515,MHT,United States,US,Americas
-1516,MIA,United States,US,Americas
-1517,MID,Mexico,MX,Americas
-1518,MIK,Finland,FI,Europe
-1519,MIL,Italy,IT,Europe
-1520,MIM,Australia,AU,AsiaPacific
-1521,MIR,Tunisia,TN,MiddleEastAfrica
-1522,MJC,Côte d'Ivoire,CI,MiddleEastAfrica
-1523,MJD,Pakistan,PK,AsiaPacific
-1524,MJL,Gabon,GA,MiddleEastAfrica
-1525,MJN,Madagascar,MG,MiddleEastAfrica
-1526,MJQ,United States,US,Americas
-1527,MJT,Greece,GR,Europe
-1528,MJV,Spain,ES,Europe
-1529,MKE,United States,US,Americas
-1530,MKG,United States,US,Americas
-1531,MKK,United States,US,Americas
-1532,MKL,United States,US,Americas
-1533,MKR,Australia,AU,AsiaPacific
-1534,MKY,Australia,AU,AsiaPacific
-1535,MLA,Malta,MT,Europe
-1536,MLB,United States,US,Americas
-1537,MLE,Maldives,MV,AsiaPacific
-1538,MLH,France,FR,Europe
-1539,MLI,United States,US,Americas
-1540,MLM,Mexico,MX,Americas
-1541,MLS,United States,US,Americas
-1542,MLU,United States,US,Americas
-1543,MLW,Liberia,LR,MiddleEastAfrica
-1544,MLX,Turkey,TR,Europe
-1545,MMA,Sweden,SE,Europe
-1546,MME,United Kingdom,GB,Europe
-1547,MMG,Australia,AU,AsiaPacific
-1548,MMJ,Japan,JP,AsiaPacific
-1549,MMK,Russia,RU,Europe
-1550,MMM,Australia,AU,AsiaPacific
-1551,MMX,Sweden,SE,Europe
-1552,MMY,Japan,JP,AsiaPacific
-1553,MNL,Philippines,PH,AsiaPacific
-1554,MOB,United States,US,Americas
-1555,MOD,United States,US,Americas
-1556,MOT,United States,US,Americas
-1557,MOV,Australia,AU,AsiaPacific
-1558,MOW,Russia,RU,Europe
-1559,MOZ,French Polynesia,PF,AsiaPacific
-1560,MPA,Namibia,NA,MiddleEastAfrica
-1561,MPD,Pakistan,PK,AsiaPacific
-1562,MPL,France,FR,Europe
-1563,MPM,Mozambique,MZ,MiddleEastAfrica
-1564,MQL,Australia,AU,AsiaPacific
-1565,MQM,Turkey,TR,Europe
-1566,MQP,South Africa,ZA,MiddleEastAfrica
-1567,MQQ,Chad,TD,MiddleEastAfrica
-1568,MQT,United States,US,Americas
-1569,MRB,United States,US,Americas
-1570,MRS,France,FR,Europe
-1571,MRU,Mauritius,MU,MiddleEastAfrica
-1572,MRV,Russia,RU,Europe
-1573,MRY,United States,US,Americas
-1574,MRZ,Australia,AU,AsiaPacific
-1575,MSE,United Kingdom,GB,Europe
-1576,MSL,United States,US,Americas
-1577,MSN,United States,US,Americas
-1578,MSO,United States,US,Americas
-1579,MSP,United States,US,Americas
-1580,MSQ,Belarus,BY,Europe
-1581,MSR,Turkey,TR,Europe
-1582,MST,Netherlands,NL,Europe
-1583,MSU,Lesotho,LS,MiddleEastAfrica
-1584,MSY,United States,US,Americas
-1585,MTH,United States,US,Americas
-1586,MTJ,United States,US,Americas
-1587,MTL,Australia,AU,AsiaPacific
-1588,MTM,United States,US,Americas
-1589,MTO,United States,US,Americas
-1590,MTS,Swaziland,SZ,MiddleEastAfrica
-1591,MTT,Mexico,MX,Americas
-1592,MTY,Mexico,MX,Americas
-1593,MUB,Botswana,BW,MiddleEastAfrica
-1594,MUC,Germany,DE,Europe
-1595,MUE,United States,US,Americas
-1596,MUH,Egypt,EG,MiddleEastAfrica
-1597,MUX,Pakistan,PK,AsiaPacific
-1598,MVB,Gabon,GA,MiddleEastAfrica
-1599,MVD,Uruguay,UY,Americas
-1600,MVR,Cameroon,CM,MiddleEastAfrica
-1601,MVY,United States,US,Americas
-1602,MVZ,Zimbabwe,ZW,MiddleEastAfrica
-1603,MWD,Pakistan,PK,AsiaPacific
-1604,MWH,United States,US,Americas
-1605,MXL,Mexico,MX,Americas
-1606,MXP,Italy,IT,Europe
-1607,MYA,Australia,AU,AsiaPacific
-1608,MYD,Kenya,KE,MiddleEastAfrica
-1609,MYJ,Japan,JP,AsiaPacific
-1610,MYQ,India,IN,AsiaPacific
-1611,MYR,United States,US,Americas
-1612,MYY,Malaysia,MY,AsiaPacific
-1613,MZF,South Africa,ZA,MiddleEastAfrica
-1614,MZG,Taiwan,TW,AsiaPacific
-1615,MZM,France,FR,Europe
-1616,MZT,Mexico,MX,Americas
-1617,MZY,South Africa,ZA,MiddleEastAfrica
-1618,NAA,Australia,AU,AsiaPacific
-1619,NAG,India,IN,AsiaPacific
-1620,NAJ,Azerbaijan,AZ,AsiaPacific
-1621,NAN,Fiji,FJ,AsiaPacific
-1622,NAP,Italy,IT,Europe
-1623,NAS,Bahamas,BS,Americas
-1624,NAS,Bahamas,BS,Americas
-1625,NAT,Brazil,BR,Americas
-1626,NAY,China,CN,AsiaPacific
-1627,NBO,Kenya,KE,MiddleEastAfrica
-1628,NCE,France,FR,Europe
-1629,NCL,United Kingdom,GB,Europe
-1630,NCS,South Africa,ZA,MiddleEastAfrica
-1631,NDB,Mauritania,MR,MiddleEastAfrica
-1632,NDJ,Chad,TD,MiddleEastAfrica
-1633,NDU,Namibia,NA,MiddleEastAfrica
-1634,NEV,St. Kitts and Nevis,KN,Americas
-1635,NGE,Cameroon,CM,MiddleEastAfrica
-1636,NGO,Japan,JP,AsiaPacific
-1637,NGS,Japan,JP,AsiaPacific
-1638,NIC,Cyprus,CY,Europe
-1639,NIM,Niger,NE,MiddleEastAfrica
-1640,NIP,United States,US,Americas
-1641,NKC,Mauritania,MR,MiddleEastAfrica
-1642,NLA,Zambia,ZM,MiddleEastAfrica
-1643,NLD,Mexico,MX,Americas
-1644,NLK,Australia,AU,AsiaPacific
-1645,NLP,South Africa,ZA,MiddleEastAfrica
-1646,NLU,Mexico,MX,Americas
-1647,NLV,Ukraine,UA,Europe
-1648,NNG,China,CN,AsiaPacific
-1649,NOC,Ireland,IE,Europe
-1650,NOP,Philippines,PH,AsiaPacific
-1651,NOU,New Caledonia,NC,AsiaPacific
-1652,NQY,United Kingdom,GB,Europe
-1653,NRA,Australia,AU,AsiaPacific
-1654,NRK,Sweden,SE,Europe
-1655,NRT,Japan,JP,AsiaPacific
-1656,NSA,Australia,AU,AsiaPacific
-1657,NSN,New Zealand,NZ,AsiaPacific
-1658,NSO,Australia,AU,AsiaPacific
-1659,NST,Thailand,TH,AsiaPacific
-1660,NTE,France,FR,Europe
-1661,NTL,Australia,AU,AsiaPacific
-1662,NTR,Mexico,MX,Americas
-1663,NTY,South Africa,ZA,MiddleEastAfrica
-1664,NUE,Germany,DE,Europe
-1665,NWI,United Kingdom,GB,Europe
-1666,NYC,United States,US,Americas
-1667,NZC,United States,US,Americas
-1668,OAG,Australia,AU,AsiaPacific
-1669,OAJ,United States,US,Americas
-1670,OAK,United States,US,Americas
-1671,OAX,Mexico,MX,Americas
-1672,ODA,Central African Republic,CF,MiddleEastAfrica
-1673,ODB,Spain,ES,Europe
-1674,ODE,Denmark,DK,Europe
-1675,ODS,Ukraine,UA,Europe
-1676,OGG,United States,US,Americas
-1677,OHD,Macedonia,MK,Europe
-1678,OHT,Pakistan,PK,AsiaPacific
-1679,OIT,Japan,JP,AsiaPacific
-1680,OKA,Japan,JP,AsiaPacific
-1681,OKC,United States,US,Americas
-1682,OKD,Japan,JP,AsiaPacific
-1683,OKJ,Japan,JP,AsiaPacific
-1684,OKU,Namibia,NA,MiddleEastAfrica
-1685,OLB,Italy,IT,Europe
-1686,OLF,United States,US,Americas
-1687,OLP,Australia,AU,AsiaPacific
-1688,OMA,United States,US,Americas
-1689,OMD,Namibia,NA,MiddleEastAfrica
-1690,OME,United States,US,Americas
-1691,OMH,Iran,IR,MiddleEastAfrica
-1692,OMO,Bosnia and Herzegovina,BA,Europe
-1693,OND,Namibia,NA,MiddleEastAfrica
-1694,ONT,United States,US,Americas
-1695,OOL,Australia,AU,AsiaPacific
-1696,OOM,Australia,AU,AsiaPacific
-1697,OPO,Portugal,PT,Europe
-1698,ORB,Sweden,SE,Europe
-1699,ORD,United States,US,Americas
-1700,ORF,United States,US,Americas
-1701,ORH,United States,US,Americas
-1702,ORK,Ireland,IE,Europe
-1703,ORL,United States,US,Americas
-1704,ORN,Algeria,DZ,MiddleEastAfrica
-1705,ORS,Australia,AU,AsiaPacific
-1706,ORY,France,FR,Europe
-1707,OSA,Japan,JP,AsiaPacific
-1708,OSH,United States,US,Americas
-1709,OSI,Croatia,HR,Europe
-1710,OSL,Norway,NO,Europe
-1711,OSM,Iraq,IQ,MiddleEastAfrica
-1712,OTH,United States,US,Americas
-1713,OTP,Romania,RO,Europe
-1714,OTZ,United States,US,Americas
-1715,OUA,Burkina Faso,BF,MiddleEastAfrica
-1716,OUD,Morocco,MA,MiddleEastAfrica
-1717,OUH,South Africa,ZA,MiddleEastAfrica
-1718,OUK,United Kingdom,GB,Europe
-1719,OUL,Finland,FI,Europe
-1720,OUZ,Mauritania,MR,MiddleEastAfrica
-1721,OVB,Russia,RU,Europe
-1722,OVD,Spain,ES,Europe
-1723,OWB,United States,US,Americas
-1724,OXR,United States,US,Americas
-1725,OZZ,Morocco,MA,MiddleEastAfrica
-1726,PAD,Germany,DE,Europe
-1727,PAH,United States,US,Americas
-1728,PAP,Haiti,HT,Americas
-1729,PAR,France,FR,Europe
-1730,PAT,India,IN,AsiaPacific
-1731,PBC,Mexico,MX,Americas
-1732,PBH,Bhutan,BT,AsiaPacific
-1733,PBI,United States,US,Americas
-1734,PBM,Suriname,SR,Americas
-1735,PBO,Australia,AU,AsiaPacific
-1736,PBZ,South Africa,ZA,MiddleEastAfrica
-1737,PDL,Portugal,PT,Europe
-1738,PDT,United States,US,Americas
-1739,PDX,United States,US,Americas
-1740,PEG,Italy,IT,Europe
-1741,PEI,Colombia,CO,Americas
-1742,PEK,China,CN,AsiaPacific
-1743,PEN,Malaysia,MY,AsiaPacific
-1744,PER,Australia,AU,AsiaPacific
-1745,PEW,Pakistan,PK,AsiaPacific
-1746,PFN,United States,US,Americas
-1747,PFO,Cyprus,CY,Europe
-1748,PGA,United States,US,Americas
-1749,PGF,France,FR,Europe
-1750,PGV,United States,US,Americas
-1751,PHC,Nigeria,NG,MiddleEastAfrica
-1752,PHE,Australia,AU,AsiaPacific
-1753,PHF,United States,US,Americas
-1754,PHL,United States,US,Americas
-1755,PHW,South Africa,ZA,MiddleEastAfrica
-1756,PHX,United States,US,Americas
-1757,PIA,United States,US,Americas
-1758,PIB,United States,US,Americas
-1759,PIH,United States,US,Americas
-1760,PIK,United Kingdom,GB,Europe
-1761,PIR,United States,US,Americas
-1762,PIS,France,FR,Europe
-1763,PIT,United States,US,Americas
-1764,PJG,Pakistan,PK,AsiaPacific
-1765,PKB,United States,US,Americas
-1766,PKW,Botswana,BW,MiddleEastAfrica
-1767,PLB,United States,US,Americas
-1768,PLN,United States,US,Americas
-1769,PLO,Australia,AU,AsiaPacific
-1770,PLZ,South Africa,ZA,MiddleEastAfrica
-1771,PMD,United States,US,Americas
-1772,PMI,Spain,ES,Europe
-1773,PMO,Italy,IT,Europe
-1774,PMR,New Zealand,NZ,AsiaPacific
-1775,PMV,Venezuela,VE,Americas
-1776,PMW,Brazil,BR,Americas
-1777,PNH,Cambodia,KH,AsiaPacific
-1778,PNI,Micronesia,FM,AsiaPacific
-1779,PNL,Italy,IT,Europe
-1780,PNQ,India,IN,AsiaPacific
-1781,PNR,Congo,CG,MiddleEastAfrica
-1782,PNS,United States,US,Americas
-1783,POA,Brazil,BR,Americas
-1784,POG,Gabon,GA,MiddleEastAfrica
-1785,POM,Papua New Guinea,PG,AsiaPacific
-1786,POP,Dominican Republic,DO,Americas
-1787,POR,Finland,FI,Europe
-1788,POS,Trinidad and Tobago,TT,Americas
-1789,POU,United States,US,Americas
-1790,POZ,Poland,PL,Europe
-1791,PPG,American Samoa,AS,AsiaPacific
-1792,PPP,Australia,AU,AsiaPacific
-1793,PQI,United States,US,Americas
-1794,PQQ,Australia,AU,AsiaPacific
-1795,PRG,Czech Republic,CZ,Europe
-1796,PRN,Serbia,RS,Europe
-1797,PRY,South Africa,ZA,MiddleEastAfrica
-1798,PSA,Italy,IT,Europe
-1799,PSC,United States,US,Americas
-1800,PSD,Egypt,EG,MiddleEastAfrica
-1801,PSE,Puerto Rico,PR,Americas
-1802,PSG,United States,US,Americas
-1803,PSI,Pakistan,PK,AsiaPacific
-1804,PSP,United States,US,Americas
-1805,PSR,Italy,IT,Europe
-1806,PTG,South Africa,ZA,MiddleEastAfrica
-1807,PTJ,Australia,AU,AsiaPacific
-1808,PTP,Guadeloupe,GP,Americas
-1809,PTP,Guadeloupe,GP,Americas
-1810,PTY,Panama,PA,Americas
-1811,PUB,United States,US,Americas
-1812,PUF,France,FR,Europe
-1813,PUG,Australia,AU,AsiaPacific
-1814,PUJ,Dominican Republic,DO,Americas
-1815,PUQ,Chile,CL,Americas
-1816,PUS,South Korea,KR,AsiaPacific
-1817,PUW,United States,US,Americas
-1818,PUY,Croatia,HR,Europe
-1819,PVD,United States,US,Americas
-1820,PVG,China,CN,AsiaPacific
-1821,PVH,Brazil,BR,Americas
-1822,PVK,Greece,GR,Europe
-1823,PVR,Mexico,MX,Americas
-1824,PWM,United States,US,Americas
-1825,PXM,Mexico,MX,Americas
-1826,PXO,Portugal,PT,Europe
-1827,PYB,India,IN,AsiaPacific
-1828,PYX,Thailand,TH,AsiaPacific
-1829,PZB,South Africa,ZA,MiddleEastAfrica
-1830,PZH,Pakistan,PK,AsiaPacific
-1831,PZO,Venezuela,VE,Americas
-1832,QCB,Japan,JP,AsiaPacific
-1833,QGF,Brazil,BR,Americas
-1834,QLI,Cyprus,CY,Europe
-1835,QML,Pakistan,PK,AsiaPacific
-1836,QND,Serbia,RS,Europe
-1837,QPG,Singapore,SG,AsiaPacific
-1838,QUF,Estonia,EE,Europe
-1839,RAI,Cape Verde,CV,MiddleEastAfrica
-1840,RAJ,India,IN,AsiaPacific
-1841,RAK,Morocco,MA,MiddleEastAfrica
-1842,RAP,United States,US,Americas
-1843,RAR,Cook Islands,CK,AsiaPacific
-1844,RAZ,Pakistan,PK,AsiaPacific
-1845,RBA,Morocco,MA,MiddleEastAfrica
-1846,RBR,Brazil,BR,Americas
-1847,RCB,South Africa,ZA,MiddleEastAfrica
-1848,RDD,United States,US,Americas
-1849,RDG,United States,US,Americas
-1850,RDM,United States,US,Americas
-1851,RDU,United States,US,Americas
-1852,RDZ,France,FR,Europe
-1853,REC,Brazil,BR,Americas
-1854,REG,Italy,IT,Europe
-1855,REK,Iceland,IS,Europe
-1856,REU,Spain,ES,Europe
-1857,RFD,United States,US,Americas
-1858,RFP,French Polynesia,PF,AsiaPacific
-1859,RGI,French Polynesia,PF,AsiaPacific
-1860,RGN,Burma,MM,AsiaPacific
-1861,RGN,Burma,MM,AsiaPacific
-1862,RHI,United States,US,Americas
-1863,RHO,Greece,GR,Europe
-1864,RIC,United States,US,Americas
-1865,RIO,Brazil,BR,Americas
-1866,RIX,Latvia,LV,Europe
-1867,RJK,Croatia,HR,Europe
-1868,RKD,United States,US,Americas
-1869,RKS,United States,US,Americas
-1870,RKT,United Arab Emirates,AE,MiddleEastAfrica
-1871,RMF,Egypt,EG,MiddleEastAfrica
-1872,RMI,Italy,IT,Europe
-1873,RNB,Sweden,SE,Europe
-1874,RNE,France,FR,Europe
-1875,RNN,Denmark,DK,Europe
-1876,RNO,United States,US,Americas
-1877,RNS,France,FR,Europe
-1878,ROA,United States,US,Americas
-1879,ROB,Liberia,LR,MiddleEastAfrica
-1880,ROC,United States,US,Americas
-1881,ROK,Australia,AU,AsiaPacific
-1882,ROM,Italy,IT,Europe
-1883,ROS,Argentina,AR,Americas
-1884,ROT,New Zealand,NZ,AsiaPacific
-1885,ROU,Bulgaria,BG,Europe
-1886,RRG,Mauritius,MU,MiddleEastAfrica
-1887,RSA,Argentina,AR,Americas
-1888,RSD,Bahamas,BS,Americas
-1889,RST,United States,US,Americas
-1890,RSW,United States,US,Americas
-1891,RTB,Honduras,HN,Americas
-1892,RTM,Netherlands,NL,Europe
-1893,RUH,Saudi Arabia,SA,MiddleEastAfrica
-1894,RUN,Reunion,RE,MiddleEastAfrica
-1895,RVN,Finland,FI,Europe
-1896,RWI,United States,US,Americas
-1897,RWP,Pakistan,PK,AsiaPacific
-1898,RYK,Pakistan,PK,AsiaPacific
-1899,SAH,Yemen,YE,MiddleEastAfrica
-1900,SAL,El Salvador,SV,Americas
-1901,SAN,United States,US,Americas
-1902,SAO,Brazil,BR,Americas
-1903,SAP,Honduras,HN,Americas
-1904,SAT,United States,US,Americas
-1905,SAV,United States,US,Americas
-1906,SAW,Turkey,TR,Europe
-1907,SAY,Zimbabwe,ZW,MiddleEastAfrica
-1908,SBA,United States,US,Americas
-1909,SBK,France,FR,Europe
-1910,SBN,United States,US,Americas
-1911,SBP,United States,US,Americas
-1912,SBU,South Africa,ZA,MiddleEastAfrica
-1913,SBW,Malaysia,MY,AsiaPacific
-1914,SBY,United States,US,Americas
-1915,SCC,United States,US,Americas
-1916,SCE,United States,US,Americas
-1917,SCF,United States,US,Americas
-1918,SCK,United States,US,Americas
-1919,SCL,Chile,CL,Americas
-1920,SCN,Germany,DE,Europe
-1921,SCQ,Spain,ES,Europe
-1922,SCU,Cuba,CU,Americas
-1923,SDF,United States,US,Americas
-1924,SDH,Honduras,HN,Americas
-1925,SDJ,Japan,JP,AsiaPacific
-1926,SDL,Sweden,SE,Europe
-1927,SDQ,Dominican Republic,DO,Americas
-1928,SDR,Spain,ES,Europe
-1929,SDS,Japan,JP,AsiaPacific
-1930,SDT,Pakistan,PK,AsiaPacific
-1931,SDU,Brazil,BR,Americas
-1932,SDY,United States,US,Americas
-1933,SEA,United States,US,Americas
-1934,SEB,Libya,LY,MiddleEastAfrica
-1935,SEL,South Korea,KR,AsiaPacific
-1936,SEN,United Kingdom,GB,Europe
-1937,SEW,Egypt,EG,MiddleEastAfrica
-1938,SEZ,Seychelles,SC,MiddleEastAfrica
-1939,SFA,Tunisia,TN,MiddleEastAfrica
-1940,SFJ,Greenland,GL,Americas
-1941,SFO,United States,US,Americas
-1942,SGD,Denmark,DK,Europe
-1943,SGF,United States,US,Americas
-1944,SGN,Vietnam,VN,AsiaPacific
-1945,SGN,Vietnam,VN,AsiaPacific
-1946,SGU,United States,US,Americas
-1947,SGY,United States,US,Americas
-1948,SHA,China,CN,AsiaPacific
-1949,SHD,United States,US,Americas
-1950,SHE,China,CN,AsiaPacific
-1951,SHJ,United Arab Emirates,AE,MiddleEastAfrica
-1952,SHR,United States,US,Americas
-1953,SHV,United States,US,Americas
-1954,SID,Cape Verde,CV,MiddleEastAfrica
-1955,SIN,Singapore,SG,AsiaPacific
-1956,SIP,Ukraine,UA,Europe
-1957,SIS,South Africa,ZA,MiddleEastAfrica
-1958,SIT,United States,US,Americas
-1959,SIX,Australia,AU,AsiaPacific
-1960,SJC,United States,US,Americas
-1961,SJD,Mexico,MX,Americas
-1962,SJD,Mexico,MX,Americas
-1963,SJJ,Bosnia and Herzegovina,BA,Europe
-1964,SJO,Costa Rica,CR,Americas
-1965,SJT,United States,US,Americas
-1966,SJU,Puerto Rico,PR,Americas
-1967,SJY,Finland,FI,Europe
-1968,SKB,St. Kitts and Nevis,KN,Americas
-1969,SKB,St. Kitts and Nevis,KN,Americas
-1970,SKD,Uzbekistan,UZ,AsiaPacific
-1971,SKG,Greece,GR,Europe
-1972,SKG,Greece,GR,Europe
-1973,SKP,Macedonia,MK,Europe
-1974,SKS,Denmark,DK,Europe
-1975,SKV,Egypt,EG,MiddleEastAfrica
-1976,SKZ,Pakistan,PK,AsiaPacific
-1977,SLA,Argentina,AR,Americas
-1978,SLC,United States,US,Americas
-1979,SLE,United States,US,Americas
-1980,SLL,Oman,OM,MiddleEastAfrica
-1981,SLP,Mexico,MX,Americas
-1982,SLS,Bulgaria,BG,Europe
-1983,SLU,Saint Lucia,LC,Americas
-1984,SLU,Saint Lucia,LC,Americas
-1985,SLZ,Brazil,BR,Americas
-1986,SMA,Portugal,PT,Europe
-1987,SMF,United States,US,Americas
-1988,SMI,Greece,GR,Europe
-1989,SMX,United States,US,Americas
-1990,SNA,United States,US,Americas
-1991,SNA,United States,US,Americas
-1992,SNC,Ecuador,EC,Americas
-1993,SNN,Ireland,IE,Europe
-1994,SNS,United States,US,Americas
-1995,SOF,Bulgaria,BG,Europe
-1996,SOG,Norway,NO,Europe
-1997,SOI,Australia,AU,AsiaPacific
-1998,SON,Vanuatu,VU,AsiaPacific
-1999,SOT,Finland,FI,Europe
-2000,SOU,United Kingdom,GB,Europe
-2001,SPC,Spain,ES,Europe
-2002,SPI,United States,US,Americas
-2003,SPK,Japan,JP,AsiaPacific
-2004,SPN,Northern Mariana Islands,MP,AsiaPacific
-2005,SPS,United States,US,Americas
-2006,SPU,Croatia,HR,Europe
-2007,SPY,Côte d'Ivoire,CI,MiddleEastAfrica
-2008,SRA,Brazil,BR,Americas
-2009,SRB,Bolivia,BO,Americas
-2010,SRL,Mexico,MX,Americas
-2011,SRQ,United States,US,Americas
-2012,SRZ,Bolivia,BO,Americas
-2013,SSA,Brazil,BR,Americas
-2014,SSG,Equatorial Guinea,GQ,MiddleEastAfrica
-2015,SSH,Egypt,EG,MiddleEastAfrica
-2016,SSL,Colombia,CO,Americas
-2017,STL,United States,US,Americas
-2018,STN,United Kingdom,GB,Europe
-2019,STN,United Kingdom,GB,Europe
-2020,STO,Sweden,SE,Europe
-2021,STR,Germany,DE,Europe
-2022,STS,United States,US,Americas
-2023,STT,US Virgin Islands,VI,Americas
-2024,STV,India,IN,AsiaPacific
-2025,STX,US Virgin Islands,VI,Americas
-2026,SUB,Indonesia,ID,AsiaPacific
-2027,SUF,Italy,IT,Europe
-2028,SUL,Pakistan,PK,AsiaPacific
-2029,SUN,United States,US,Americas
-2030,SUV,Fiji,FJ,AsiaPacific
-2031,SUV,Fiji,FJ,AsiaPacific
-2032,SUX,United States,US,Americas
-2033,SVD,Saint Vincent and the Grenadines,VC,Americas
-2034,SVD,Saint Vincent and the Grenadines,VC,Americas
-2035,SVG,Norway,NO,Europe
-2036,SVL,Finland,FI,Europe
-2037,SVO,Russia,RU,Europe
-2038,SVQ,Spain,ES,Europe
-2039,SWF,United States,US,Americas
-2040,SWP,Namibia,NA,MiddleEastAfrica
-2041,SXB,France,FR,Europe
-2042,SXF,Germany,DE,Europe
-2043,SXL,Ireland,IE,Europe
-2044,SXM,Netherlands,NL,Europe
-2045,SXR,India,IN,AsiaPacific
-2046,SYD,Australia,AU,AsiaPacific
-2047,SYR,United States,US,Americas
-2048,SYY,United Kingdom,GB,Europe
-2049,SZB,Malaysia,MY,AsiaPacific
-2050,SZD,United Kingdom,GB,Europe
-2051,SZF,Turkey,TR,Europe
-2052,SZG,Austria,AT,Europe
-2053,SZK,South Africa,ZA,MiddleEastAfrica
-2054,SZX,China,CN,AsiaPacific
-2055,SZZ,Poland,PL,Europe
-2056,TAB,Trinidad and Tobago,TT,Americas
-2057,TAB,Trinidad and Tobago,TT,Americas
-2058,TAK,Japan,JP,AsiaPacific
-2059,TAM,Mexico,MX,Americas
-2060,TAO,China,CN,AsiaPacific
-2061,TAS,Uzbekistan,UZ,AsiaPacific
-2062,TAY,Taiwan,TW,AsiaPacific
-2063,TBS,Georgia,GE,AsiaPacific
-2064,TBU,Tonga,TO,AsiaPacific
-2065,TCA,Australia,AU,AsiaPacific
-2066,TCB,Bahamas,BS,Americas
-2067,TCI,Spain,ES,Europe
-2068,TCL,United States,US,Americas
-2069,TCU,South Africa,ZA,MiddleEastAfrica
-2070,TED,Denmark,DK,Europe
-2071,TEM,Australia,AU,AsiaPacific
-2072,TEQ,Turkey,TR,Europe
-2073,TER,Portugal,PT,Europe
-2074,TEU,New Zealand,NZ,AsiaPacific
-2075,TEX,United States,US,Americas
-2076,TFN,Spain,ES,Europe
-2077,TFN,Spain,ES,Europe
-2078,TFS,Spain,ES,Europe
-2079,TFS,Spain,ES,Europe
-2080,TGD,Montenegro,ME,Europe
-2081,TGU,Honduras,HN,Americas
-2082,TGV,Bulgaria,BG,Europe
-2083,TGZ,Mexico,MX,Americas
-2084,THE,Brazil,BR,Americas
-2085,THF,Germany,DE,Europe
-2086,THR,Iran,IR,MiddleEastAfrica
-2087,TIA,Albania,AL,Europe
-2088,TIF,Saudi Arabia,SA,MiddleEastAfrica
-2089,TIJ,Mexico,MX,Americas
-2090,TIP,Libya,LY,MiddleEastAfrica
-2091,TIS,Australia,AU,AsiaPacific
-2092,TIV,Montenegro,ME,Europe
-2093,TKA,United States,US,Americas
-2094,TKS,Japan,JP,AsiaPacific
-2095,TKU,Finland,FI,Europe
-2096,TLH,United States,US,Americas
-2097,TLL,Estonia,EE,Europe
-2098,TLS,France,FR,Europe
-2099,TLV,Israel,IL,MiddleEastAfrica
-2100,TMP,Finland,FI,Europe
-2101,TMW,Australia,AU,AsiaPacific
-2102,TMZ,Uzbekistan,UZ,AsiaPacific
-2103,TNA,China,CN,AsiaPacific
-2104,TNG,Morocco,MA,MiddleEastAfrica
-2105,TOD,Indonesia,ID,AsiaPacific
-2106,TOL,United States,US,Americas
-2107,TOS,Norway,NO,Europe
-2108,TOU,New Caledonia,NC,AsiaPacific
-2109,TOV,British Virgin Islands,VG,Americas
-2110,TOY,Japan,JP,AsiaPacific
-2111,TPA,United States,US,Americas
-2112,TPE,Taiwan,TW,AsiaPacific
-2113,TPR,Australia,AU,AsiaPacific
-2114,TPS,Italy,IT,Europe
-2115,TRD,Norway,NO,Europe
-2116,TRF,Norway,NO,Europe
-2117,TRI,United States,US,Americas
-2118,TRN,Italy,IT,Europe
-2119,TRO,Australia,AU,AsiaPacific
-2120,TRS,Italy,IT,Europe
-2121,TRV,India,IN,AsiaPacific
-2122,TRZ,India,IN,AsiaPacific
-2123,TSB,Namibia,NA,MiddleEastAfrica
-2124,TSF,Italy,IT,Europe
-2125,TSN,China,CN,AsiaPacific
-2126,TSV,Australia,AU,AsiaPacific
-2127,TTN,United States,US,Americas
-2128,TUK,Pakistan,PK,AsiaPacific
-2129,TUL,United States,US,Americas
-2130,TUN,Tunisia,TN,MiddleEastAfrica
-2131,TUP,United States,US,Americas
-2132,TUS,United States,US,Americas
-2133,TUU,Saudi Arabia,SA,MiddleEastAfrica
-2134,TVC,United States,US,Americas
-2135,TVF,United States,US,Americas
-2136,TVL,United States,US,Americas
-2137,TWB,Australia,AU,AsiaPacific
-2138,TWF,United States,US,Americas
-2139,TWU,Malaysia,MY,AsiaPacific
-2140,TXK,United States,US,Americas
-2141,TXL,Germany,DE,Europe
-2142,TYN,China,CN,AsiaPacific
-2143,TYO,Japan,JP,AsiaPacific
-2144,TYR,United States,US,Americas
-2145,TYS,United States,US,Americas
-2146,TZX,Turkey,TR,Europe
-2147,UAH,French Polynesia,PF,AsiaPacific
-2148,UAK,Greenland,GL,Americas
-2149,UAP,French Polynesia,PF,AsiaPacific
-2150,UBA,Brazil,BR,Americas
-2151,UBJ,Japan,JP,AsiaPacific
-2152,UBP,Thailand,TH,AsiaPacific
-2153,UCA,United States,US,Americas
-2154,UCT,Russia,RU,Europe
-2155,UDE,Netherlands,NL,Europe
-2156,UDI,Brazil,BR,Americas
-2157,UDJ,Ukraine,UA,Europe
-2158,UDR,India,IN,AsiaPacific
-2159,UEE,Australia,AU,AsiaPacific
-2160,UET,Pakistan,PK,AsiaPacific
-2161,UFA,Russia,RU,Europe
-2162,UGC,Uzbekistan,UZ,AsiaPacific
-2163,UGO,Angola,AO,MiddleEastAfrica
-2164,UHE,Czech Republic,CZ,Europe
-2165,UII,Honduras,HN,Americas
-2166,UIN,United States,US,Americas
-2167,UIO,Ecuador,EC,Americas
-2168,UIP,France,FR,Europe
-2169,UIT,Marshall Islands,MH,AsiaPacific
-2170,UKB,Japan,JP,AsiaPacific
-2171,UKI,United States,US,Americas
-2172,UKY,Japan,JP,AsiaPacific
-2173,ULB,Vanuatu,VU,AsiaPacific
-2174,ULD,South Africa,ZA,MiddleEastAfrica
-2175,ULN,Mongolia,MN,AsiaPacific
-2176,ULU,Uganda,UG,MiddleEastAfrica
-2177,UMD,Greenland,GL,Americas
-2178,UME,Sweden,SE,Europe
-2179,UMR,Australia,AU,AsiaPacific
-2180,UNI,Saint Vincent and the Grenadines,VC,Americas
-2181,UNK,United States,US,Americas
-2182,UNT,United Kingdom,GB,Europe
-2183,UPG,Indonesia,ID,AsiaPacific
-2184,UPL,Costa Rica,CR,Americas
-2185,UPN,Mexico,MX,Americas
-2186,UPP,United States,US,Americas
-2187,URB,Brazil,BR,Americas
-2188,URC,China,CN,AsiaPacific
-2189,URG,Brazil,BR,Americas
-2190,URM,Venezuela,VE,Americas
-2191,URZ,Afghanistan,AF,AsiaPacific
-2192,USH,Argentina,AR,Americas
-2193,USN,South Korea,KR,AsiaPacific
-2194,UTH,Thailand,TH,AsiaPacific
-2195,UTN,South Africa,ZA,MiddleEastAfrica
-2196,UTP,Thailand,TH,AsiaPacific
-2197,UTT,South Africa,ZA,MiddleEastAfrica
-2198,UUD,Russia,RU,Europe
-2199,UVF,Saint Lucia,LC,Americas
-2200,UVL,Egypt,EG,MiddleEastAfrica
-2201,UVL,Egypt,EG,MiddleEastAfrica
-2202,VAA,Finland,FI,Europe
-2203,VAN,Turkey,TR,Europe
-2204,VAP,Chile,CL,Americas
-2205,VAR,Bulgaria,BG,Europe
-2206,VAS,Turkey,TR,Europe
-2207,VBS,Italy,IT,Europe
-2208,VBS,Italy,IT,Europe
-2209,VBY,Sweden,SE,Europe
-2210,VCE,Italy,IT,Europe
-2211,VCP,Brazil,BR,Americas
-2212,VDA,Israel,IL,MiddleEastAfrica
-2213,VDE,Spain,ES,Europe
-2214,VDZ,United States,US,Americas
-2215,VEL,United States,US,Americas
-2216,VER,Mexico,MX,Americas
-2217,VFA,Zimbabwe,ZW,MiddleEastAfrica
-2218,VGO,Spain,ES,Europe
-2219,VID,Bulgaria,BG,Europe
-2220,VIE,Austria,AT,Europe
-2221,VIJ,British Virgin Islands,VG,Americas
-2222,VIS,United States,US,Americas
-2223,VIT,Spain,ES,Europe
-2224,VIX,Brazil,BR,Americas
-2225,VKO,Russia,RU,Europe
-2226,VLC,Spain,ES,Europe
-2227,VLD,United States,US,Americas
-2228,VLI,Vanuatu,VU,AsiaPacific
-2229,VLL,Spain,ES,Europe
-2230,VLN,Venezuela,VE,Americas
-2231,VLU,Russia,RU,Europe
-2232,VNO,Lithuania,LT,Europe
-2233,VNO,Lithuania,LT,Europe
-2234,VNS,India,IN,AsiaPacific
-2235,VPS,United States,US,Americas
-2236,VRA,Cuba,CU,Americas
-2237,VRB,United States,US,Americas
-2238,VRK,Finland,FI,Europe
-2239,VRN,Italy,IT,Europe
-2240,VSA,Mexico,MX,Americas
-2241,VST,Sweden,SE,Europe
-2242,VTE,Laos,LA,AsiaPacific
-2243,VXO,Sweden,SE,Europe
-2244,VYD,South Africa,ZA,MiddleEastAfrica
-2245,WAS,United States,US,Americas
-2246,WAW,Poland,PL,Europe
-2247,WDH,Namibia,NA,MiddleEastAfrica
-2248,WEI,Australia,AU,AsiaPacific
-2249,WEL,South Africa,ZA,MiddleEastAfrica
-2250,WGA,Australia,AU,AsiaPacific
-2251,WHK,New Zealand,NZ,AsiaPacific
-2252,WHM,Australia,AU,AsiaPacific
-2253,WIC,United Kingdom,GB,Europe
-2254,WIE,Germany,DE,Europe
-2255,WLB,United States,US,Americas
-2256,WLG,New Zealand,NZ,AsiaPacific
-2257,WLS,Wallis and Futuna,WF,AsiaPacific
-2258,WMB,Australia,AU,AsiaPacific
-2259,WNS,Pakistan,PK,AsiaPacific
-2260,WOL,Australia,AU,AsiaPacific
-2261,WRE,New Zealand,NZ,AsiaPacific
-2262,WRG,United States,US,Americas
-2263,WRL,United States,US,Americas
-2264,WUH,China,CN,AsiaPacific
-2265,WUN,Australia,AU,AsiaPacific
-2266,WVB,South Africa,ZA,MiddleEastAfrica
-2267,WYA,Australia,AU,AsiaPacific
-2268,WYN,Australia,AU,AsiaPacific
-2269,WYS,United States,US,Americas
-2270,XIY,China,CN,AsiaPacific
-2271,XLB,Canada,CA,Americas
-2272,XMH,French Polynesia,PF,AsiaPacific
-2273,XMN,China,CN,AsiaPacific
-2274,XPK,Canada,CA,Americas
-2275,XRY,Spain,ES,Europe
-2276,XSI,Canada,CA,Americas
-2277,XSP,Singapore,SG,AsiaPacific
-2278,YAK,United States,US,Americas
-2279,YAO,Cameroon,CM,MiddleEastAfrica
-2280,YBE,Canada,CA,Americas
-2281,YCB,Canada,CA,Americas
-2282,YDF,Canada,CA,Americas
-2283,YEA,Canada,CA,Americas
-2284,YEG,Canada,CA,Americas
-2285,YEV,Canada,CA,Americas
-2286,YFA,Canada,CA,Americas
-2287,YFB,Canada,CA,Americas
-2288,YFC,Canada,CA,Americas
-2289,YFO,Canada,CA,Americas
-2290,YGL,Canada,CA,Americas
-2291,YGW,Canada,CA,Americas
-2292,YGX,Canada,CA,Americas
-2293,YHM,Canada,CA,Americas
-2294,YHR,Canada,CA,Americas
-2295,YHZ,Canada,CA,Americas
-2296,YIF,Canada,CA,Americas
-2297,YIH,China,CN,AsiaPacific
-2298,YKA,Canada,CA,Americas
-2299,YKM,United States,US,Americas
-2300,YKS,Russia,RU,Europe
-2301,YLR,Canada,CA,Americas
-2302,YLW,Canada,CA,Americas
-2303,YMM,Canada,CA,Americas
-2304,YMQ,Canada,CA,Americas
-2305,YMX,Canada,CA,Americas
-2306,YNB,Saudi Arabia,SA,MiddleEastAfrica
-2307,YOK,Japan,JP,AsiaPacific
-2308,YOP,Canada,CA,Americas
-2309,YOW,Canada,CA,Americas
-2310,YPN,Canada,CA,Americas
-2311,YPR,Canada,CA,Americas
-2312,YQB,Canada,CA,Americas
-2313,YQD,Canada,CA,Americas
-2314,YQG,Canada,CA,Americas
-2315,YQM,Canada,CA,Americas
-2316,YQR,Canada,CA,Americas
-2317,YQT,Canada,CA,Americas
-2318,YQX,Canada,CA,Americas
-2319,YRB,Canada,CA,Americas
-2320,YSJ,Canada,CA,Americas
-2321,YSM,Canada,CA,Americas
-2322,YSR,Canada,CA,Americas
-2323,YTH,Canada,CA,Americas
-2324,YTO,Canada,CA,Americas
-2325,YTZ,Canada,CA,Americas
-2326,YUD,Canada,CA,Americas
-2327,YUL,Canada,CA,Americas
-2328,YUM,United States,US,Americas
-2329,YUX,Canada,CA,Americas
-2330,YVA,Comoros,KM,MiddleEastAfrica
-2331,YVB,Canada,CA,Americas
-2332,YVO,Canada,CA,Americas
-2333,YVP,Canada,CA,Americas
-2334,YVQ,Canada,CA,Americas
-2335,YVR,Canada,CA,Americas
-2336,YWG,Canada,CA,Americas
-2337,YWK,Canada,CA,Americas
-2338,YXD,Canada,CA,Americas
-2339,YXE,Canada,CA,Americas
-2340,YXJ,Canada,CA,Americas
-2341,YXN,Canada,CA,Americas
-2342,YXS,Canada,CA,Americas
-2343,YXT,Canada,CA,Americas
-2344,YXU,Canada,CA,Americas
-2345,YXY,Canada,CA,Americas
-2346,YYC,Canada,CA,Americas
-2347,YYD,Canada,CA,Americas
-2348,YYJ,Canada,CA,Americas
-2349,YYQ,Canada,CA,Americas
-2350,YYR,Canada,CA,Americas
-2351,YYT,Canada,CA,Americas
-2352,YYZ,Canada,CA,Americas
-2353,YZF,Canada,CA,Americas
-2354,YZP,Canada,CA,Americas
-2355,ZAD,Croatia,HR,Europe
-2356,ZAG,Croatia,HR,Europe
-2357,ZAZ,Spain,ES,Europe
-2358,ZBO,Australia,AU,AsiaPacific
-2359,ZCL,Mexico,MX,Americas
-2360,ZDJ,Switzerland,CH,Europe
-2361,ZIH,Mexico,MX,Americas
-2362,ZJK,Hong Kong,HK,AsiaPacific
-2363,ZKE,Canada,CA,Americas
-2364,ZLO,Mexico,MX,Americas
-2365,ZND,Niger,NE,MiddleEastAfrica
-2366,ZNE,Australia,AU,AsiaPacific
-2367,ZQN,New Zealand,NZ,AsiaPacific
-2368,ZRH,Switzerland,CH,Europe
-2369,ZSA,Bahamas,BS,Americas
-2370,ZSS,Côte d'Ivoire,CI,MiddleEastAfrica
-2371,ZTH,Greece,GR,Europe
-2372,ZTM,Canada,CA,Americas
-2373,ZYL,Bangladesh,BD,AsiaPacific
+﻿Num,AirportCode,Country,CountryCode,Region1,AAA,French Polynesia,PF,AsiaPacific2,AAB,Australia,AU,AsiaPacific3,AAC,Egypt,EG,MiddleEastAfrica4,AAD,Sudan,SD,MiddleEastAfrica5,AAE,Algeria,DZ,MiddleEastAfrica6,AAF,United States,US,Americas7,AAG,Brazil,BR,Americas8,AAH,Germany,DE,Europe9,AAI,Brazil,BR,Americas10,AAJ,Suriname,SR,Americas11,AAK,Kiribati,KI,AsiaPacific12,AAL,Denmark,DK,Europe13,AAM,South Africa,ZA,MiddleEastAfrica14,AAN,United Arab Emirates,AE,MiddleEastAfrica15,AAO,Venezuela,VE,Americas16,AAP,United States,US,Americas17,AAQ,Russia,RU,Europe18,AAR,Denmark,DK,Europe19,AAS,Indonesia,ID,AsiaPacific20,AAT,China,CN,AsiaPacific21,AAU,Samoa,WS,AsiaPacific22,AAV,Philippines,PH,AsiaPacific23,AAW,Pakistan,PK,AsiaPacific24,AAX,Brazil,BR,Americas25,AAY,Yemen,YE,MiddleEastAfrica26,AAZ,Guatemala,GT,Americas27,ABA,Russia,RU,Europe28,ABB,Nigeria,NG,MiddleEastAfrica29,ABC,Spain,ES,Europe30,ABD,Iran,IR,MiddleEastAfrica31,ABE,United States,US,Americas32,ABF,Kiribati,KI,AsiaPacific33,ABG,Australia,AU,AsiaPacific34,ABH,Australia,AU,AsiaPacific35,ABI,United States,US,Americas36,ABJ,Côte d'Ivoire,CI,MiddleEastAfrica37,ABK,Ethiopia,ET,MiddleEastAfrica38,ABL,United States,US,Americas39,ABM,Australia,AU,AsiaPacific40,ABN,Suriname,SR,Americas41,ABO,Côte d'Ivoire,CI,MiddleEastAfrica42,ABP,Papua New Guinea,PG,AsiaPacific43,ABQ,United States,US,Americas44,ABR,United States,US,Americas45,ABS,Egypt,EG,MiddleEastAfrica46,ABT,Saudi Arabia,SA,MiddleEastAfrica47,ABU,Indonesia,ID,AsiaPacific48,ABV,Nigeria,NG,MiddleEastAfrica49,ABW,Papua New Guinea,PG,AsiaPacific50,ABX,Australia,AU,AsiaPacific51,ABY,United States,US,Americas52,ABZ,United Kingdom,GB,Europe53,ACA,Mexico,MX,Americas54,ACB,United States,US,Americas55,ACC,Ghana,GH,MiddleEastAfrica56,ACD,Colombia,CO,Americas57,ACE,Spain,ES,Europe58,ACF,Australia,AU,AsiaPacific59,ACH,Switzerland,CH,Europe60,ACI,Guernsey,GG,Europe61,ACJ,Sri Lanka,LK,AsiaPacific62,ACK,United States,US,Americas63,ACL,Colombia,CO,Americas64,ACM,Colombia,CO,Americas65,ACN,Mexico,MX,Americas66,ACO,Switzerland,CH,Europe67,ACP,Iran,IR,MiddleEastAfrica68,ACR,Colombia,CO,Americas69,ACS,Russia,RU,Europe70,ACT,United States,US,Americas71,ACU,Panama,PA,Americas72,ACV,United States,US,Americas73,ACX,China,CN,AsiaPacific74,ACY,United States,US,Americas75,ACZ,Iran,IR,MiddleEastAfrica76,ADA,Turkey,TR,Europe77,ADB,Turkey,TR,Europe78,ADC,Papua New Guinea,PG,AsiaPacific79,ADD,Ethiopia,ET,MiddleEastAfrica80,ADE,Yemen,YE,MiddleEastAfrica81,ADF,Turkey,TR,Europe82,ADG,United States,US,Americas83,ADH,Russia,RU,Europe84,ADI,Namibia,NA,MiddleEastAfrica85,ADJ,Jordan,JO,MiddleEastAfrica86,ADK,United States,US,Americas87,ADL,Australia,AU,AsiaPacific88,ADM,United States,US,Americas89,ADN,Colombia,CO,Americas90,ADO,Australia,AU,AsiaPacific91,ADP,Sri Lanka,LK,AsiaPacific92,ADQ,United States,US,Americas93,ADR,United States,US,Americas94,ADS,United States,US,Americas95,ADT,United States,US,Americas96,ADU,Iran,IR,MiddleEastAfrica97,ADV,United Kingdom,GB,Europe98,ADW,United States,US,Americas99,ADX,United Kingdom,GB,Europe100,ADY,South Africa,ZA,MiddleEastAfrica101,ADZ,Colombia,CO,Americas102,AEA,Kiribati,KI,AsiaPacific103,AEB,China,CN,AsiaPacific104,AED,United States,US,Americas105,AEE,South Sudan,SS,MiddleEastAfrica106,AEG,Indonesia,ID,AsiaPacific107,AEH,Chad,TD,MiddleEastAfrica108,AEI,Spain,ES,Europe109,AEK,Papua New Guinea,PG,AsiaPacific110,AEL,United States,US,Americas111,AEO,Mauritania,MR,MiddleEastAfrica112,AEP,Argentina,AR,Americas113,AER,Russia,RU,Europe114,AES,Norway,NO,Europe115,AET,United States,US,Americas116,AEU,Iran,IR,MiddleEastAfrica117,AEX,United States,US,Americas118,AEY,Iceland,IS,Europe119,AFA,Argentina,AR,Americas120,AFD,South Africa,ZA,MiddleEastAfrica121,AFF,United States,US,Americas122,AFI,Colombia,CO,Americas123,AFK,Sri Lanka,LK,AsiaPacific124,AFL,Brazil,BR,Americas125,AFN,United States,US,Americas126,AFO,United States,US,Americas127,AFR,Papua New Guinea,PG,AsiaPacific128,AFS,Uzbekistan,UZ,AsiaPacific129,AFT,Solomon Islands,SB,AsiaPacific130,AFW,United States,US,Americas131,AFY,Turkey,TR,Europe132,AFZ,Iran,IR,MiddleEastAfrica133,AGA,Morocco,MA,MiddleEastAfrica134,AGB,Germany,DE,Europe135,AGC,United States,US,Americas136,AGD,Indonesia,ID,AsiaPacific137,AGE,Germany,DE,Europe138,AGF,France,FR,Europe139,AGG,Papua New Guinea,PG,AsiaPacific140,AGH,Sweden,SE,Europe141,AGI,Suriname,SR,Americas142,AGJ,Japan,JP,AsiaPacific143,AGK,Papua New Guinea,PG,AsiaPacific144,AGL,Papua New Guinea,PG,AsiaPacific145,AGM,Greenland,GL,Americas146,AGN,United States,US,Americas147,AGO,United States,US,Americas148,AGP,Spain,ES,Europe149,AGQ,Greece,GR,Europe150,AGR,India,IN,AsiaPacific151,AGS,United States,US,Americas152,AGT,Paraguay,PY,Americas153,AGU,Mexico,MX,Americas154,AGV,Venezuela,VE,Americas155,AGW,Australia,AU,AsiaPacific156,AGX,India,IN,AsiaPacific157,AGY,Australia,AU,AsiaPacific158,AGZ,South Africa,ZA,MiddleEastAfrica159,AHB,Saudi Arabia,SA,MiddleEastAfrica160,AHC,United States,US,Americas161,AHD,United States,US,Americas162,AHE,French Polynesia,PF,AsiaPacific163,AHF,United States,US,Americas164,AHH,United States,US,Americas165,AHI,Indonesia,ID,AsiaPacific166,AHJ,China,CN,AsiaPacific167,AHL,Guyana,GY,Americas168,AHM,United States,US,Americas169,AHN,United States,US,Americas170,AHO,Italy,IT,Europe171,AHS,Honduras,HN,Americas172,AHT,United States,US,Americas173,AHU,Morocco,MA,MiddleEastAfrica174,AHY,Madagascar,MG,MiddleEastAfrica175,AHZ,France,FR,Europe176,AIA,United States,US,Americas177,AIB,United States,US,Americas178,AIC,Marshall Islands,MH,AsiaPacific179,AID,United States,US,Americas180,AIE,Papua New Guinea,PG,AsiaPacific181,AIF,Brazil,BR,Americas182,AIG,Central African Republic,CF,MiddleEastAfrica183,AIH,Papua New Guinea,PG,AsiaPacific184,AII,Djibouti,DJ,MiddleEastAfrica185,AIK,United States,US,Americas186,AIL,Panama,PA,Americas187,AIM,Marshall Islands,MH,AsiaPacific188,AIN,United States,US,Americas189,AIO,United States,US,Americas190,AIR,Brazil,BR,Americas191,AIS,Kiribati,KI,AsiaPacific192,AIT,Cook Islands,CK,AsiaPacific193,AIU,Cook Islands,CK,AsiaPacific194,AIV,United States,US,Americas195,AIW,Namibia,NA,MiddleEastAfrica196,AIY,United States,US,Americas197,AIZ,United States,US,Americas198,AJA,France,FR,Europe199,AJF,Saudi Arabia,SA,MiddleEastAfrica200,AJI,Turkey,TR,Europe201,AJJ,Mauritania,MR,MiddleEastAfrica202,AJK,Iran,IR,MiddleEastAfrica203,AJL,India,IN,AsiaPacific204,AJN,Comoros,KM,MiddleEastAfrica205,AJO,Yemen,YE,MiddleEastAfrica206,AJR,Sweden,SE,Europe207,AJS,Mexico,MX,Americas208,AJU,Brazil,BR,Americas209,AJY,Niger,NE,MiddleEastAfrica210,AKA,China,CN,AsiaPacific211,AKB,United States,US,Americas212,AKC,United States,US,Americas213,AKD,India,IN,AsiaPacific214,AKE,Gabon,GA,MiddleEastAfrica215,AKF,Libya,LY,MiddleEastAfrica216,AKG,Papua New Guinea,PG,AsiaPacific217,AKH,Saudi Arabia,SA,MiddleEastAfrica218,AKI,United States,US,Americas219,AKJ,Japan,JP,AsiaPacific220,AKK,United States,US,Americas221,AKL,New Zealand,NZ,AsiaPacific222,AKM,Chad,TD,MiddleEastAfrica223,AKN,United States,US,Americas224,AKO,United States,US,Americas225,AKP,United States,US,Americas226,AKQ,Indonesia,ID,AsiaPacific227,AKR,Nigeria,NG,MiddleEastAfrica228,AKS,Solomon Islands,SB,AsiaPacific229,AKT,Cyprus,CY,Europe230,AKU,China,CN,AsiaPacific231,AKV,Canada,CA,Americas232,AKW,Iran,IR,MiddleEastAfrica233,AKX,Kazakhstan,KZ,AsiaPacific234,AKY,Burma,MM,AsiaPacific235,ALA,Kazakhstan,KZ,AsiaPacific236,ALB,United States,US,Americas237,ALC,Spain,ES,Europe238,ALD,Perú,PE,Americas239,ALE,United States,US,Americas240,ALF,Norway,NO,Europe241,ALG,Algeria,DZ,MiddleEastAfrica242,ALH,Australia,AU,AsiaPacific243,ALI,United States,US,Americas244,ALJ,South Africa,ZA,MiddleEastAfrica245,ALK,Ethiopia,ET,MiddleEastAfrica246,ALL,Italy,IT,Europe247,ALM,United States,US,Americas248,ALN,United States,US,Americas249,ALO,United States,US,Americas250,ALP,Syria,SY,MiddleEastAfrica251,ALQ,Brazil,BR,Americas252,ALR,New Zealand,NZ,AsiaPacific253,ALS,United States,US,Americas254,ALT,Brazil,BR,Americas255,ALU,Somalia,SO,MiddleEastAfrica256,ALV,Andorra,AD,Europe257,ALW,United States,US,Americas258,ALX,United States,US,Americas259,ALY,Egypt,EG,MiddleEastAfrica260,ALZ,United States,US,Americas261,AMA,United States,US,Americas262,AMB,Madagascar,MG,MiddleEastAfrica263,AMC,Chad,TD,MiddleEastAfrica264,AMD,India,IN,AsiaPacific265,AME,Mozambique,MZ,MiddleEastAfrica266,AMF,Papua New Guinea,PG,AsiaPacific267,AMG,Papua New Guinea,PG,AsiaPacific268,AMH,Ethiopia,ET,MiddleEastAfrica269,AMI,Indonesia,ID,AsiaPacific270,AMJ,Brazil,BR,Americas271,AMK,United States,US,Americas272,AML,Panama,PA,Americas273,AMM,Jordan,JO,MiddleEastAfrica274,AMN,United States,US,Americas275,AMO,Chad,TD,MiddleEastAfrica276,AMP,Madagascar,MG,MiddleEastAfrica277,AMQ,Indonesia,ID,AsiaPacific278,AMR,Marshall Islands,MH,AsiaPacific279,AMS,Netherlands,NL,Europe280,AMT,Australia,AU,AsiaPacific281,AMU,Papua New Guinea,PG,AsiaPacific282,AMV,Russia,RU,Europe283,AMW,United States,US,Americas284,AMX,Australia,AU,AsiaPacific285,AMY,Madagascar,MG,MiddleEastAfrica286,AMZ,New Zealand,NZ,AsiaPacific287,ANA,United States,US,Americas288,ANB,United States,US,Americas289,ANC,United States,US,Americas290,AND,United States,US,Americas291,ANE,France,FR,Europe292,ANF,Chile,CL,Americas293,ANG,France,FR,Europe294,ANH,Solomon Islands,SB,AsiaPacific295,ANI,United States,US,Americas296,ANJ,Congo,CG,MiddleEastAfrica297,ANK,Turkey,TR,Europe298,ANL,Angola,AO,MiddleEastAfrica299,ANM,Madagascar,MG,MiddleEastAfrica300,ANN,United States,US,Americas301,ANO,Mozambique,MZ,MiddleEastAfrica302,ANP,United States,US,Americas303,ANQ,United States,US,Americas304,ANR,Belgium,BE,Europe305,ANS,Perú,PE,Americas306,ANT,Austria,AT,Europe307,ANU,Antigua and Barbuda,AG,Americas308,ANV,United States,US,Americas309,ANW,United States,US,Americas310,ANX,Norway,NO,Europe311,ANY,United States,US,Americas312,ANZ,Australia,AU,AsiaPacific313,AOA,Papua New Guinea,PG,AsiaPacific314,AOB,Papua New Guinea,PG,AsiaPacific315,AOC,Germany,DE,Europe316,AOD,Chad,TD,MiddleEastAfrica317,AOE,Turkey,TR,Europe318,AOG,China,CN,AsiaPacific319,AOH,United States,US,Americas320,AOI,Italy,IT,Europe321,AOJ,Japan,JP,AsiaPacific322,AOK,Greece,GR,Europe323,AOL,Argentina,AR,Americas324,AOM,Oman,OM,MiddleEastAfrica325,AON,Papua New Guinea,PG,AsiaPacific326,AOO,United States,US,Americas327,AOP,Perú,PE,Americas328,AOR,Malaysia,MY,AsiaPacific329,AOS,United States,US,Americas330,AOT,Italy,IT,Europe331,AOU,Laos,LA,AsiaPacific332,AOY,Iran,IR,MiddleEastAfrica333,APA,United States,US,Americas334,APB,Bolivia,BO,Americas335,APC,United States,US,Americas336,APE,Perú,PE,Americas337,APF,United States,US,Americas338,APG,United States,US,Americas339,APH,United States,US,Americas340,API,Colombia,CO,Americas341,APK,French Polynesia,PF,AsiaPacific342,APL,Mozambique,MZ,MiddleEastAfrica343,APN,United States,US,Americas344,APO,Colombia,CO,Americas345,APP,Papua New Guinea,PG,AsiaPacific346,APQ,Brazil,BR,Americas347,APR,Papua New Guinea,PG,AsiaPacific348,APS,Brazil,BR,Americas349,APT,United States,US,Americas350,APU,Brazil,BR,Americas351,APV,United States,US,Americas352,APW,Samoa,WS,AsiaPacific353,APX,Brazil,BR,Americas354,APY,Brazil,BR,Americas355,APZ,Argentina,AR,Americas356,AQA,Brazil,BR,Americas357,AQB,Guatemala,GT,Americas358,AQG,China,CN,AsiaPacific359,AQI,Saudi Arabia,SA,MiddleEastAfrica360,AQJ,Jordan,JO,MiddleEastAfrica361,AQM,Brazil,BR,Americas362,AQP,Perú,PE,Americas363,AQS,Fiji,FJ,AsiaPacific364,AQY,United States,US,Americas365,ARA,United States,US,Americas366,ARB,United States,US,Americas367,ARC,United States,US,Americas368,ARD,Indonesia,ID,AsiaPacific369,ARE,Puerto Rico,PR,Americas370,ARF,Colombia,CO,Americas371,ARG,United States,US,Americas372,ARH,Russia,RU,Europe373,ARI,Chile,CL,Americas374,ARJ,Indonesia,ID,AsiaPacific375,ARK,Tanzania,TZ,MiddleEastAfrica376,ARL,Burkina Faso,BF,MiddleEastAfrica377,ARM,Australia,AU,AsiaPacific378,ARN,Sweden,SE,Europe379,ARO,Colombia,CO,Americas380,ARP,Papua New Guinea,PG,AsiaPacific381,ARQ,Colombia,CO,Americas382,ARR,Argentina,AR,Americas383,ARS,Brazil,BR,Americas384,ART,United States,US,Americas385,ARU,Brazil,BR,Americas386,ARV,United States,US,Americas387,ARW,Romania,RO,Europe388,ARX,United States,US,Americas389,ARY,Australia,AU,AsiaPacific390,ARZ,Angola,AO,MiddleEastAfrica391,ASA,Eritrea,ER,MiddleEastAfrica392,ASB,Turkmenistan,TM,AsiaPacific393,ASC,Bolivia,BO,Americas394,ASD,Bahamas,BS,Americas395,ASE,United States,US,Americas396,ASF,Russia,RU,Europe397,ASG,New Zealand,NZ,AsiaPacific398,ASH,United States,US,Americas399,ASI,Saint Helena,SH,MiddleEastAfrica400,ASJ,Japan,JP,AsiaPacific401,ASK,Côte d'Ivoire,CI,MiddleEastAfrica402,ASL,United States,US,Americas403,ASM,Eritrea,ER,MiddleEastAfrica404,ASN,United States,US,Americas405,ASO,Ethiopia,ET,MiddleEastAfrica406,ASP,Australia,AU,AsiaPacific407,ASQ,United States,US,Americas408,ASR,Turkey,TR,Europe409,AST,United States,US,Americas410,ASU,Paraguay,PY,Americas411,ASV,Kenya,KE,MiddleEastAfrica412,ASW,Egypt,EG,MiddleEastAfrica413,ASX,United States,US,Americas414,ASY,United States,US,Americas415,ASZ,Papua New Guinea,PG,AsiaPacific416,ATA,Perú,PE,Americas417,ATB,Sudan,SD,MiddleEastAfrica418,ATC,Bahamas,BS,Americas419,ATD,Solomon Islands,SB,AsiaPacific420,ATE,United States,US,Americas421,ATF,Ecuador,EC,Americas422,ATG,Perú,PE,Americas423,ATH,Greece,GR,Europe424,ATI,Uruguay,UY,Americas425,ATJ,Madagascar,MG,MiddleEastAfrica426,ATK,United States,US,Americas427,ATL,United States,US,Americas428,ATM,Brazil,BR,Americas429,ATN,Papua New Guinea,PG,AsiaPacific430,ATO,United States,US,Americas431,ATP,Papua New Guinea,PG,AsiaPacific432,ATQ,India,IN,AsiaPacific433,ATR,Mauritania,MR,MiddleEastAfrica434,ATS,United States,US,Americas435,ATT,United States,US,Americas436,ATU,United States,US,Americas437,ATV,Chad,TD,MiddleEastAfrica438,ATW,United States,US,Americas439,ATX,Kazakhstan,KZ,AsiaPacific440,ATY,United States,US,Americas441,ATZ,Egypt,EG,MiddleEastAfrica442,AUA,Aruba,AW,Americas443,AUB,Brazil,BR,Americas444,AUC,Colombia,CO,Americas445,AUD,Australia,AU,AsiaPacific446,AUE,Egypt,EG,MiddleEastAfrica447,AUF,France,FR,Europe448,AUG,United States,US,Americas449,AUH,United Arab Emirates,AE,MiddleEastAfrica450,AUI,Papua New Guinea,PG,AsiaPacific451,AUJ,Papua New Guinea,PG,AsiaPacific452,AUK,United States,US,Americas453,AUL,Marshall Islands,MH,AsiaPacific454,AUM,United States,US,Americas455,AUN,United States,US,Americas456,AUO,United States,US,Americas457,AUP,Papua New Guinea,PG,AsiaPacific458,AUQ,French Polynesia,PF,AsiaPacific459,AUR,France,FR,Europe460,AUS,United States,US,Americas461,AUT,Timor-Leste,TL,AsiaPacific462,AUU,Australia,AU,AsiaPacific463,AUV,Papua New Guinea,PG,AsiaPacific464,AUW,United States,US,Americas465,AUX,Brazil,BR,Americas466,AUY,Vanuatu,VU,AsiaPacific467,AUZ,United States,US,Americas468,AVA,China,CN,AsiaPacific469,AVB,Italy,IT,Europe470,AVF,France,FR,Europe471,AVG,Australia,AU,AsiaPacific472,AVI,Cuba,CU,Americas473,AVK,Mongolia,MN,AsiaPacific474,AVL,United States,US,Americas475,AVN,France,FR,Europe476,AVO,United States,US,Americas477,AVP,United States,US,Americas478,AVU,Solomon Islands,SB,AsiaPacific479,AVV,Australia,AU,AsiaPacific480,AVW,United States,US,Americas481,AVX,United States,US,Americas482,AWA,Ethiopia,ET,MiddleEastAfrica483,AWD,Vanuatu,VU,AsiaPacific484,AWE,Gabon,GA,MiddleEastAfrica485,AWH,Ethiopia,ET,MiddleEastAfrica486,AWK,United States Minor Outlying Islands,UM,AsiaPacific487,AWM,United States,US,Americas488,AWN,Australia,AU,AsiaPacific489,AWP,Australia,AU,AsiaPacific490,AWR,Papua New Guinea,PG,AsiaPacific491,AWZ,Iran,IR,MiddleEastAfrica492,AXA,Anguilla,AI,Americas493,AXB,United States,US,Americas494,AXC,Australia,AU,AsiaPacific495,AXD,Greece,GR,Europe496,AXE,Brazil,BR,Americas497,AXG,United States,US,Americas498,AXK,Yemen,YE,MiddleEastAfrica499,AXL,Australia,AU,AsiaPacific500,AXM,Colombia,CO,Americas501,AXN,United States,US,Americas502,AXP,Bahamas,BS,Americas503,AXR,French Polynesia,PF,AsiaPacific504,AXS,United States,US,Americas505,AXT,Japan,JP,AsiaPacific506,AXU,Ethiopia,ET,MiddleEastAfrica507,AXV,United States,US,Americas508,AXX,United States,US,Americas509,AYA,Colombia,CO,Americas510,AYC,Colombia,CO,Americas511,AYD,Australia,AU,AsiaPacific512,AYE,United States,US,Americas513,AYG,Colombia,CO,Americas514,AYH,United Kingdom,GB,Europe515,AYI,Colombia,CO,Americas516,AYK,Kazakhstan,KZ,AsiaPacific517,AYL,Australia,AU,AsiaPacific518,AYN,China,CN,AsiaPacific519,AYO,Paraguay,PY,Americas520,AYP,Perú,PE,Americas521,AYQ,Australia,AU,AsiaPacific522,AYR,Australia,AU,AsiaPacific523,AYS,United States,US,Americas524,AYT,Turkey,TR,Europe525,AYU,Papua New Guinea,PG,AsiaPacific526,AYW,Indonesia,ID,AsiaPacific527,AYY,Sri Lanka,LK,AsiaPacific528,AYZ,United States,US,Americas529,AZA,United States,US,Americas530,AZB,Papua New Guinea,PG,AsiaPacific531,AZD,Iran,IR,MiddleEastAfrica532,AZG,Mexico,MX,Americas533,AZI,United Arab Emirates,AE,MiddleEastAfrica534,AZL,Brazil,BR,Americas535,AZN,Uzbekistan,UZ,AsiaPacific536,AZO,United States,US,Americas537,AZP,Mexico,MX,Americas538,AZR,Algeria,DZ,MiddleEastAfrica539,AZS,Dominican Republic,DO,Americas540,AZT,Colombia,CO,Americas541,AZZ,Angola,AO,MiddleEastAfrica542,BAH,Bahrain,BH,MiddleEastAfrica543,BAK,Azerbaijan,AZ,AsiaPacific544,BAQ,Colombia,CO,Americas545,BBI,India,IN,AsiaPacific546,BBT,Central African Republic,CF,MiddleEastAfrica547,BBY,Central African Republic,CF,MiddleEastAfrica548,BCN,Spain,ES,Europe549,BCO,Ethiopia,ET,MiddleEastAfrica550,BDA,Bermuda,BM,Americas551,BDB,Australia,AU,AsiaPacific552,BDL,United States,US,Americas553,BDO,Indonesia,ID,AsiaPacific554,BDQ,India,IN,AsiaPacific555,BDR,United States,US,Americas556,BDS,Italy,IT,Europe557,BDU,Norway,NO,Europe558,BEB,United Kingdom,GB,Europe559,BEG,Serbia,RS,Europe560,BEH,United States,US,Americas561,BEL,Brazil,BR,Americas562,BEN,Libya,LY,MiddleEastAfrica563,BEO,Australia,AU,AsiaPacific564,BER,Germany,DE,Europe565,BES,France,FR,Europe566,BET,United States,US,Americas567,BEW,Mozambique,MZ,MiddleEastAfrica568,BEY,Lebanon,LB,MiddleEastAfrica569,BFD,United States,US,Americas570,BFL,United States,US,Americas571,BFN,South Africa,ZA,MiddleEastAfrica572,BFO,Zimbabwe,ZW,MiddleEastAfrica573,BFS,United Kingdom,GB,Europe574,BGA,Colombia,CO,Americas575,BGF,Central African Republic,CF,MiddleEastAfrica576,BGI,Barbados,BB,Americas577,BGM,United States,US,Americas578,BGO,Norway,NO,Europe579,BGR,United States,US,Americas580,BGU,Central African Republic,CF,MiddleEastAfrica581,BGW,Iraq,IQ,MiddleEastAfrica582,BGY,Italy,IT,Europe583,BGY,Italy,IT,Europe584,BHC,United States,US,Americas585,BHD,United Kingdom,GB,Europe586,BHE,New Zealand,NZ,AsiaPacific587,BHM,United States,US,Americas588,BHO,India,IN,AsiaPacific589,BHQ,Australia,AU,AsiaPacific590,BHV,Pakistan,PK,AsiaPacific591,BHX,United Kingdom,GB,Europe592,BIA,France,FR,Europe593,BIL,United States,US,Americas594,BIO,Spain,ES,Europe595,BIQ,France,FR,Europe596,BIS,United States,US,Americas597,BIV,Central African Republic,CF,MiddleEastAfrica598,BJI,United States,US,Americas599,BJL,Gambia,GM,MiddleEastAfrica600,BJM,Burundi,BI,MiddleEastAfrica601,BJS,China,CN,AsiaPacific602,BJV,Turkey,TR,Europe603,BJX,Mexico,MX,Americas604,BJZ,Spain,ES,Europe605,BKI,Malaysia,MY,AsiaPacific606,BKK,Thailand,TH,AsiaPacific607,BKL,United States,US,Americas608,BKO,Mali,ML,MiddleEastAfrica609,BKW,United States,US,Americas610,BKX,United States,US,Americas611,BLA,Venezuela,VE,Americas612,BLF,United States,US,Americas613,BLI,United States,US,Americas614,BLK,United Kingdom,GB,Europe615,BLL,Denmark,DK,Europe616,BLQ,Italy,IT,Europe617,BLR,India,IN,AsiaPacific618,BLT,Australia,AU,AsiaPacific619,BLZ,Malawi,MW,MiddleEastAfrica620,BMA,Sweden,SE,Europe621,BME,Australia,AU,AsiaPacific622,BMG,United States,US,Americas623,BMI,United States,US,Americas624,BMP,Australia,AU,AsiaPacific625,BNA,United States,US,Americas626,BNE,Australia,AU,AsiaPacific627,BNK,Australia,AU,AsiaPacific628,BNN,Norway,NO,Europe629,BNP,Pakistan,PK,AsiaPacific630,BOB,French Polynesia,PF,AsiaPacific631,BOD,France,FR,Europe632,BOG,Colombia,CO,Americas633,BOH,United Kingdom,GB,Europe634,BOI,United States,US,Americas635,BOJ,Bulgaria,BG,Europe636,BOM,India,IN,AsiaPacific637,BON,Netherlands,NL,Europe638,BOO,Norway,NO,Europe639,BOS,United States,US,Americas640,BOY,Burkina Faso,BF,MiddleEastAfrica641,BPT,United States,US,Americas642,BQK,United States,US,Americas643,BRC,Argentina,AR,Americas644,BRD,United States,US,Americas645,BRE,Germany,DE,Europe646,BRI,Italy,IT,Europe647,BRL,United States,US,Americas648,BRN,Switzerland,CH,Europe649,BRR,United Kingdom,GB,Europe650,BRS,United Kingdom,GB,Europe651,BRU,Belgium,BE,Europe652,BSB,Brazil,BR,Americas653,BSL,Switzerland,CH,Europe654,BSR,Iraq,IQ,MiddleEastAfrica655,BTM,United States,US,Americas656,BTR,United States,US,Americas657,BTS,Slovakia,SK,Europe658,BTU,Malaysia,MY,AsiaPacific659,BTV,United States,US,Americas660,BUD,Hungary,HU,Europe661,BUE,Argentina,AR,Americas662,BUF,United States,US,Americas663,BUG,Angola,AO,MiddleEastAfrica664,BUH,Romania,RO,Europe665,BUQ,Zimbabwe,ZW,MiddleEastAfrica666,BUR,United States,US,Americas667,BVB,Brazil,BR,Americas668,BWI,United States,US,Americas669,BWI,United States,US,Americas670,BWN,Brunei,BN,AsiaPacific671,BWT,Australia,AU,AsiaPacific672,BXO,Guinea-Bissau,GW,MiddleEastAfrica673,BXS,United States,US,Americas674,BYK,Côte d'Ivoire,CI,MiddleEastAfrica675,BYU,Germany,DE,Europe676,BZE,Belize,BZ,Americas677,BZL,Bangladesh,BD,AsiaPacific678,BZN,United States,US,Americas679,BZV,Congo,CG,MiddleEastAfrica680,CAB,Angola,AO,MiddleEastAfrica681,CAE,United States,US,Americas682,CAG,Italy,IT,Europe683,CAI,Egypt,EG,MiddleEastAfrica684,CAL,United Kingdom,GB,Europe685,CAN,China,CN,AsiaPacific686,CAS,Morocco,MA,MiddleEastAfrica687,CAY,French Guiana,GF,Americas688,CBB,Bolivia,BO,Americas689,CBG,United Kingdom,GB,Europe690,CBR,Australia,AU,AsiaPacific691,CBU,Germany,DE,Europe692,CCJ,India,IN,AsiaPacific693,CCR,United States,US,Americas694,CCS,Venezuela,VE,Americas695,CCU,India,IN,AsiaPacific696,CCU,India,IN,AsiaPacific697,CCZ,Bahamas,BS,Americas698,CDC,United States,US,Americas699,CDG,France,FR,Europe700,CDV,United States,US,Americas701,CEB,Philippines,PH,AsiaPacific702,CEC,United States,US,Americas703,CED,Australia,AU,AsiaPacific704,CEN,Mexico,MX,Americas705,CES,Australia,AU,AsiaPacific706,CFE,France,FR,Europe707,CFG,Cuba,CU,Americas708,CFN,Ireland,IE,Europe709,CFS,Australia,AU,AsiaPacific710,CFU,Greece,GR,Europe711,CGA,United States,US,Americas712,CGB,Brazil,BR,Americas713,CGH,Brazil,BR,Americas714,CGK,Indonesia,ID,AsiaPacific715,CGN,Germany,DE,Europe716,CGN,Germany,DE,Europe717,CGP,Bangladesh,BD,AsiaPacific718,CGQ,China,CN,AsiaPacific719,CGR,Brazil,BR,Americas720,CGU,Venezuela,VE,Americas721,CHA,United States,US,Americas722,CHC,New Zealand,NZ,AsiaPacific723,CHG,China,CN,AsiaPacific724,CHI,United States,US,Americas725,CHO,United States,US,Americas726,CHQ,Greece,GR,Europe727,CHS,United States,US,Americas728,CIA,Italy,IT,Europe729,CIC,United States,US,Americas730,CID,United States,US,Americas731,CIP,Zambia,ZM,MiddleEastAfrica732,CIW,Saint Vincent and the Grenadines,VC,Americas733,CJB,India,IN,AsiaPacific734,CJC,Chile,CL,Americas735,CJL,Pakistan,PK,AsiaPacific736,CJS,Mexico,MX,Americas737,CKB,United States,US,Americas738,CKG,China,CN,AsiaPacific739,CKY,Guinea,GN,MiddleEastAfrica740,CLD,United States,US,Americas741,CLE,United States,US,Americas742,CLL,United States,US,Americas743,CLM,United States,US,Americas744,CLO,Colombia,CO,Americas745,CLQ,Mexico,MX,Americas746,CLT,United States,US,Americas747,CLY,France,FR,Europe748,CMB,Sri Lanka,LK,AsiaPacific749,CME,Mexico,MX,Americas750,CMF,France,FR,Europe751,CMH,United States,US,Americas752,CMI,United States,US,Americas753,CMN,Morocco,MA,MiddleEastAfrica754,CMQ,Australia,AU,AsiaPacific755,CMX,United States,US,Americas756,CND,Romania,RO,Europe757,CNF,Brazil,BR,Americas758,CNS,Australia,AU,AsiaPacific759,CNX,Thailand,TH,AsiaPacific760,COD,United States,US,Americas761,COK,India,IN,AsiaPacific762,CON,United States,US,Americas763,COO,Benin,BJ,MiddleEastAfrica764,COR,Argentina,AR,Americas765,COS,United States,US,Americas766,CPD,Australia,AU,AsiaPacific767,CPH,Denmark,DK,Europe768,CPR,United States,US,Americas769,CPT,South Africa,ZA,MiddleEastAfrica770,CRE,United States,US,Americas771,CRF,Central African Republic,CF,MiddleEastAfrica772,CRG,United States,US,Americas773,CRK,Philippines,PH,AsiaPacific774,CRP,United States,US,Americas775,CRW,United States,US,Americas776,CSG,United States,US,Americas777,CSI,Australia,AU,AsiaPacific778,CSN,United States,US,Americas779,CST,Fiji,FJ,AsiaPacific780,CTA,Italy,IT,Europe781,CTG,Colombia,CO,Americas782,CTN,Australia,AU,AsiaPacific783,CTS,Japan,JP,AsiaPacific784,CTS,Japan,JP,AsiaPacific785,CTU,China,CN,AsiaPacific786,CUL,Mexico,MX,Americas787,CUN,Mexico,MX,Americas788,CUR,Netherlands,NL,Europe789,CUU,Mexico,MX,Americas790,CVG,United States,US,Americas791,CVM,Mexico,MX,Americas792,CVQ,Australia,AU,AsiaPacific793,CVT,United Kingdom,GB,Europe794,CWA,United States,US,Americas795,CWB,Brazil,BR,Americas796,CWL,United Kingdom,GB,Europe797,CXI,Kiribati,KI,AsiaPacific798,CXT,Australia,AU,AsiaPacific799,CYS,United States,US,Americas800,CYU,Philippines,PH,AsiaPacific801,CZA,Mexico,MX,Americas802,CZL,Algeria,DZ,MiddleEastAfrica803,CZM,Mexico,MX,Americas804,DAB,United States,US,Americas805,DAC,Bangladesh,BD,AsiaPacific806,DAL,United States,US,Americas807,DAM,Syria,SY,MiddleEastAfrica808,DAN,United States,US,Americas809,DAR,Tanzania,TZ,MiddleEastAfrica810,DAY,United States,US,Americas811,DBO,Australia,AU,AsiaPacific812,DBQ,United States,US,Americas813,DBV,Croatia,HR,Europe814,DBY,Australia,AU,AsiaPacific815,DCA,United States,US,Americas816,DDI,Australia,AU,AsiaPacific817,DEC,United States,US,Americas818,DEL,India,IN,AsiaPacific819,DEN,United States,US,Americas820,DET,United States,US,Americas821,DFW,United States,US,Americas822,DFW,United States,US,Americas823,DHA,Saudi Arabia,SA,MiddleEastAfrica824,DHN,United States,US,Americas825,DIL,Timor-Leste,TL,AsiaPacific826,DJB,Indonesia,ID,AsiaPacific827,DJE,Tunisia,TN,MiddleEastAfrica828,DJJ,Indonesia,ID,AsiaPacific829,DJO,Côte d'Ivoire,CI,MiddleEastAfrica830,DKI,Australia,AU,AsiaPacific831,DKR,Senegal,SN,MiddleEastAfrica832,DLA,Cameroon,CM,MiddleEastAfrica833,DLC,China,CN,AsiaPacific834,DLG,United States,US,Americas835,DLH,United States,US,Americas836,DLM,Turkey,TR,Europe837,DLP,France,FR,Europe838,DME,Russia,RU,Europe839,DMK,Thailand,TH,AsiaPacific840,DMM,Saudi Arabia,SA,MiddleEastAfrica841,DND,United Kingdom,GB,Europe842,DNR,France,FR,Europe843,DNZ,Turkey,TR,Europe844,DOD,Tanzania,TZ,MiddleEastAfrica845,DOH,Qatar,QA,MiddleEastAfrica846,DOM,Dominica,DM,Americas847,DPO,Australia,AU,AsiaPacific848,DPS,Indonesia,ID,AsiaPacific849,DRB,Australia,AU,AsiaPacific850,DRO,United States,US,Americas851,DRS,Germany,DE,Europe852,DRW,Australia,AU,AsiaPacific853,DSA,United Kingdom,GB,Europe854,DSA,United Kingdom,GB,Europe855,DSK,Pakistan,PK,AsiaPacific856,DSM,United States,US,Americas857,DTM,Germany,DE,Europe858,DTT,United States,US,Americas859,DTW,United States,US,Americas860,DUB,Ireland,IE,Europe861,DUD,New Zealand,NZ,AsiaPacific862,DUJ,United States,US,Americas863,DUR,South Africa,ZA,MiddleEastAfrica864,DUS,Germany,DE,Europe865,DUT,United States,US,Americas866,DVL,United States,US,Americas867,DXB,United Arab Emirates,AE,MiddleEastAfrica868,DYA,Australia,AU,AsiaPacific869,DYU,Tajikistan,TJ,AsiaPacific870,DZA,Mayotte,YT,MiddleEastAfrica871,EAP,Switzerland,CH,Europe872,EAS,Spain,ES,Europe873,EAT,United States,US,Americas874,EAU,United States,US,Americas875,EBA,Italy,IT,Europe876,EBB,Uganda,UG,MiddleEastAfrica877,EBJ,Denmark,DK,Europe878,EBU,France,FR,Europe879,EDI,United Kingdom,GB,Europe880,EDR,Australia,AU,AsiaPacific881,EGC,France,FR,Europe882,EGE,United States,US,Americas883,EGS,Iceland,IS,Europe884,EIN,Netherlands,NL,Europe885,EIS,British Virgin Islands,VG,Americas886,EKI,United States,US,Americas887,EKO,United States,US,Americas888,ELH,Bahamas,BS,Americas889,ELL,South Africa,ZA,MiddleEastAfrica890,ELM,United States,US,Americas891,ELP,United States,US,Americas892,ELS,South Africa,ZA,MiddleEastAfrica893,ELY,United States,US,Americas894,EMA,United Kingdom,GB,Europe895,EMD,Australia,AU,AsiaPacific896,EMY,Egypt,EG,MiddleEastAfrica897,ENA,United States,US,Americas898,ENC,France,FR,Europe899,ENF,Finland,FI,Europe900,EPR,Australia,AU,AsiaPacific901,ERC,Turkey,TR,Europe902,ERF,Germany,DE,Europe903,ERI,United States,US,Americas904,ERS,Namibia,NA,MiddleEastAfrica905,ERZ,Turkey,TR,Europe906,ESC,United States,US,Americas907,ETH,Israel,IL,MiddleEastAfrica908,ETZ,France,FR,Europe909,EUG,United States,US,Americas910,EVE,Norway,NO,Europe911,EVN,Armenia,AM,AsiaPacific912,EVV,United States,US,Americas913,EWN,United States,US,Americas914,EWR,United States,US,Americas915,EXT,United Kingdom,GB,Europe916,EYW,United States,US,Americas917,EZE,Argentina,AR,Americas918,FAE,Denmark,DK,Europe919,FAI,United States,US,Americas920,FAO,Portugal,PT,Europe921,FAR,United States,US,Americas922,FAT,United States,US,Americas923,FAY,United States,US,Americas924,FBM,Congo,CG,MiddleEastAfrica925,FBU,Norway,NO,Europe926,FCA,United States,US,Americas927,FCO,Italy,IT,Europe928,FDF,Martinique,MQ,Americas929,FDH,Germany,DE,Europe930,FEZ,Morocco,MA,MiddleEastAfrica931,FHU,United States,US,Americas932,FIE,United Kingdom,GB,Europe933,FIH,Congo,CG,MiddleEastAfrica934,FJR,United Arab Emirates,AE,MiddleEastAfrica935,FKB,Germany,DE,Europe936,FKI,Congo,CG,MiddleEastAfrica937,FKL,United States,US,Americas938,FKS,Japan,JP,AsiaPacific939,FLG,United States,US,Americas940,FLL,United States,US,Americas941,FLN,Brazil,BR,Americas942,FLO,United States,US,Americas943,FLR,Italy,IT,Europe944,FMN,United States,US,Americas945,FMO,Germany,DE,Europe946,FMY,United States,US,Americas947,FNA,Sierra Leone,SL,MiddleEastAfrica948,FNC,Portugal,PT,Europe949,FNI,France,FR,Europe950,FNJ,North Korea,KP,AsiaPacific951,FNT,United States,US,Americas952,FOD,United States,US,Americas953,FOR,Brazil,BR,Americas954,FOU,United Kingdom,GB,Europe955,FPO,Bahamas,BS,Americas956,FPO,Bahamas,BS,Americas957,FRA,Germany,DE,Europe958,FRI,United States,US,Americas959,FRJ,France,FR,Europe960,FRO,Norway,NO,Europe961,FRU,Kyrgyzstan,KG,AsiaPacific962,FRW,Botswana,BW,MiddleEastAfrica963,FSC,France,FR,Europe964,FSD,United States,US,Americas965,FSM,United States,US,Americas966,FSP,Canada,CA,Americas967,FUE,Spain,ES,Europe968,FUK,Japan,JP,AsiaPacific969,FUT,Wallis and Futuna,WF,AsiaPacific970,FWA,United States,US,Americas971,FYV,United States,US,Americas972,GAD,United States,US,Americas973,GAJ,Japan,JP,AsiaPacific974,GAU,India,IN,AsiaPacific975,GBE,Botswana,BW,MiddleEastAfrica976,GCC,United States,US,Americas977,GCI,United States,US,Americas978,GCM,Cayman Islands,KY,Americas979,GCN,United States,US,Americas980,GDL,Mexico,MX,Americas981,GDN,Poland,PL,Europe982,GDV,United States,US,Americas983,GEG,United States,US,Americas984,GEO,Guyana,GY,Americas985,GET,Australia,AU,AsiaPacific986,GEX,Australia,AU,AsiaPacific987,GFF,Australia,AU,AsiaPacific988,GFK,United States,US,Americas989,GGG,United States,US,Americas990,GGW,United States,US,Americas991,GHB,Bahamas,BS,Americas992,GIB,Gibraltar,GI,Europe993,GIG,Brazil,BR,Americas994,GIL,Pakistan,PK,AsiaPacific995,GJL,Algeria,DZ,MiddleEastAfrica996,GJT,United States,US,Americas997,GKL,Australia,AU,AsiaPacific998,GLA,United Kingdom,GB,Europe999,GLH,United States,US,Americas1000,GLT,Australia,AU,AsiaPacific1001,GNB,France,FR,Europe1002,GND,Grenada,GD,Americas1003,GNE,Belgium,BE,Europe1004,GNV,United States,US,Americas1005,GOA,Italy,IT,Europe1006,GOI,India,IN,AsiaPacific1007,GON,United States,US,Americas1008,GOO,Australia,AU,AsiaPacific1009,GOT,Sweden,SE,Europe1010,GOU,Cameroon,CM,MiddleEastAfrica1011,GOV,Australia,AU,AsiaPacific1012,GOZ,Bulgaria,BG,Europe1013,GPT,United States,US,Americas1014,GPZ,United States,US,Americas1015,GRB,United States,US,Americas1016,GRJ,South Africa,ZA,MiddleEastAfrica1017,GRO,Spain,ES,Europe1018,GRQ,Netherlands,NL,Europe1019,GRR,United States,US,Americas1020,GRU,Brazil,BR,Americas1021,GRU,Brazil,BR,Americas1022,GRX,Spain,ES,Europe1023,GRZ,Austria,AT,Europe1024,GSI,Solomon Islands,SB,AsiaPacific1025,GSO,United States,US,Americas1026,GSP,United States,US,Americas1027,GTE,Australia,AU,AsiaPacific1028,GTF,United States,US,Americas1029,GTI,Germany,DE,Europe1030,GTN,New Zealand,NZ,AsiaPacific1031,GUA,Guatemala,GT,Americas1032,GUC,United States,US,Americas1033,GUM,Guam,GU,AsiaPacific1034,GUM,Guam,GU,AsiaPacific1035,GVA,Switzerland,CH,Europe1036,GWD,Pakistan,PK,AsiaPacific1037,GWE,Zimbabwe,ZW,MiddleEastAfrica1038,GWT,Germany,DE,Europe1039,GWY,Ireland,IE,Europe1040,GYE,Ecuador,EC,Americas1041,GYN,Brazil,BR,Americas1042,GYP,Australia,AU,AsiaPacific1043,GZA,Palestine,PS,MiddleEastAfrica1044,GZT,Turkey,TR,Europe1045,HAC,Japan,JP,AsiaPacific1046,HAG,Netherlands,NL,Europe1047,HAH,Comoros,KM,MiddleEastAfrica1048,HAJ,Germany,DE,Europe1049,HAM,Germany,DE,Europe1050,HAN,Vietnam,VN,AsiaPacific1051,HAP,Australia,AU,AsiaPacific1052,HAR,United States,US,Americas1053,HAU,Norway,NO,Europe1054,HAV,Cuba,CU,Americas1055,HBA,Australia,AU,AsiaPacific1056,HDD,Pakistan,PK,AsiaPacific1057,HDN,United States,US,Americas1058,HDY,Thailand,TH,AsiaPacific1059,HEL,Finland,FI,Europe1060,HER,Greece,GR,Europe1061,HFA,Israel,IL,MiddleEastAfrica1062,HFT,Norway,NO,Europe1063,HGH,China,CN,AsiaPacific1064,HGO,Côte d'Ivoire,CI,MiddleEastAfrica1065,HHH,United States,US,Americas1066,HHN,Germany,DE,Europe1067,HIB,United States,US,Americas1068,HII,United States,US,Americas1069,HIJ,Japan,JP,AsiaPacific1070,HIR,Solomon Islands,SB,AsiaPacific1071,HIS,Australia,AU,AsiaPacific1072,HKD,Japan,JP,AsiaPacific1073,HKG,Hong Kong,HK,AsiaPacific1074,HKS,United States,US,Americas1075,HKT,Thailand,TH,AsiaPacific1076,HKY,United States,US,Americas1077,HLA,South Africa,ZA,MiddleEastAfrica1078,HLH,China,CN,AsiaPacific1079,HLN,United States,US,Americas1080,HLP,Indonesia,ID,AsiaPacific1081,HLT,Australia,AU,AsiaPacific1082,HLZ,New Zealand,NZ,AsiaPacific1083,HMH,Australia,AU,AsiaPacific1084,HMO,Mexico,MX,Americas1085,HNA,Japan,JP,AsiaPacific1086,HND,Japan,JP,AsiaPacific1087,HNH,United States,US,Americas1088,HNK,Australia,AU,AsiaPacific1089,HNL,United States,US,Americas1090,HNS,United States,US,Americas1091,HOG,Cuba,CU,Americas1092,HOM,United States,US,Americas1093,HON,United States,US,Americas1094,HOQ,Germany,DE,Europe1095,HOR,Portugal,PT,Europe1096,HOU,United States,US,Americas1097,HPN,United States,US,Americas1098,HRB,China,CN,AsiaPacific1099,HRE,Zimbabwe,ZW,MiddleEastAfrica1100,HRG,Egypt,EG,MiddleEastAfrica1101,HRK,Ukraine,UA,Europe1102,HRL,United States,US,Americas1103,HSV,United States,US,Americas1104,HTA,Russia,RU,Europe1105,HTI,Australia,AU,AsiaPacific1106,HTS,United States,US,Americas1107,HUF,United States,US,Americas1108,HUH,French Polynesia,PF,AsiaPacific1109,HUI,Vietnam,VN,AsiaPacific1110,HUX,Mexico,MX,Americas1111,HUY,United Kingdom,GB,Europe1112,HVB,Australia,AU,AsiaPacific1113,HVN,United States,US,Americas1114,HVR,United States,US,Americas1115,HWN,Zimbabwe,ZW,MiddleEastAfrica1116,HYA,United States,US,Americas1117,HYD,India,IN,AsiaPacific1118,HYG,United States,US,Americas1119,IAD,United States,US,Americas1120,IAG,United States,US,Americas1121,IAH,United States,US,Americas1122,IBZ,Spain,ES,Europe1123,ICN,South Korea,KR,AsiaPacific1124,ICN,South Korea,KR,AsiaPacific1125,ICT,United States,US,Americas1126,IDA,United States,US,Americas1127,IEV,Ukraine,UA,Europe1128,IFL,Australia,AU,AsiaPacific1129,IGH,Australia,AU,AsiaPacific1130,IGR,Argentina,AR,Americas1131,IJX,United States,US,Americas1132,IKT,Russia,RU,Europe1133,ILE,United States,US,Americas1134,ILI,United States,US,Americas1135,ILM,United States,US,Americas1136,ILP,New Caledonia,NC,AsiaPacific1137,ILY,United Kingdom,GB,Europe1138,IND,United States,US,Americas1139,INI,Serbia,RS,Europe1140,INL,United States,US,Americas1141,INN,Austria,AT,Europe1142,INV,United Kingdom,GB,Europe1143,IOU,New Caledonia,NC,AsiaPacific1144,IPC,Chile,CL,Americas1145,IPL,United States,US,Americas1146,IPT,United States,US,Americas1147,IQT,Perú,PE,Americas1148,IRG,Australia,AU,AsiaPacific1149,IRO,Central African Republic,CF,MiddleEastAfrica1150,ISA,Australia,AU,AsiaPacific1151,ISB,Pakistan,PK,AsiaPacific1152,ISG,Japan,JP,AsiaPacific1153,ISL,United States,US,Americas1154,ISO,United States,US,Americas1155,ISP,United States,US,Americas1156,IST,Turkey,TR,Europe1157,ITH,United States,US,Americas1158,ITM,Japan,JP,AsiaPacific1159,ITO,United States,US,Americas1160,IVC,New Zealand,NZ,AsiaPacific1161,IVC,New Zealand,NZ,AsiaPacific1162,IVL,Finland,FI,Europe1163,IXB,India,IN,AsiaPacific1164,IXC,India,IN,AsiaPacific1165,IXG,India,IN,AsiaPacific1166,IXJ,India,IN,AsiaPacific1167,IXR,India,IN,AsiaPacific1168,IXW,India,IN,AsiaPacific1169,IYK,United States,US,Americas1170,IZM,Turkey,TR,Europe1171,JAA,Afghanistan,AF,AsiaPacific1172,JAC,United States,US,Americas1173,JAC,United States,US,Americas1174,JAD,Australia,AU,AsiaPacific1175,JAF,Sri Lanka,LK,AsiaPacific1176,JAG,Pakistan,PK,AsiaPacific1177,JAI,India,IN,AsiaPacific1178,JAK,Haiti,HT,Americas1179,JAL,Mexico,MX,Americas1180,JAM,Bulgaria,BG,Europe1181,JAN,United States,US,Americas1182,JAQ,Papua New Guinea,PG,AsiaPacific1183,JAU,Perú,PE,Americas1184,JAX,United States,US,Americas1185,JBR,United States,US,Americas1186,JCB,Brazil,BR,Americas1187,JCK,Australia,AU,AsiaPacific1188,JCM,Brazil,BR,Americas1189,JDF,Brazil,BR,Americas1190,JDH,India,IN,AsiaPacific1191,JDZ,China,CN,AsiaPacific1192,JED,Saudi Arabia,SA,MiddleEastAfrica1193,JEE,Haiti,HT,Americas1194,JEF,United States,US,Americas1195,JER,United States,US,Americas1196,JFK,United States,US,Americas1197,JGA,India,IN,AsiaPacific1198,JGB,India,IN,AsiaPacific1199,JGN,China,CN,AsiaPacific1200,JGS,China,CN,AsiaPacific1201,JHB,Malaysia,MY,AsiaPacific1202,JHE,Sweden,SE,Europe1203,JHG,China,CN,AsiaPacific1204,JHM,United States,US,Americas1205,JHQ,Australia,AU,AsiaPacific1206,JHW,United States,US,Americas1207,JIB,Djibouti,DJ,MiddleEastAfrica1208,JIJ,Ethiopia,ET,MiddleEastAfrica1209,JIL,China,CN,AsiaPacific1210,JIM,Ethiopia,ET,MiddleEastAfrica1211,JIN,Uganda,UG,MiddleEastAfrica1212,JIP,Ecuador,EC,Americas1213,JIR,Nepal,NP,AsiaPacific1214,JIU,China,CN,AsiaPacific1215,JIW,Pakistan,PK,AsiaPacific1216,JJI,Perú,PE,Americas1217,JJN,China,CN,AsiaPacific1218,JKG,Sweden,SE,Europe1219,JKH,Greece,GR,Europe1220,JKR,Nepal,NP,AsiaPacific1221,JKT,Indonesia,ID,AsiaPacific1222,JKV,United States,US,Americas1223,JLN,United States,US,Americas1224,JLR,India,IN,AsiaPacific1225,JLS,Brazil,BR,Americas1226,JMB,Angola,AO,MiddleEastAfrica1227,JMK,Greece,GR,Europe1228,JMO,Nepal,NP,AsiaPacific1229,JMS,United States,US,Americas1230,JMU,China,CN,AsiaPacific1231,JNA,Brazil,BR,Americas1232,JNB,South Africa,ZA,MiddleEastAfrica1233,JNG,China,CN,AsiaPacific1234,JNI,Argentina,AR,Americas1235,JNU,United States,US,Americas1236,JNX,Greece,GR,Europe1237,JNZ,China,CN,AsiaPacific1238,JOE,Finland,FI,Europe1239,JOI,Brazil,BR,Americas1240,JOL,Philippines,PH,AsiaPacific1241,JON,United States,US,Americas1242,JOS,Nigeria,NG,MiddleEastAfrica1243,JPA,Brazil,BR,Americas1244,JQE,Panama,PA,Americas1245,JRH,India,IN,AsiaPacific1246,JRO,Tanzania,TZ,MiddleEastAfrica1247,JRS,Israel,IL,MiddleEastAfrica1248,JSA,India,IN,AsiaPacific1249,JSI,Greece,GR,Europe1250,JSM,Argentina,AR,Americas1251,JSR,Bangladesh,BD,AsiaPacific1252,JST,United States,US,Americas1253,JTI,Brazil,BR,Americas1254,JTR,Greece,GR,Europe1255,JUB,South Sudan,SS,MiddleEastAfrica1256,JUI,Germany,DE,Europe1257,JUJ,Argentina,AR,Americas1258,JUL,Perú,PE,Americas1259,JUM,Nepal,NP,AsiaPacific1260,JUN,Australia,AU,AsiaPacific1261,JUT,Honduras,HN,Americas1262,JUV,Greenland,GL,Americas1263,JVL,United States,US,Americas1264,JWA,Botswana,BW,MiddleEastAfrica1265,JXN,United States,US,Americas1266,JYV,Finland,FI,Europe1267,KAJ,Finland,FI,Europe1268,KAN,Nigeria,NG,MiddleEastAfrica1269,KAO,Finland,FI,Europe1270,KBL,Afghanistan,AF,AsiaPacific1271,KBP,Ukraine,UA,Europe1272,KBY,Australia,AU,AsiaPacific1273,KCC,United States,US,Americas1274,KCE,Australia,AU,AsiaPacific1275,KCH,Malaysia,MY,AsiaPacific1276,KCM,Turkey,TR,Europe1277,KCM,Turkey,TR,Europe1278,KCZ,Japan,JP,AsiaPacific1279,KDD,Pakistan,PK,AsiaPacific1280,KDU,Pakistan,PK,AsiaPacific1281,KEF,Iceland,IS,Europe1282,KEL,Germany,DE,Europe1283,KEM,Finland,FI,Europe1284,KGC,Australia,AU,AsiaPacific1285,KGI,Australia,AU,AsiaPacific1286,KGL,Rwanda,RW,MiddleEastAfrica1287,KGS,Greece,GR,Europe1288,KHH,Taiwan,TW,AsiaPacific1289,KHI,Pakistan,PK,AsiaPacific1290,KHJ,Finland,FI,Europe1291,KHV,Russia,RU,Europe1292,KID,Sweden,SE,Europe1293,KIJ,Japan,JP,AsiaPacific1294,KIK,Iraq,IQ,MiddleEastAfrica1295,KIM,South Africa,ZA,MiddleEastAfrica1296,KIN,Jamaica,JM,Americas1297,KIR,Ireland,IE,Europe1298,KIV,Moldova,MD,Europe1299,KIW,Zambia,ZM,MiddleEastAfrica1300,KIX,Japan,JP,AsiaPacific1301,KKN,Norway,NO,Europe1302,KLR,Sweden,SE,Europe1303,KLU,Austria,AT,Europe1304,KLW,United States,US,Americas1305,KLX,Greece,GR,Europe1306,KLZ,South Africa,ZA,MiddleEastAfrica1307,KMI,Japan,JP,AsiaPacific1308,KMJ,Japan,JP,AsiaPacific1309,KMP,Namibia,NA,MiddleEastAfrica1310,KMQ,Japan,JP,AsiaPacific1311,KNO,Indonesia,ID,AsiaPacific1312,KNS,Australia,AU,AsiaPacific1313,KNU,India,IN,AsiaPacific1314,KNX,Australia,AU,AsiaPacific1315,KOA,United States,US,Americas1316,KOI,United Kingdom,GB,Europe1317,KOI,United Kingdom,GB,Europe1318,KOJ,Japan,JP,AsiaPacific1319,KOK,Finland,FI,Europe1320,KRB,Australia,AU,AsiaPacific1321,KRK,Poland,PL,Europe1322,KRN,Sweden,SE,Europe1323,KRP,Denmark,DK,Europe1324,KRS,Norway,NO,Europe1325,KRT,Sudan,SD,MiddleEastAfrica1326,KSD,Sweden,SE,Europe1327,KSL,Sudan,SD,MiddleEastAfrica1328,KSU,Norway,NO,Europe1329,KTA,Australia,AU,AsiaPacific1330,KTB,United States,US,Americas1331,KTM,Nepal,NP,AsiaPacific1332,KTN,United States,US,Americas1333,KTR,Australia,AU,AsiaPacific1334,KTT,Finland,FI,Europe1335,KUA,Malaysia,MY,AsiaPacific1336,KUH,Japan,JP,AsiaPacific1337,KUL,Malaysia,MY,AsiaPacific1338,KUO,Finland,FI,Europe1339,KVA,Greece,GR,Europe1340,KWI,Kuwait,KW,MiddleEastAfrica1341,KWL,China,CN,AsiaPacific1342,KWM,Australia,AU,AsiaPacific1343,KYA,Turkey,TR,Europe1344,KYS,Turkey,TR,Europe1345,KZN,Russia,RU,Europe1346,LAD,Angola,AO,MiddleEastAfrica1347,LAE,Papua New Guinea,PG,AsiaPacific1348,LAF,United States,US,Americas1349,LAI,France,FR,Europe1350,LAN,United States,US,Americas1351,LAP,Mexico,MX,Americas1352,LAR,United States,US,Americas1353,LAS,United States,US,Americas1354,LAW,United States,US,Americas1355,LAX,United States,US,Americas1356,LBA,United Kingdom,GB,Europe1357,LBB,United States,US,Americas1358,LBE,United States,US,Americas1359,LBG,France,FR,Europe1360,LBQ,Gabon,GA,MiddleEastAfrica1361,LBU,Malaysia,MY,AsiaPacific1362,LBV,Gabon,GA,MiddleEastAfrica1363,LCA,Cyprus,CY,Europe1364,LCG,Spain,ES,Europe1365,LCH,United States,US,Americas1366,LCY,United Kingdom,GB,Europe1367,LDC,Australia,AU,AsiaPacific1368,LDE,France,FR,Europe1369,LDK,Sweden,SE,Europe1370,LDY,United Kingdom,GB,Europe1371,LDY,United Kingdom,GB,Europe1372,LEA,Australia,AU,AsiaPacific1373,LEB,United States,US,Americas1374,LED,Russia,RU,Europe1375,LEJ,Germany,DE,Europe1376,LEK,Guinea,GN,MiddleEastAfrica1377,LEQ,United Kingdom,GB,Europe1378,LER,Australia,AU,AsiaPacific1379,LEX,United States,US,Americas1380,LEY,Netherlands,NL,Europe1381,LFT,United States,US,Americas1382,LFW,Togo,TG,MiddleEastAfrica1383,LGA,United States,US,Americas1384,LGB,United States,US,Americas1385,LGG,Belgium,BE,Europe1386,LGK,Malaysia,MY,AsiaPacific1387,LGW,United Kingdom,GB,Europe1388,LHE,Pakistan,PK,AsiaPacific1389,LHR,United Kingdom,GB,Europe1390,LIG,France,FR,Europe1391,LIH,United States,US,Americas1392,LIJ,United States,US,Americas1393,LIL,France,FR,Europe1394,LIM,Perú,PE,Americas1395,LIN,Italy,IT,Europe1396,LIQ,Congo,CG,MiddleEastAfrica1397,LIS,Portugal,PT,Europe1398,LIT,United States,US,Americas1399,LJU,Slovenia,SI,Europe1400,LKL,Norway,NO,Europe1401,LKO,India,IN,AsiaPacific1402,LLA,Sweden,SE,Europe1403,LLW,Malawi,MW,MiddleEastAfrica1404,LMM,Mexico,MX,Americas1405,LMP,Italy,IT,Europe1406,LMT,United States,US,Americas1407,LNK,United States,US,Americas1408,LNO,Australia,AU,AsiaPacific1409,LNS,United States,US,Americas1410,LNY,United States,US,Americas1411,LNZ,Austria,AT,Europe1412,LON,United Kingdom,GB,Europe1413,LOS,Nigeria,NG,MiddleEastAfrica1414,LPA,Spain,ES,Europe1415,LPB,Bolivia,BO,Americas1416,LPL,United Kingdom,GB,Europe1417,LPP,Finland,FI,Europe1418,LRD,United States,US,Americas1419,LRE,Australia,AU,AsiaPacific1420,LRF,United States,US,Americas1421,LRH,France,FR,Europe1422,LRM,Dominican Republic,DO,Americas1423,LRT,France,FR,Europe1424,LSE,United States,US,Americas1425,LSI,United Kingdom,GB,Europe1426,LST,Australia,AU,AsiaPacific1427,LSY,Australia,AU,AsiaPacific1428,LSZ,Croatia,HR,Europe1429,LTN,United Kingdom,GB,Europe1430,LTO,Mexico,MX,Americas1431,LUD,Namibia,NA,MiddleEastAfrica1432,LUG,Switzerland,CH,Europe1433,LUJ,South Africa,ZA,MiddleEastAfrica1434,LUM,China,CN,AsiaPacific1435,LUN,Zambia,ZM,MiddleEastAfrica1436,LUX,Luxembourg,LU,Europe1437,LVO,Australia,AU,AsiaPacific1438,LWB,United States,US,Americas1439,LWK,United Kingdom,GB,Europe1440,LWO,Ukraine,UA,Europe1441,LWS,United States,US,Americas1442,LWT,United States,US,Americas1443,LXR,Egypt,EG,MiddleEastAfrica1444,LYH,United States,US,Americas1445,LYO,United States,US,Americas1446,LYP,Pakistan,PK,AsiaPacific1447,LYR,Norway,NO,Europe1448,LYS,France,FR,Europe1449,LYX,United Kingdom,GB,Europe1450,LZC,Mexico,MX,Americas1451,LZR,Australia,AU,AsiaPacific1452,MAA,India,IN,AsiaPacific1453,MAA,India,IN,AsiaPacific1454,MAD,Spain,ES,Europe1455,MAF,United States,US,Americas1456,MAH,Spain,ES,Europe1457,MAN,United Kingdom,GB,Europe1458,MAO,Brazil,BR,Americas1459,MAR,Venezuela,VE,Americas1460,MAU,French Polynesia,PF,AsiaPacific1461,MAZ,Puerto Rico,PR,Americas1462,MBA,Kenya,KE,MiddleEastAfrica1463,MBH,Australia,AU,AsiaPacific1464,MBJ,Jamaica,JM,Americas1465,MBM,South Africa,ZA,MiddleEastAfrica1466,MBS,United States,US,Americas1467,MBX,Slovenia,SI,Europe1468,MCE,United States,US,Americas1469,MCI,United States,US,Americas1470,MCL,United States,US,Americas1471,MCN,United States,US,Americas1472,MCO,United States,US,Americas1473,MCP,Brazil,BR,Americas1474,MCT,Oman,OM,MiddleEastAfrica1475,MCW,United States,US,Americas1476,MCY,Australia,AU,AsiaPacific1477,MCZ,Brazil,BR,Americas1478,MDC,Indonesia,ID,AsiaPacific1479,MDE,Colombia,CO,Americas1480,MDL,Burma,MM,AsiaPacific1481,MDQ,Argentina,AR,Americas1482,MDT,United States,US,Americas1483,MDW,United States,US,Americas1484,MDY,United States Minor Outlying Islands,UM,AsiaPacific1485,MDZ,Argentina,AR,Americas1486,MED,Saudi Arabia,SA,MiddleEastAfrica1487,MED,Saudi Arabia,SA,MiddleEastAfrica1488,MEE,New Caledonia,NC,AsiaPacific1489,MEI,United States,US,Americas1490,MEL,Australia,AU,AsiaPacific1491,MEM,United States,US,Americas1492,MES,Indonesia,ID,AsiaPacific1493,MEX,Mexico,MX,Americas1494,MEX,Mexico,MX,Americas1495,MEZ,South Africa,ZA,MiddleEastAfrica1496,MFE,United States,US,Americas1497,MFF,Gabon,GA,MiddleEastAfrica1498,MFG,Pakistan,PK,AsiaPacific1499,MFM,China,CN,AsiaPacific1500,MFN,New Zealand,NZ,AsiaPacific1501,MFO,Papua New Guinea,PG,AsiaPacific1502,MFQ,Niger,NE,MiddleEastAfrica1503,MFR,United States,US,Americas1504,MFU,Zambia,ZM,MiddleEastAfrica1505,MGA,Nicaragua,NI,Americas1506,MGB,Australia,AU,AsiaPacific1507,MGH,South Africa,ZA,MiddleEastAfrica1508,MGM,United States,US,Americas1509,MGQ,Somalia,SO,MiddleEastAfrica1510,MGW,United States,US,Americas1511,MHD,Iran,IR,MiddleEastAfrica1512,MHE,United States,US,Americas1513,MHH,Bahamas,BS,Americas1514,MHQ,Finland,FI,Europe1515,MHT,United States,US,Americas1516,MIA,United States,US,Americas1517,MID,Mexico,MX,Americas1518,MIK,Finland,FI,Europe1519,MIL,Italy,IT,Europe1520,MIM,Australia,AU,AsiaPacific1521,MIR,Tunisia,TN,MiddleEastAfrica1522,MJC,Côte d'Ivoire,CI,MiddleEastAfrica1523,MJD,Pakistan,PK,AsiaPacific1524,MJL,Gabon,GA,MiddleEastAfrica1525,MJN,Madagascar,MG,MiddleEastAfrica1526,MJQ,United States,US,Americas1527,MJT,Greece,GR,Europe1528,MJV,Spain,ES,Europe1529,MKE,United States,US,Americas1530,MKG,United States,US,Americas1531,MKK,United States,US,Americas1532,MKL,United States,US,Americas1533,MKR,Australia,AU,AsiaPacific1534,MKY,Australia,AU,AsiaPacific1535,MLA,Malta,MT,Europe1536,MLB,United States,US,Americas1537,MLE,Maldives,MV,AsiaPacific1538,MLH,France,FR,Europe1539,MLI,United States,US,Americas1540,MLM,Mexico,MX,Americas1541,MLS,United States,US,Americas1542,MLU,United States,US,Americas1543,MLW,Liberia,LR,MiddleEastAfrica1544,MLX,Turkey,TR,Europe1545,MMA,Sweden,SE,Europe1546,MME,United Kingdom,GB,Europe1547,MMG,Australia,AU,AsiaPacific1548,MMJ,Japan,JP,AsiaPacific1549,MMK,Russia,RU,Europe1550,MMM,Australia,AU,AsiaPacific1551,MMX,Sweden,SE,Europe1552,MMY,Japan,JP,AsiaPacific1553,MNL,Philippines,PH,AsiaPacific1554,MOB,United States,US,Americas1555,MOD,United States,US,Americas1556,MOT,United States,US,Americas1557,MOV,Australia,AU,AsiaPacific1558,MOW,Russia,RU,Europe1559,MOZ,French Polynesia,PF,AsiaPacific1560,MPA,Namibia,NA,MiddleEastAfrica1561,MPD,Pakistan,PK,AsiaPacific1562,MPL,France,FR,Europe1563,MPM,Mozambique,MZ,MiddleEastAfrica1564,MQL,Australia,AU,AsiaPacific1565,MQM,Turkey,TR,Europe1566,MQP,South Africa,ZA,MiddleEastAfrica1567,MQQ,Chad,TD,MiddleEastAfrica1568,MQT,United States,US,Americas1569,MRB,United States,US,Americas1570,MRS,France,FR,Europe1571,MRU,Mauritius,MU,MiddleEastAfrica1572,MRV,Russia,RU,Europe1573,MRY,United States,US,Americas1574,MRZ,Australia,AU,AsiaPacific1575,MSE,United Kingdom,GB,Europe1576,MSL,United States,US,Americas1577,MSN,United States,US,Americas1578,MSO,United States,US,Americas1579,MSP,United States,US,Americas1580,MSQ,Belarus,BY,Europe1581,MSR,Turkey,TR,Europe1582,MST,Netherlands,NL,Europe1583,MSU,Lesotho,LS,MiddleEastAfrica1584,MSY,United States,US,Americas1585,MTH,United States,US,Americas1586,MTJ,United States,US,Americas1587,MTL,Australia,AU,AsiaPacific1588,MTM,United States,US,Americas1589,MTO,United States,US,Americas1590,MTS,Swaziland,SZ,MiddleEastAfrica1591,MTT,Mexico,MX,Americas1592,MTY,Mexico,MX,Americas1593,MUB,Botswana,BW,MiddleEastAfrica1594,MUC,Germany,DE,Europe1595,MUE,United States,US,Americas1596,MUH,Egypt,EG,MiddleEastAfrica1597,MUX,Pakistan,PK,AsiaPacific1598,MVB,Gabon,GA,MiddleEastAfrica1599,MVD,Uruguay,UY,Americas1600,MVR,Cameroon,CM,MiddleEastAfrica1601,MVY,United States,US,Americas1602,MVZ,Zimbabwe,ZW,MiddleEastAfrica1603,MWD,Pakistan,PK,AsiaPacific1604,MWH,United States,US,Americas1605,MXL,Mexico,MX,Americas1606,MXP,Italy,IT,Europe1607,MYA,Australia,AU,AsiaPacific1608,MYD,Kenya,KE,MiddleEastAfrica1609,MYJ,Japan,JP,AsiaPacific1610,MYQ,India,IN,AsiaPacific1611,MYR,United States,US,Americas1612,MYY,Malaysia,MY,AsiaPacific1613,MZF,South Africa,ZA,MiddleEastAfrica1614,MZG,Taiwan,TW,AsiaPacific1615,MZM,France,FR,Europe1616,MZT,Mexico,MX,Americas1617,MZY,South Africa,ZA,MiddleEastAfrica1618,NAA,Australia,AU,AsiaPacific1619,NAG,India,IN,AsiaPacific1620,NAJ,Azerbaijan,AZ,AsiaPacific1621,NAN,Fiji,FJ,AsiaPacific1622,NAP,Italy,IT,Europe1623,NAS,Bahamas,BS,Americas1624,NAS,Bahamas,BS,Americas1625,NAT,Brazil,BR,Americas1626,NAY,China,CN,AsiaPacific1627,NBO,Kenya,KE,MiddleEastAfrica1628,NCE,France,FR,Europe1629,NCL,United Kingdom,GB,Europe1630,NCS,South Africa,ZA,MiddleEastAfrica1631,NDB,Mauritania,MR,MiddleEastAfrica1632,NDJ,Chad,TD,MiddleEastAfrica1633,NDU,Namibia,NA,MiddleEastAfrica1634,NEV,St. Kitts and Nevis,KN,Americas1635,NGE,Cameroon,CM,MiddleEastAfrica1636,NGO,Japan,JP,AsiaPacific1637,NGS,Japan,JP,AsiaPacific1638,NIC,Cyprus,CY,Europe1639,NIM,Niger,NE,MiddleEastAfrica1640,NIP,United States,US,Americas1641,NKC,Mauritania,MR,MiddleEastAfrica1642,NLA,Zambia,ZM,MiddleEastAfrica1643,NLD,Mexico,MX,Americas1644,NLK,Australia,AU,AsiaPacific1645,NLP,South Africa,ZA,MiddleEastAfrica1646,NLU,Mexico,MX,Americas1647,NLV,Ukraine,UA,Europe1648,NNG,China,CN,AsiaPacific1649,NOC,Ireland,IE,Europe1650,NOP,Philippines,PH,AsiaPacific1651,NOU,New Caledonia,NC,AsiaPacific1652,NQY,United Kingdom,GB,Europe1653,NRA,Australia,AU,AsiaPacific1654,NRK,Sweden,SE,Europe1655,NRT,Japan,JP,AsiaPacific1656,NSA,Australia,AU,AsiaPacific1657,NSN,New Zealand,NZ,AsiaPacific1658,NSO,Australia,AU,AsiaPacific1659,NST,Thailand,TH,AsiaPacific1660,NTE,France,FR,Europe1661,NTL,Australia,AU,AsiaPacific1662,NTR,Mexico,MX,Americas1663,NTY,South Africa,ZA,MiddleEastAfrica1664,NUE,Germany,DE,Europe1665,NWI,United Kingdom,GB,Europe1666,NYC,United States,US,Americas1667,NZC,United States,US,Americas1668,OAG,Australia,AU,AsiaPacific1669,OAJ,United States,US,Americas1670,OAK,United States,US,Americas1671,OAX,Mexico,MX,Americas1672,ODA,Central African Republic,CF,MiddleEastAfrica1673,ODB,Spain,ES,Europe1674,ODE,Denmark,DK,Europe1675,ODS,Ukraine,UA,Europe1676,OGG,United States,US,Americas1677,OHD,Macedonia,MK,Europe1678,OHT,Pakistan,PK,AsiaPacific1679,OIT,Japan,JP,AsiaPacific1680,OKA,Japan,JP,AsiaPacific1681,OKC,United States,US,Americas1682,OKD,Japan,JP,AsiaPacific1683,OKJ,Japan,JP,AsiaPacific1684,OKU,Namibia,NA,MiddleEastAfrica1685,OLB,Italy,IT,Europe1686,OLF,United States,US,Americas1687,OLP,Australia,AU,AsiaPacific1688,OMA,United States,US,Americas1689,OMD,Namibia,NA,MiddleEastAfrica1690,OME,United States,US,Americas1691,OMH,Iran,IR,MiddleEastAfrica1692,OMO,Bosnia and Herzegovina,BA,Europe1693,OND,Namibia,NA,MiddleEastAfrica1694,ONT,United States,US,Americas1695,OOL,Australia,AU,AsiaPacific1696,OOM,Australia,AU,AsiaPacific1697,OPO,Portugal,PT,Europe1698,ORB,Sweden,SE,Europe1699,ORD,United States,US,Americas1700,ORF,United States,US,Americas1701,ORH,United States,US,Americas1702,ORK,Ireland,IE,Europe1703,ORL,United States,US,Americas1704,ORN,Algeria,DZ,MiddleEastAfrica1705,ORS,Australia,AU,AsiaPacific1706,ORY,France,FR,Europe1707,OSA,Japan,JP,AsiaPacific1708,OSH,United States,US,Americas1709,OSI,Croatia,HR,Europe1710,OSL,Norway,NO,Europe1711,OSM,Iraq,IQ,MiddleEastAfrica1712,OTH,United States,US,Americas1713,OTP,Romania,RO,Europe1714,OTZ,United States,US,Americas1715,OUA,Burkina Faso,BF,MiddleEastAfrica1716,OUD,Morocco,MA,MiddleEastAfrica1717,OUH,South Africa,ZA,MiddleEastAfrica1718,OUK,United Kingdom,GB,Europe1719,OUL,Finland,FI,Europe1720,OUZ,Mauritania,MR,MiddleEastAfrica1721,OVB,Russia,RU,Europe1722,OVD,Spain,ES,Europe1723,OWB,United States,US,Americas1724,OXR,United States,US,Americas1725,OZZ,Morocco,MA,MiddleEastAfrica1726,PAD,Germany,DE,Europe1727,PAH,United States,US,Americas1728,PAP,Haiti,HT,Americas1729,PAR,France,FR,Europe1730,PAT,India,IN,AsiaPacific1731,PBC,Mexico,MX,Americas1732,PBH,Bhutan,BT,AsiaPacific1733,PBI,United States,US,Americas1734,PBM,Suriname,SR,Americas1735,PBO,Australia,AU,AsiaPacific1736,PBZ,South Africa,ZA,MiddleEastAfrica1737,PDL,Portugal,PT,Europe1738,PDT,United States,US,Americas1739,PDX,United States,US,Americas1740,PEG,Italy,IT,Europe1741,PEI,Colombia,CO,Americas1742,PEK,China,CN,AsiaPacific1743,PEN,Malaysia,MY,AsiaPacific1744,PER,Australia,AU,AsiaPacific1745,PEW,Pakistan,PK,AsiaPacific1746,PFN,United States,US,Americas1747,PFO,Cyprus,CY,Europe1748,PGA,United States,US,Americas1749,PGF,France,FR,Europe1750,PGV,United States,US,Americas1751,PHC,Nigeria,NG,MiddleEastAfrica1752,PHE,Australia,AU,AsiaPacific1753,PHF,United States,US,Americas1754,PHL,United States,US,Americas1755,PHW,South Africa,ZA,MiddleEastAfrica1756,PHX,United States,US,Americas1757,PIA,United States,US,Americas1758,PIB,United States,US,Americas1759,PIH,United States,US,Americas1760,PIK,United Kingdom,GB,Europe1761,PIR,United States,US,Americas1762,PIS,France,FR,Europe1763,PIT,United States,US,Americas1764,PJG,Pakistan,PK,AsiaPacific1765,PKB,United States,US,Americas1766,PKW,Botswana,BW,MiddleEastAfrica1767,PLB,United States,US,Americas1768,PLN,United States,US,Americas1769,PLO,Australia,AU,AsiaPacific1770,PLZ,South Africa,ZA,MiddleEastAfrica1771,PMD,United States,US,Americas1772,PMI,Spain,ES,Europe1773,PMO,Italy,IT,Europe1774,PMR,New Zealand,NZ,AsiaPacific1775,PMV,Venezuela,VE,Americas1776,PMW,Brazil,BR,Americas1777,PNH,Cambodia,KH,AsiaPacific1778,PNI,Micronesia,FM,AsiaPacific1779,PNL,Italy,IT,Europe1780,PNQ,India,IN,AsiaPacific1781,PNR,Congo,CG,MiddleEastAfrica1782,PNS,United States,US,Americas1783,POA,Brazil,BR,Americas1784,POG,Gabon,GA,MiddleEastAfrica1785,POM,Papua New Guinea,PG,AsiaPacific1786,POP,Dominican Republic,DO,Americas1787,POR,Finland,FI,Europe1788,POS,Trinidad and Tobago,TT,Americas1789,POU,United States,US,Americas1790,POZ,Poland,PL,Europe1791,PPG,American Samoa,AS,AsiaPacific1792,PPP,Australia,AU,AsiaPacific1793,PQI,United States,US,Americas1794,PQQ,Australia,AU,AsiaPacific1795,PRG,Czech Republic,CZ,Europe1796,PRN,Serbia,RS,Europe1797,PRY,South Africa,ZA,MiddleEastAfrica1798,PSA,Italy,IT,Europe1799,PSC,United States,US,Americas1800,PSD,Egypt,EG,MiddleEastAfrica1801,PSE,Puerto Rico,PR,Americas1802,PSG,United States,US,Americas1803,PSI,Pakistan,PK,AsiaPacific1804,PSP,United States,US,Americas1805,PSR,Italy,IT,Europe1806,PTG,South Africa,ZA,MiddleEastAfrica1807,PTJ,Australia,AU,AsiaPacific1808,PTP,Guadeloupe,GP,Americas1809,PTP,Guadeloupe,GP,Americas1810,PTY,Panama,PA,Americas1811,PUB,United States,US,Americas1812,PUF,France,FR,Europe1813,PUG,Australia,AU,AsiaPacific1814,PUJ,Dominican Republic,DO,Americas1815,PUQ,Chile,CL,Americas1816,PUS,South Korea,KR,AsiaPacific1817,PUW,United States,US,Americas1818,PUY,Croatia,HR,Europe1819,PVD,United States,US,Americas1820,PVG,China,CN,AsiaPacific1821,PVH,Brazil,BR,Americas1822,PVK,Greece,GR,Europe1823,PVR,Mexico,MX,Americas1824,PWM,United States,US,Americas1825,PXM,Mexico,MX,Americas1826,PXO,Portugal,PT,Europe1827,PYB,India,IN,AsiaPacific1828,PYX,Thailand,TH,AsiaPacific1829,PZB,South Africa,ZA,MiddleEastAfrica1830,PZH,Pakistan,PK,AsiaPacific1831,PZO,Venezuela,VE,Americas1832,QCB,Japan,JP,AsiaPacific1833,QGF,Brazil,BR,Americas1834,QLI,Cyprus,CY,Europe1835,QML,Pakistan,PK,AsiaPacific1836,QND,Serbia,RS,Europe1837,QPG,Singapore,SG,AsiaPacific1838,QUF,Estonia,EE,Europe1839,RAI,Cape Verde,CV,MiddleEastAfrica1840,RAJ,India,IN,AsiaPacific1841,RAK,Morocco,MA,MiddleEastAfrica1842,RAP,United States,US,Americas1843,RAR,Cook Islands,CK,AsiaPacific1844,RAZ,Pakistan,PK,AsiaPacific1845,RBA,Morocco,MA,MiddleEastAfrica1846,RBR,Brazil,BR,Americas1847,RCB,South Africa,ZA,MiddleEastAfrica1848,RDD,United States,US,Americas1849,RDG,United States,US,Americas1850,RDM,United States,US,Americas1851,RDU,United States,US,Americas1852,RDZ,France,FR,Europe1853,REC,Brazil,BR,Americas1854,REG,Italy,IT,Europe1855,REK,Iceland,IS,Europe1856,REU,Spain,ES,Europe1857,RFD,United States,US,Americas1858,RFP,French Polynesia,PF,AsiaPacific1859,RGI,French Polynesia,PF,AsiaPacific1860,RGN,Burma,MM,AsiaPacific1861,RGN,Burma,MM,AsiaPacific1862,RHI,United States,US,Americas1863,RHO,Greece,GR,Europe1864,RIC,United States,US,Americas1865,RIO,Brazil,BR,Americas1866,RIX,Latvia,LV,Europe1867,RJK,Croatia,HR,Europe1868,RKD,United States,US,Americas1869,RKS,United States,US,Americas1870,RKT,United Arab Emirates,AE,MiddleEastAfrica1871,RMF,Egypt,EG,MiddleEastAfrica1872,RMI,Italy,IT,Europe1873,RNB,Sweden,SE,Europe1874,RNE,France,FR,Europe1875,RNN,Denmark,DK,Europe1876,RNO,United States,US,Americas1877,RNS,France,FR,Europe1878,ROA,United States,US,Americas1879,ROB,Liberia,LR,MiddleEastAfrica1880,ROC,United States,US,Americas1881,ROK,Australia,AU,AsiaPacific1882,ROM,Italy,IT,Europe1883,ROS,Argentina,AR,Americas1884,ROT,New Zealand,NZ,AsiaPacific1885,ROU,Bulgaria,BG,Europe1886,RRG,Mauritius,MU,MiddleEastAfrica1887,RSA,Argentina,AR,Americas1888,RSD,Bahamas,BS,Americas1889,RST,United States,US,Americas1890,RSW,United States,US,Americas1891,RTB,Honduras,HN,Americas1892,RTM,Netherlands,NL,Europe1893,RUH,Saudi Arabia,SA,MiddleEastAfrica1894,RUN,Reunion,RE,MiddleEastAfrica1895,RVN,Finland,FI,Europe1896,RWI,United States,US,Americas1897,RWP,Pakistan,PK,AsiaPacific1898,RYK,Pakistan,PK,AsiaPacific1899,SAH,Yemen,YE,MiddleEastAfrica1900,SAL,El Salvador,SV,Americas1901,SAN,United States,US,Americas1902,SAO,Brazil,BR,Americas1903,SAP,Honduras,HN,Americas1904,SAT,United States,US,Americas1905,SAV,United States,US,Americas1906,SAW,Turkey,TR,Europe1907,SAY,Zimbabwe,ZW,MiddleEastAfrica1908,SBA,United States,US,Americas1909,SBK,France,FR,Europe1910,SBN,United States,US,Americas1911,SBP,United States,US,Americas1912,SBU,South Africa,ZA,MiddleEastAfrica1913,SBW,Malaysia,MY,AsiaPacific1914,SBY,United States,US,Americas1915,SCC,United States,US,Americas1916,SCE,United States,US,Americas1917,SCF,United States,US,Americas1918,SCK,United States,US,Americas1919,SCL,Chile,CL,Americas1920,SCN,Germany,DE,Europe1921,SCQ,Spain,ES,Europe1922,SCU,Cuba,CU,Americas1923,SDF,United States,US,Americas1924,SDH,Honduras,HN,Americas1925,SDJ,Japan,JP,AsiaPacific1926,SDL,Sweden,SE,Europe1927,SDQ,Dominican Republic,DO,Americas1928,SDR,Spain,ES,Europe1929,SDS,Japan,JP,AsiaPacific1930,SDT,Pakistan,PK,AsiaPacific1931,SDU,Brazil,BR,Americas1932,SDY,United States,US,Americas1933,SEA,United States,US,Americas1934,SEB,Libya,LY,MiddleEastAfrica1935,SEL,South Korea,KR,AsiaPacific1936,SEN,United Kingdom,GB,Europe1937,SEW,Egypt,EG,MiddleEastAfrica1938,SEZ,Seychelles,SC,MiddleEastAfrica1939,SFA,Tunisia,TN,MiddleEastAfrica1940,SFJ,Greenland,GL,Americas1941,SFO,United States,US,Americas1942,SGD,Denmark,DK,Europe1943,SGF,United States,US,Americas1944,SGN,Vietnam,VN,AsiaPacific1945,SGN,Vietnam,VN,AsiaPacific1946,SGU,United States,US,Americas1947,SGY,United States,US,Americas1948,SHA,China,CN,AsiaPacific1949,SHD,United States,US,Americas1950,SHE,China,CN,AsiaPacific1951,SHJ,United Arab Emirates,AE,MiddleEastAfrica1952,SHR,United States,US,Americas1953,SHV,United States,US,Americas1954,SID,Cape Verde,CV,MiddleEastAfrica1955,SIN,Singapore,SG,AsiaPacific1956,SIP,Ukraine,UA,Europe1957,SIS,South Africa,ZA,MiddleEastAfrica1958,SIT,United States,US,Americas1959,SIX,Australia,AU,AsiaPacific1960,SJC,United States,US,Americas1961,SJD,Mexico,MX,Americas1962,SJD,Mexico,MX,Americas1963,SJJ,Bosnia and Herzegovina,BA,Europe1964,SJO,Costa Rica,CR,Americas1965,SJT,United States,US,Americas1966,SJU,Puerto Rico,PR,Americas1967,SJY,Finland,FI,Europe1968,SKB,St. Kitts and Nevis,KN,Americas1969,SKB,St. Kitts and Nevis,KN,Americas1970,SKD,Uzbekistan,UZ,AsiaPacific1971,SKG,Greece,GR,Europe1972,SKG,Greece,GR,Europe1973,SKP,Macedonia,MK,Europe1974,SKS,Denmark,DK,Europe1975,SKV,Egypt,EG,MiddleEastAfrica1976,SKZ,Pakistan,PK,AsiaPacific1977,SLA,Argentina,AR,Americas1978,SLC,United States,US,Americas1979,SLE,United States,US,Americas1980,SLL,Oman,OM,MiddleEastAfrica1981,SLP,Mexico,MX,Americas1982,SLS,Bulgaria,BG,Europe1983,SLU,Saint Lucia,LC,Americas1984,SLU,Saint Lucia,LC,Americas1985,SLZ,Brazil,BR,Americas1986,SMA,Portugal,PT,Europe1987,SMF,United States,US,Americas1988,SMI,Greece,GR,Europe1989,SMX,United States,US,Americas1990,SNA,United States,US,Americas1991,SNA,United States,US,Americas1992,SNC,Ecuador,EC,Americas1993,SNN,Ireland,IE,Europe1994,SNS,United States,US,Americas1995,SOF,Bulgaria,BG,Europe1996,SOG,Norway,NO,Europe1997,SOI,Australia,AU,AsiaPacific1998,SON,Vanuatu,VU,AsiaPacific1999,SOT,Finland,FI,Europe2000,SOU,United Kingdom,GB,Europe2001,SPC,Spain,ES,Europe2002,SPI,United States,US,Americas2003,SPK,Japan,JP,AsiaPacific2004,SPN,Northern Mariana Islands,MP,AsiaPacific2005,SPS,United States,US,Americas2006,SPU,Croatia,HR,Europe2007,SPY,Côte d'Ivoire,CI,MiddleEastAfrica2008,SRA,Brazil,BR,Americas2009,SRB,Bolivia,BO,Americas2010,SRL,Mexico,MX,Americas2011,SRQ,United States,US,Americas2012,SRZ,Bolivia,BO,Americas2013,SSA,Brazil,BR,Americas2014,SSG,Equatorial Guinea,GQ,MiddleEastAfrica2015,SSH,Egypt,EG,MiddleEastAfrica2016,SSL,Colombia,CO,Americas2017,STL,United States,US,Americas2018,STN,United Kingdom,GB,Europe2019,STN,United Kingdom,GB,Europe2020,STO,Sweden,SE,Europe2021,STR,Germany,DE,Europe2022,STS,United States,US,Americas2023,STT,US Virgin Islands,VI,Americas2024,STV,India,IN,AsiaPacific2025,STX,US Virgin Islands,VI,Americas2026,SUB,Indonesia,ID,AsiaPacific2027,SUF,Italy,IT,Europe2028,SUL,Pakistan,PK,AsiaPacific2029,SUN,United States,US,Americas2030,SUV,Fiji,FJ,AsiaPacific2031,SUV,Fiji,FJ,AsiaPacific2032,SUX,United States,US,Americas2033,SVD,Saint Vincent and the Grenadines,VC,Americas2034,SVD,Saint Vincent and the Grenadines,VC,Americas2035,SVG,Norway,NO,Europe2036,SVL,Finland,FI,Europe2037,SVO,Russia,RU,Europe2038,SVQ,Spain,ES,Europe2039,SWF,United States,US,Americas2040,SWP,Namibia,NA,MiddleEastAfrica2041,SXB,France,FR,Europe2042,SXF,Germany,DE,Europe2043,SXL,Ireland,IE,Europe2044,SXM,Netherlands,NL,Europe2045,SXR,India,IN,AsiaPacific2046,SYD,Australia,AU,AsiaPacific2047,SYR,United States,US,Americas2048,SYY,United Kingdom,GB,Europe2049,SZB,Malaysia,MY,AsiaPacific2050,SZD,United Kingdom,GB,Europe2051,SZF,Turkey,TR,Europe2052,SZG,Austria,AT,Europe2053,SZK,South Africa,ZA,MiddleEastAfrica2054,SZX,China,CN,AsiaPacific2055,SZZ,Poland,PL,Europe2056,TAB,Trinidad and Tobago,TT,Americas2057,TAB,Trinidad and Tobago,TT,Americas2058,TAK,Japan,JP,AsiaPacific2059,TAM,Mexico,MX,Americas2060,TAO,China,CN,AsiaPacific2061,TAS,Uzbekistan,UZ,AsiaPacific2062,TAY,Taiwan,TW,AsiaPacific2063,TBS,Georgia,GE,AsiaPacific2064,TBU,Tonga,TO,AsiaPacific2065,TCA,Australia,AU,AsiaPacific2066,TCB,Bahamas,BS,Americas2067,TCI,Spain,ES,Europe2068,TCL,United States,US,Americas2069,TCU,South Africa,ZA,MiddleEastAfrica2070,TED,Denmark,DK,Europe2071,TEM,Australia,AU,AsiaPacific2072,TEQ,Turkey,TR,Europe2073,TER,Portugal,PT,Europe2074,TEU,New Zealand,NZ,AsiaPacific2075,TEX,United States,US,Americas2076,TFN,Spain,ES,Europe2077,TFN,Spain,ES,Europe2078,TFS,Spain,ES,Europe2079,TFS,Spain,ES,Europe2080,TGD,Montenegro,ME,Europe2081,TGU,Honduras,HN,Americas2082,TGV,Bulgaria,BG,Europe2083,TGZ,Mexico,MX,Americas2084,THE,Brazil,BR,Americas2085,THF,Germany,DE,Europe2086,THR,Iran,IR,MiddleEastAfrica2087,TIA,Albania,AL,Europe2088,TIF,Saudi Arabia,SA,MiddleEastAfrica2089,TIJ,Mexico,MX,Americas2090,TIP,Libya,LY,MiddleEastAfrica2091,TIS,Australia,AU,AsiaPacific2092,TIV,Montenegro,ME,Europe2093,TKA,United States,US,Americas2094,TKS,Japan,JP,AsiaPacific2095,TKU,Finland,FI,Europe2096,TLH,United States,US,Americas2097,TLL,Estonia,EE,Europe2098,TLS,France,FR,Europe2099,TLV,Israel,IL,MiddleEastAfrica2100,TMP,Finland,FI,Europe2101,TMW,Australia,AU,AsiaPacific2102,TMZ,Uzbekistan,UZ,AsiaPacific2103,TNA,China,CN,AsiaPacific2104,TNG,Morocco,MA,MiddleEastAfrica2105,TOD,Indonesia,ID,AsiaPacific2106,TOL,United States,US,Americas2107,TOS,Norway,NO,Europe2108,TOU,New Caledonia,NC,AsiaPacific2109,TOV,British Virgin Islands,VG,Americas2110,TOY,Japan,JP,AsiaPacific2111,TPA,United States,US,Americas2112,TPE,Taiwan,TW,AsiaPacific2113,TPR,Australia,AU,AsiaPacific2114,TPS,Italy,IT,Europe2115,TRD,Norway,NO,Europe2116,TRF,Norway,NO,Europe2117,TRI,United States,US,Americas2118,TRN,Italy,IT,Europe2119,TRO,Australia,AU,AsiaPacific2120,TRS,Italy,IT,Europe2121,TRV,India,IN,AsiaPacific2122,TRZ,India,IN,AsiaPacific2123,TSB,Namibia,NA,MiddleEastAfrica2124,TSF,Italy,IT,Europe2125,TSN,China,CN,AsiaPacific2126,TSV,Australia,AU,AsiaPacific2127,TTN,United States,US,Americas2128,TUK,Pakistan,PK,AsiaPacific2129,TUL,United States,US,Americas2130,TUN,Tunisia,TN,MiddleEastAfrica2131,TUP,United States,US,Americas2132,TUS,United States,US,Americas2133,TUU,Saudi Arabia,SA,MiddleEastAfrica2134,TVC,United States,US,Americas2135,TVF,United States,US,Americas2136,TVL,United States,US,Americas2137,TWB,Australia,AU,AsiaPacific2138,TWF,United States,US,Americas2139,TWU,Malaysia,MY,AsiaPacific2140,TXK,United States,US,Americas2141,TXL,Germany,DE,Europe2142,TYN,China,CN,AsiaPacific2143,TYO,Japan,JP,AsiaPacific2144,TYR,United States,US,Americas2145,TYS,United States,US,Americas2146,TZX,Turkey,TR,Europe2147,UAH,French Polynesia,PF,AsiaPacific2148,UAK,Greenland,GL,Americas2149,UAP,French Polynesia,PF,AsiaPacific2150,UBA,Brazil,BR,Americas2151,UBJ,Japan,JP,AsiaPacific2152,UBP,Thailand,TH,AsiaPacific2153,UCA,United States,US,Americas2154,UCT,Russia,RU,Europe2155,UDE,Netherlands,NL,Europe2156,UDI,Brazil,BR,Americas2157,UDJ,Ukraine,UA,Europe2158,UDR,India,IN,AsiaPacific2159,UEE,Australia,AU,AsiaPacific2160,UET,Pakistan,PK,AsiaPacific2161,UFA,Russia,RU,Europe2162,UGC,Uzbekistan,UZ,AsiaPacific2163,UGO,Angola,AO,MiddleEastAfrica2164,UHE,Czech Republic,CZ,Europe2165,UII,Honduras,HN,Americas2166,UIN,United States,US,Americas2167,UIO,Ecuador,EC,Americas2168,UIP,France,FR,Europe2169,UIT,Marshall Islands,MH,AsiaPacific2170,UKB,Japan,JP,AsiaPacific2171,UKI,United States,US,Americas2172,UKY,Japan,JP,AsiaPacific2173,ULB,Vanuatu,VU,AsiaPacific2174,ULD,South Africa,ZA,MiddleEastAfrica2175,ULN,Mongolia,MN,AsiaPacific2176,ULU,Uganda,UG,MiddleEastAfrica2177,UMD,Greenland,GL,Americas2178,UME,Sweden,SE,Europe2179,UMR,Australia,AU,AsiaPacific2180,UNI,Saint Vincent and the Grenadines,VC,Americas2181,UNK,United States,US,Americas2182,UNT,United Kingdom,GB,Europe2183,UPG,Indonesia,ID,AsiaPacific2184,UPL,Costa Rica,CR,Americas2185,UPN,Mexico,MX,Americas2186,UPP,United States,US,Americas2187,URB,Brazil,BR,Americas2188,URC,China,CN,AsiaPacific2189,URG,Brazil,BR,Americas2190,URM,Venezuela,VE,Americas2191,URZ,Afghanistan,AF,AsiaPacific2192,USH,Argentina,AR,Americas2193,USN,South Korea,KR,AsiaPacific2194,UTH,Thailand,TH,AsiaPacific2195,UTN,South Africa,ZA,MiddleEastAfrica2196,UTP,Thailand,TH,AsiaPacific2197,UTT,South Africa,ZA,MiddleEastAfrica2198,UUD,Russia,RU,Europe2199,UVF,Saint Lucia,LC,Americas2200,UVL,Egypt,EG,MiddleEastAfrica2201,UVL,Egypt,EG,MiddleEastAfrica2202,VAA,Finland,FI,Europe2203,VAN,Turkey,TR,Europe2204,VAP,Chile,CL,Americas2205,VAR,Bulgaria,BG,Europe2206,VAS,Turkey,TR,Europe2207,VBS,Italy,IT,Europe2208,VBS,Italy,IT,Europe2209,VBY,Sweden,SE,Europe2210,VCE,Italy,IT,Europe2211,VCP,Brazil,BR,Americas2212,VDA,Israel,IL,MiddleEastAfrica2213,VDE,Spain,ES,Europe2214,VDZ,United States,US,Americas2215,VEL,United States,US,Americas2216,VER,Mexico,MX,Americas2217,VFA,Zimbabwe,ZW,MiddleEastAfrica2218,VGO,Spain,ES,Europe2219,VID,Bulgaria,BG,Europe2220,VIE,Austria,AT,Europe2221,VIJ,British Virgin Islands,VG,Americas2222,VIS,United States,US,Americas2223,VIT,Spain,ES,Europe2224,VIX,Brazil,BR,Americas2225,VKO,Russia,RU,Europe2226,VLC,Spain,ES,Europe2227,VLD,United States,US,Americas2228,VLI,Vanuatu,VU,AsiaPacific2229,VLL,Spain,ES,Europe2230,VLN,Venezuela,VE,Americas2231,VLU,Russia,RU,Europe2232,VNO,Lithuania,LT,Europe2233,VNO,Lithuania,LT,Europe2234,VNS,India,IN,AsiaPacific2235,VPS,United States,US,Americas2236,VRA,Cuba,CU,Americas2237,VRB,United States,US,Americas2238,VRK,Finland,FI,Europe2239,VRN,Italy,IT,Europe2240,VSA,Mexico,MX,Americas2241,VST,Sweden,SE,Europe2242,VTE,Laos,LA,AsiaPacific2243,VXO,Sweden,SE,Europe2244,VYD,South Africa,ZA,MiddleEastAfrica2245,WAS,United States,US,Americas2246,WAW,Poland,PL,Europe2247,WDH,Namibia,NA,MiddleEastAfrica2248,WEI,Australia,AU,AsiaPacific2249,WEL,South Africa,ZA,MiddleEastAfrica2250,WGA,Australia,AU,AsiaPacific2251,WHK,New Zealand,NZ,AsiaPacific2252,WHM,Australia,AU,AsiaPacific2253,WIC,United Kingdom,GB,Europe2254,WIE,Germany,DE,Europe2255,WLB,United States,US,Americas2256,WLG,New Zealand,NZ,AsiaPacific2257,WLS,Wallis and Futuna,WF,AsiaPacific2258,WMB,Australia,AU,AsiaPacific2259,WNS,Pakistan,PK,AsiaPacific2260,WOL,Australia,AU,AsiaPacific2261,WRE,New Zealand,NZ,AsiaPacific2262,WRG,United States,US,Americas2263,WRL,United States,US,Americas2264,WUH,China,CN,AsiaPacific2265,WUN,Australia,AU,AsiaPacific2266,WVB,South Africa,ZA,MiddleEastAfrica2267,WYA,Australia,AU,AsiaPacific2268,WYN,Australia,AU,AsiaPacific2269,WYS,United States,US,Americas2270,XIY,China,CN,AsiaPacific2271,XLB,Canada,CA,Americas2272,XMH,French Polynesia,PF,AsiaPacific2273,XMN,China,CN,AsiaPacific2274,XPK,Canada,CA,Americas2275,XRY,Spain,ES,Europe2276,XSI,Canada,CA,Americas2277,XSP,Singapore,SG,AsiaPacific2278,YAK,United States,US,Americas2279,YAO,Cameroon,CM,MiddleEastAfrica2280,YBE,Canada,CA,Americas2281,YCB,Canada,CA,Americas2282,YDF,Canada,CA,Americas2283,YEA,Canada,CA,Americas2284,YEG,Canada,CA,Americas2285,YEV,Canada,CA,Americas2286,YFA,Canada,CA,Americas2287,YFB,Canada,CA,Americas2288,YFC,Canada,CA,Americas2289,YFO,Canada,CA,Americas2290,YGL,Canada,CA,Americas2291,YGW,Canada,CA,Americas2292,YGX,Canada,CA,Americas2293,YHM,Canada,CA,Americas2294,YHR,Canada,CA,Americas2295,YHZ,Canada,CA,Americas2296,YIF,Canada,CA,Americas2297,YIH,China,CN,AsiaPacific2298,YKA,Canada,CA,Americas2299,YKM,United States,US,Americas2300,YKS,Russia,RU,Europe2301,YLR,Canada,CA,Americas2302,YLW,Canada,CA,Americas2303,YMM,Canada,CA,Americas2304,YMQ,Canada,CA,Americas2305,YMX,Canada,CA,Americas2306,YNB,Saudi Arabia,SA,MiddleEastAfrica2307,YOK,Japan,JP,AsiaPacific2308,YOP,Canada,CA,Americas2309,YOW,Canada,CA,Americas2310,YPN,Canada,CA,Americas2311,YPR,Canada,CA,Americas2312,YQB,Canada,CA,Americas2313,YQD,Canada,CA,Americas2314,YQG,Canada,CA,Americas2315,YQM,Canada,CA,Americas2316,YQR,Canada,CA,Americas2317,YQT,Canada,CA,Americas2318,YQX,Canada,CA,Americas2319,YRB,Canada,CA,Americas2320,YSJ,Canada,CA,Americas2321,YSM,Canada,CA,Americas2322,YSR,Canada,CA,Americas2323,YTH,Canada,CA,Americas2324,YTO,Canada,CA,Americas2325,YTZ,Canada,CA,Americas2326,YUD,Canada,CA,Americas2327,YUL,Canada,CA,Americas2328,YUM,United States,US,Americas2329,YUX,Canada,CA,Americas2330,YVA,Comoros,KM,MiddleEastAfrica2331,YVB,Canada,CA,Americas2332,YVO,Canada,CA,Americas2333,YVP,Canada,CA,Americas2334,YVQ,Canada,CA,Americas2335,YVR,Canada,CA,Americas2336,YWG,Canada,CA,Americas2337,YWK,Canada,CA,Americas2338,YXD,Canada,CA,Americas2339,YXE,Canada,CA,Americas2340,YXJ,Canada,CA,Americas2341,YXN,Canada,CA,Americas2342,YXS,Canada,CA,Americas2343,YXT,Canada,CA,Americas2344,YXU,Canada,CA,Americas2345,YXY,Canada,CA,Americas2346,YYC,Canada,CA,Americas2347,YYD,Canada,CA,Americas2348,YYJ,Canada,CA,Americas2349,YYQ,Canada,CA,Americas2350,YYR,Canada,CA,Americas2351,YYT,Canada,CA,Americas2352,YYZ,Canada,CA,Americas2353,YZF,Canada,CA,Americas2354,YZP,Canada,CA,Americas2355,ZAD,Croatia,HR,Europe2356,ZAG,Croatia,HR,Europe2357,ZAZ,Spain,ES,Europe2358,ZBO,Australia,AU,AsiaPacific2359,ZCL,Mexico,MX,Americas2360,ZDJ,Switzerland,CH,Europe2361,ZIH,Mexico,MX,Americas2362,ZJK,Hong Kong,HK,AsiaPacific2363,ZKE,Canada,CA,Americas2364,ZLO,Mexico,MX,Americas2365,ZND,Niger,NE,MiddleEastAfrica2366,ZNE,Australia,AU,AsiaPacific2367,ZQN,New Zealand,NZ,AsiaPacific2368,ZRH,Switzerland,CH,Europe2369,ZSA,Bahamas,BS,Americas2370,ZSS,Côte d'Ivoire,CI,MiddleEastAfrica2371,ZTH,Greece,GR,Europe2372,ZTM,Canada,CA,Americas2373,ZYL,Bangladesh,BD,AsiaPacific

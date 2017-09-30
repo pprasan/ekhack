@@ -5,6 +5,14 @@ import re
 
 gdpRegex = r"Q(\d)\s(\d{4})"
 
+def getDateFromField(dateField):
+    try:
+        date = datetime.strptime(dateField, "%m/%y/%d")
+    except ValueError:
+        date = datetime.strptime(dateField, "%Y-%m-%d")
+    return date
+
+
 def dayOfWeek(date):
     return str(date.weekday() + 1)
 
@@ -39,7 +47,7 @@ def loadStockData():
         for line in prices:
             data = line.split(" ")
             dateOrigFormat = data[0]
-            date = datetime.strptime(dateOrigFormat.strip(), "%Y-%m-%d")
+            date = getDateFromField(dateOrigFormat.strip())
             stock_dict[date] = data[1].strip()
     return stock_dict
 
@@ -49,7 +57,7 @@ def loadOilPrices():
         for line in prices:
             data = line.split(",")
             dateOrigFormat = data[0]
-            date = datetime.strptime(dateOrigFormat.strip(), "%Y-%m-%d")
+            date = getDateFromField(dateOrigFormat.strip())
             oil_dict[date] = data[2].strip()
     return oil_dict
 
@@ -64,8 +72,8 @@ def loadAttackData():
             country = data[3].strip()
             dateFormat = year + "-" + month + "-" + day
             if day != "0": #bug in data where some days are 0
-              date = datetime.strptime(dateFormat.strip(), "%Y-%m-%d") + timedelta(days=365)
-              print date
+              date = getDateFromField(dateFormat.strip()) + timedelta(days=365)
+              # print date
               if date in attack_dict:
                 attack_dict[date].append(country)
               else:
@@ -94,7 +102,7 @@ def airportID(airportCode):
 
 
 def findClosetOilPrice(date):
-    dateTime = datetime.strptime(date, "%m/%d/%y")
+    dateTime = getDateFromField(date)
     count = 0
     while dateTime not in oil_dict:
         if count > 10:
@@ -104,7 +112,7 @@ def findClosetOilPrice(date):
     return oil_dict[dateTime]
 
 def findClosetStockDiff(date):
-    dateTime = datetime.strptime(date, "%m/%d/%y")
+    dateTime = getDateFromField(date)
     count = 0
     while dateTime not in stock_dict:
         if count > 100:
@@ -121,6 +129,7 @@ def loadDistance():
             arr = line.split(',')
             distanceDict[arr[0].strip()] = str(arr[1].strip())
     return distanceDict
+
 
 def loadHotelOccupancyData():
     hotelOccupancyDict = dict()
@@ -161,7 +170,6 @@ def loadQuarterlyGDPData():
             else:
                 data[col] = str(row[col])
         gdpData[row[GDP_COUNTRY_NAME]] = data
-    print gdpData
     return gdpData
 
 
@@ -174,10 +182,9 @@ distanceDict = loadDistance()
 
 # print distanceDict
 gdpData = loadQuarterlyGDPData()
-pricingDF = pd.read_csv("../data/emirates/pricing.csv")
+pricingDF = pd.read_csv("../data/emirates/pricing_emirates_full_dataset.csv")
 with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
-    headerLine = ["fareID",
-                  "dayOfWeek",
+    headerLine = ["dayOfWeek",
                   "isWeekend",
                   "month",
                   "travelSpan",
@@ -200,8 +207,7 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
     outputFile.write(printLine(headerLine))
     for i, row in pricingDF.iterrows():
         if (row is None) or \
-                isBlank(row[FARE_ID]) or \
-                isBlank(row[DEPARTURE_DATE]) or \
+                isBlank(row[FARE_SEASON_DATE]) or \
                 isBlank(row[MARKET_SHARE]) or \
                 isBlank(row[ORIGIN]) or \
                 isBlank(row[DESTINATION]) or \
@@ -214,8 +220,8 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
             continue
 
         # Input Values
-        line = [str(row[FARE_ID])]
-        departureDate = datetime.strptime(row[DEPARTURE_DATE], "%m/%d/%y")
+        line = []
+        departureDate = getDateFromField(row[FARE_SEASON_DATE])
 
         if getHotelOccupancy(departureDate, row[ORIGIN]) is None or getHotelOccupancy(departureDate, row[DESTINATION]) is None:
             continue
@@ -227,7 +233,7 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
         line.append(marketShare(row[MARKET_SHARE]))
         line.append(airportID(row[ORIGIN]))  # origin
         line.append(airportID(row[DESTINATION]))  # destination
-        oilPrice = findClosetOilPrice(row[DEPARTURE_DATE])  # probably need to give purchase date?
+        oilPrice = findClosetOilPrice(row[FARE_SEASON_DATE])  # probably need to give purchase date?
         line.append(oilPrice)
         country = airport_dict[row[DESTINATION]][COUNTRY]
         attack = "0"
@@ -236,7 +242,7 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
           if country in attack_dict[departureDate]:
             attack = "1"
         line.append(attack)
-        stockIndexDiff = findClosetStockDiff(row[DEPARTURE_DATE])
+        stockIndexDiff = findClosetStockDiff(row[FARE_SEASON_DATE])
         line.append(stockIndexDiff)
 
         line.append(getHotelOccupancy(departureDate, row[ORIGIN]))
