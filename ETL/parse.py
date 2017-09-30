@@ -1,7 +1,9 @@
 import pandas as pd
 from Utils import *
 from datetime import datetime, timedelta
+import re
 
+gdpRegex = r"Q(\d)\s(\d{4})"
 
 def dayOfWeek(date):
     return str(date.weekday() + 1)
@@ -79,6 +81,7 @@ def loadAirportData():
         data[AIRPORT_NUM] = str(line[AIRPORT_NUM])
         data[COUNTRY] = line[COUNTRY]
         data[AIRPORT_COUNTRY_CODE] = line[AIRPORT_COUNTRY_CODE]
+        data[AIRPORT_COUNTRY] = line[AIRPORT_COUNTRY]
         data[AIRPORT_REGION] = line[AIRPORT_REGION]
         airport_dict[line[AIRPORT_CODE]] = data
     return airport_dict
@@ -142,6 +145,26 @@ def getHotelOccupancy(date, airportCode):
         return str(hotelOccupancyDict[hotelOccupancyDate][region])
 
 
+def loadQuarterlyGDPData():
+    gdpData = dict()
+    gdpDataFile = pd.read_csv("../data/external/GlobalGDPChangeQuarterly.csv")
+    gdpCols = list()
+    for col in list(gdpDataFile.columns):
+        matches = re.match(gdpRegex, col)
+        if matches:
+            gdpCols.append(matches.group())
+    for i, row in gdpDataFile.iterrows():
+        data = dict()
+        for col in gdpCols:
+            if isBlank(row[col]):
+                data[col] = ""
+            else:
+                data[col] = str(row[col])
+        gdpData[row[GDP_COUNTRY_NAME]] = data
+    print gdpData
+    return gdpData
+
+
 airport_dict = loadAirportData()
 oil_dict = loadOilPrices()
 stock_dict = loadStockData()
@@ -150,6 +173,7 @@ hotelOccupancyDict = loadHotelOccupancyData()
 distanceDict = loadDistance()
 
 # print distanceDict
+gdpData = loadQuarterlyGDPData()
 pricingDF = pd.read_csv("../data/emirates/pricing.csv")
 with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
     headerLine = ["fareID",
