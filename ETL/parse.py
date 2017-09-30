@@ -53,7 +53,7 @@ def loadOilPrices():
 
 def loadAttackData():
     attack_dict = dict()
-    with open("../data/external/attacks.csv", "r") as attacks:
+    with open("../data/external/attacks2016Formatted.csv", "r") as attacks:
         for line in attacks:
             data = line.split(" ")
             year = data[0]
@@ -62,7 +62,8 @@ def loadAttackData():
             country = data[3].strip()
             dateFormat = year + "-" + month + "-" + day
             if day != "0": #bug in data where some days are 0
-              date = datetime.strptime(dateFormat.strip(), "%Y-%m-%d")
+              date = datetime.strptime(dateFormat.strip(), "%Y-%m-%d") + timedelta(days=365)
+              print date
               if date in attack_dict:
                 attack_dict[date].append(country)
               else:
