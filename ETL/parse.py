@@ -72,6 +72,14 @@ def findClosetOilPrice(date):
     return oil_dict[dateTime]
 
 
+def loadDistance():
+    distanceDict = {}
+    with open("../data/emirates/city-distance.csv", "r") as distances:
+        for line in distances:
+            arr = line.split(',')
+            distanceDict[arr[0].strip()] = str(arr[1].strip())
+    return distanceDict
+
 def loadHotelOccupancyData():
     hotelOccupancyDict = dict()
     hotelOccupancyData = pd.read_csv("../data/external/hotelOccupancyRatesMonthlyRegion.csv")
@@ -98,6 +106,9 @@ def getHotelOccupancy(date, airportCode):
 airport_dict = loadAirportData()
 oil_dict = loadOilPrices()
 hotelOccupancyDict = loadHotelOccupancyData()
+distanceDict = loadDistance()
+
+# print distanceDict
 pricingDF = pd.read_csv("../data/emirates/pricing.csv")
 with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
     headerLine = ["fareID",
@@ -111,6 +122,7 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
                   # "changeInOilPrice",
                   "origHotelOccupancy",
                   "destHotelOccupancy",
+                  "distance",
                   "fuelAndInsurance",
                   "fuelSurcharge",
                   "baseFare",
@@ -152,6 +164,9 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
         # line.append(oilPrice)
         line.append(getHotelOccupancy(departureDate, row[ORIGIN]))
         line.append(getHotelOccupancy(departureDate, row[DESTINATION]))
+
+        distance_key = row[ORIGIN]+':'+row[DESTINATION]
+        line.append(distanceDict[distance_key])
 
         # Output Values
         line.append(str(row[FARE_FUEL_INSURANCE]))  # Fuel & Insurance
