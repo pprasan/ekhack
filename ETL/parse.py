@@ -45,7 +45,7 @@ def loadOilPrices():
 
 def loadAirportData():
     airport_dict = {}
-    with open("../data/external/airports.txt", "r") as airports:
+    with open("../data/external/airports.csv", "r") as airports:
         for line in airports:
             data = line.split(",")
             airport_dict[data[1].strip()] = data[0]
