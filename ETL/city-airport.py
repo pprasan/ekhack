@@ -26,7 +26,7 @@ def getDistance(origin, dest):
     return json.load(response)["distance"]
 
 
-pricingDF = pd.read_csv("../data/emirates/pricing.csv")
+pricingDF = pd.read_csv("../data/emirates/pricing_emirates_full_dataset.csv")
 with open("../data/emirates/city-distance.csv", "w") as outputFile:
     distanceDict = {}
     for i, row in pricingDF.iterrows():
@@ -34,7 +34,7 @@ with open("../data/emirates/city-distance.csv", "w") as outputFile:
             key = row["ORIG"] + ':' + row["DEST"]
             if key in distanceDict:
                 continue
-            else:                
+            else:
                 distance = getDistance(dict[row["ORIG"]], dict[row["DEST"]])
                 print row["ORIG"] + ':' + row["DEST"] +  ',' + str(distance)
                 distanceDict[row["ORIG"] + ':' + row["DEST"]] = str(distance)
