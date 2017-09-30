@@ -1,5 +1,5 @@
 import pandas as pd
-import Utils
+from Utils import *
 from datetime import datetime, timedelta
 
 
@@ -47,18 +47,18 @@ def loadAirportData():
     airport_dict = {}
     airports = pd.read_csv("../data/external/airports.csv")
     for i, line in airports.iterrows():
-        airport_dict[line['AirportCode']] = str(line['Num'])
+        data = {}
+        data[AIRPORT_NUM] = str(line[AIRPORT_NUM])
+        data[AIRPORT_COUNTRY_CODE] = line[AIRPORT_COUNTRY_CODE]
+        data[AIRPORT_REGION] = line[AIRPORT_REGION]
+        airport_dict[line[AIRPORT_CODE]] = data
     return airport_dict
     # To convert the airport code from three letter to ID,
-    # simply use, for instance = airport_dict['JFK']
-
-
-airport_dict = loadAirportData()
-oil_dict = loadOilPrices()
+    # simply use, for instance = airport_dict['JFK'][AIRPORT_NUM]
 
 
 def airportID(airportCode):
-    return airport_dict[airportCode]
+    return airport_dict[airportCode][AIRPORT_NUM]
 
 
 def findClosetOilPrice(date):
@@ -72,6 +72,28 @@ def findClosetOilPrice(date):
     return oil_dict[dateTime]
 
 
+def loadHotelOccupancyData():
+    hotelOccupancyDict = dict()
+    hotelOccupancyData = pd.read_csv("../data/external/hotelOccupancyRatesMonthlyRegion.csv")
+    for i, row in hotelOccupancyData.iterrows():
+        data = dict()
+        data[ASIA_PACIFIC] = row[ASIA_PACIFIC]
+        data[AMERICAS] = row[AMERICAS]
+        data[EUROPE] = row[EUROPE]
+        data[ME_AFRICA] = row[ME_AFRICA]
+        date = datetime.strptime(row[HOTEL_OCCUPANCY_DATE], "%m/%d/%y")
+        hotelOccupancyDict[date] = data
+    return hotelOccupancyDict
+
+
+def getHotelOccupancy(date, region):
+    hotelOccupancyDate = datetime(year=date.year, month=date.month)
+    return hotelOccupancyDict[hotelOccupancyDate][region]
+
+
+airport_dict = loadAirportData()
+oil_dict = loadOilPrices()
+hotelOccupancyDict = loadHotelOccupancyData()
 pricingDF = pd.read_csv("../data/emirates/pricing.csv")
 with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
     headerLine = ["fareID",
@@ -93,39 +115,39 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
     outputFile.write(printLine(headerLine))
     for i, row in pricingDF.iterrows():
         if (row is None) or \
-                Utils.isBlank(row[Utils.FARE_ID]) or \
-                Utils.isBlank(row[Utils.DEPARTURE_DATE]) or \
-                Utils.isBlank(row[Utils.MARKET_SHARE]) or \
-                Utils.isBlank(row[Utils.ORIGIN]) or \
-                Utils.isBlank(row[Utils.DESTINATION]) or \
-                Utils.isBlank(row[Utils.FARE_FUEL_INSURANCE]) or \
-                Utils.isBlank(row[Utils.FARE_FUEL_SURCHARGE]) or \
-                Utils.isBlank(row[Utils.FARE_BASE]) or \
-                Utils.isBlank(row[Utils.FARE_TAX]) or \
-                Utils.isBlank(row[Utils.FARE_MISC]) or \
-                Utils.isBlank(row[Utils.FARE_TOTAL]):
+                isBlank(row[FARE_ID]) or \
+                isBlank(row[DEPARTURE_DATE]) or \
+                isBlank(row[MARKET_SHARE]) or \
+                isBlank(row[ORIGIN]) or \
+                isBlank(row[DESTINATION]) or \
+                isBlank(row[FARE_FUEL_INSURANCE]) or \
+                isBlank(row[FARE_FUEL_SURCHARGE]) or \
+                isBlank(row[FARE_BASE]) or \
+                isBlank(row[FARE_TAX]) or \
+                isBlank(row[FARE_MISC]) or \
+                isBlank(row[FARE_TOTAL]):
             continue
 
         # Input Values
-        line = [str(row[Utils.FARE_ID])]
-        departureDate = datetime.strptime(row[Utils.DEPARTURE_DATE], "%m/%d/%y")
+        line = [str(row[FARE_ID])]
+        departureDate = datetime.strptime(row[DEPARTURE_DATE], "%m/%d/%y")
         line.append(dayOfWeek(departureDate))
         line.append(isWeekend(departureDate))
         line.append(month(departureDate))
         line.append(travelSpan())
-        line.append(marketShare(row[Utils.MARKET_SHARE]))
-        line.append(airportID(row[Utils.ORIGIN]))  # origin
-        line.append(airportID(row[Utils.DESTINATION]))  # destination
-        oilPrice = findClosetOilPrice(row[Utils.DEPARTURE_DATE])  # probably need to give purchase date?
+        line.append(marketShare(row[MARKET_SHARE]))
+        line.append(airportID(row[ORIGIN]))  # origin
+        line.append(airportID(row[DESTINATION]))  # destination
+        oilPrice = findClosetOilPrice(row[DEPARTURE_DATE])  # probably need to give purchase date?
         # line.append(oilPrice)
 
         # Output Values
-        line.append(str(row[Utils.FARE_FUEL_INSURANCE]))  # Fuel & Insurance
-        line.append(str(row[Utils.FARE_FUEL_SURCHARGE]))  # Fuel Surcharge
-        line.append(str(row[Utils.FARE_BASE]))  # Base Fare
-        line.append(str(row[Utils.FARE_TAX]))  # TAX TAX TAX
-        line.append(str(row[Utils.FARE_MISC]))  # Other Shit
-        line.append(str(row[Utils.FARE_TOTAL]))  # Total Amount
+        line.append(str(row[FARE_FUEL_INSURANCE]))  # Fuel & Insurance
+        line.append(str(row[FARE_FUEL_SURCHARGE]))  # Fuel Surcharge
+        line.append(str(row[FARE_BASE]))  # Base Fare
+        line.append(str(row[FARE_TAX]))  # TAX TAX TAX
+        line.append(str(row[FARE_MISC]))  # Other Shit
+        line.append(str(row[FARE_TOTAL]))  # Total Amount
 
         # Write to file
         outputFile.write(printLine(line))
