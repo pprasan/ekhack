@@ -31,16 +31,43 @@ def printLine(lineList):
     line += "\n"
     return line
 
+def loadStockData():
+    stock_dict = {}
+    with open("../data/external/dowjonesdiff.csv", "r") as prices:
+        for line in prices:
+            data = line.split(" ")
+            dateOrigFormat = data[0]
+            date = datetime.strptime(dateOrigFormat.strip(), "%Y-%m-%d")
+            stock_dict[date] = data[1].strip()
+    return stock_dict
 
 def loadOilPrices():
     oil_dict = {}
-    with open("../data/external/oilPricesChange.csv", "r") as prices:
+    with open("../data/external/oilPrices2000.csv", "r") as prices:
         for line in prices:
             data = line.split(",")
             dateOrigFormat = data[0]
             date = datetime.strptime(dateOrigFormat.strip(), "%Y-%m-%d")
             oil_dict[date] = data[2].strip()
     return oil_dict
+
+def loadAttackData():
+    attack_dict = dict()
+    with open("../data/external/attacks.csv", "r") as attacks:
+        for line in attacks:
+            data = line.split(" ")
+            year = data[0]
+            month = data[1]
+            day = data[2]
+            country = data[3].strip()
+            dateFormat = year + "-" + month + "-" + day
+            if day != "0": #bug in data where some days are 0
+              date = datetime.strptime(dateFormat.strip(), "%Y-%m-%d")
+              if date in attack_dict:
+                attack_dict[date].append(country)
+              else:
+                attack_dict[date] = [country]
+    return attack_dict
 
 
 def loadAirportData():
@@ -49,6 +76,7 @@ def loadAirportData():
     for i, line in airports.iterrows():
         data = {}
         data[AIRPORT_NUM] = str(line[AIRPORT_NUM])
+        data[COUNTRY] = line[COUNTRY]
         data[AIRPORT_COUNTRY_CODE] = line[AIRPORT_COUNTRY_CODE]
         data[AIRPORT_REGION] = line[AIRPORT_REGION]
         airport_dict[line[AIRPORT_CODE]] = data
@@ -66,10 +94,20 @@ def findClosetOilPrice(date):
     count = 0
     while dateTime not in oil_dict:
         if count > 10:
-            return ''  # disregard if older than 10 days
+            return '0.0'  # disregard if older than 10 days
         dateTime -= timedelta(days=1)
         count += 1
     return oil_dict[dateTime]
+
+def findClosetStockDiff(date):
+    dateTime = datetime.strptime(date, "%m/%d/%y")
+    count = 0
+    while dateTime not in stock_dict:
+        if count > 100:
+            return '0.0'  # disregard if older than 10 days
+        dateTime -= timedelta(days=1)
+        count += 1
+    return stock_dict[dateTime]
 
 
 def loadHotelOccupancyData():
@@ -97,6 +135,8 @@ def getHotelOccupancy(date, airportCode):
 
 airport_dict = loadAirportData()
 oil_dict = loadOilPrices()
+stock_dict = loadStockData()
+attack_dict = loadAttackData()
 hotelOccupancyDict = loadHotelOccupancyData()
 pricingDF = pd.read_csv("../data/emirates/pricing.csv")
 with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
@@ -108,7 +148,9 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
                   "marketShare",
                   "origin",
                   "destination",
-                  # "changeInOilPrice",
+                  "changeInOilPrice",
+                  "terroristAttack",
+                  "ChangeInStockIndex",
                   "origHotelOccupancy",
                   "destHotelOccupancy",
                   "fuelAndInsurance",
@@ -149,7 +191,17 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
         line.append(airportID(row[ORIGIN]))  # origin
         line.append(airportID(row[DESTINATION]))  # destination
         oilPrice = findClosetOilPrice(row[DEPARTURE_DATE])  # probably need to give purchase date?
-        # line.append(oilPrice)
+        line.append(oilPrice)
+        country = airport_dict[row[DESTINATION]][COUNTRY]
+        attack = "0"
+        #TEST
+        if departureDate in attack_dict:
+          if country in attack_dict[departureDate]:
+            attack = "1"
+        line.append(attack)
+        stockIndexDiff = findClosetStockDiff(row[DEPARTURE_DATE])
+        line.append(stockIndexDiff)
+
         line.append(getHotelOccupancy(departureDate, row[ORIGIN]))
         line.append(getHotelOccupancy(departureDate, row[DESTINATION]))
 
