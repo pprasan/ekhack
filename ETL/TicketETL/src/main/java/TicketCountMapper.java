@@ -24,12 +24,13 @@ public class TicketCountMapper {
                     String departureDateTime = columns[14];
 
                     if (isBlank(orig) || isBlank(dest) || isBlank(departureDateTime) || isBlank(rbd) ||
-                            !"EK".equals(columns[21]) || !"Y".equals(columns[24]))
+                            isBlank(columns[21]) || isBlank(columns[24]) || isBlank(columns[13]) ||
+                            !"EK".equals(columns[21]) || !"Y".equals(columns[24]) || "0".equals(columns[13]))
                         continue;
 
                     String departureDate = datePattern.split(departureDateTime)[0];
                     out.println(orig + ":" + dest + ":" + departureDate + ":" + rbd +
-                            "\t" + "1");
+                            "\t" + "1:" + columns[13]);
                 }
                 catch (Exception e) {}
 
