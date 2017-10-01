@@ -25,7 +25,7 @@ public class TicketCountReducer {
             }
             map.forEach((key, val) -> {
                 String[] keys = keySeparator.split(key);
-                out.println(keys[0] + "," + keys[1] + "," + keys[2] + "," + val);
+                out.println(keys[0] + "," + keys[1] + "," + keys[2] + "," + keys[3] + "," + val);
             });
         }
         catch (Exception e) {

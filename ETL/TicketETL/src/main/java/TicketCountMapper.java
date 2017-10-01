@@ -20,13 +20,14 @@ public class TicketCountMapper {
                     String[] columns = csvPattern.split(line);
                     String orig = columns[8];
                     String dest = columns[10];
+                    String rbd = columns[23];
                     String departureDateTime = columns[14];
 
-                    if (isBlank(orig) || isBlank(dest) || isBlank(departureDateTime))
+                    if (isBlank(orig) || isBlank(dest) || isBlank(departureDateTime) || isBlank(rbd))
                         continue;
 
                     String departureDate = datePattern.split(departureDateTime)[0];
-                    out.println(orig + ":" + dest + ":" + departureDate +
+                    out.println(orig + ":" + dest + ":" + departureDate + ":" + rbd +
                             "\t" + "1");
                 }
                 catch (Exception e) {}
