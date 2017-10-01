@@ -23,7 +23,8 @@ public class TicketCountMapper {
                     String rbd = columns[23];
                     String departureDateTime = columns[14];
 
-                    if (isBlank(orig) || isBlank(dest) || isBlank(departureDateTime) || isBlank(rbd))
+                    if (isBlank(orig) || isBlank(dest) || isBlank(departureDateTime) || isBlank(rbd) ||
+                            !"EK".equals(columns[21]) || !"Y".equals(columns[24]))
                         continue;
 
                     String departureDate = datePattern.split(departureDateTime)[0];
