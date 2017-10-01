@@ -2,8 +2,13 @@ import pandas as pd
 from Utils import *
 from datetime import datetime, timedelta
 import re
+import math
+import calendar
 
 gdpRegex = r"Q(\d)\s(\d{4})"
+
+dayList = list(calendar.day_abbr)
+monthList = list(calendar.month_abbr)
 
 def getDateFromField(dateField):
     try:
@@ -14,7 +19,7 @@ def getDateFromField(dateField):
 
 
 def dayOfWeek(date):
-    return str(date.weekday() + 1)
+    return dayList[date.weekday()]
 
 
 def isWeekend(date):
@@ -25,7 +30,7 @@ def isWeekend(date):
 
 
 def month(date):
-    return str(date.month)
+    return monthList[date.month]
 
 
 def marketShare(value):
@@ -157,27 +162,36 @@ def loadQuarterlyGDPData():
     for col in list(gdpDataFile.columns):
         matches = re.match(gdpRegex, col)
         if matches:
+            # print "Adding " + matches.group() + " to GDP Cols"
             gdpCols.append(matches.group())
     for i, row in gdpDataFile.iterrows():
         data = dict()
         for col in gdpCols:
-            if isBlank(row[col]):
-                data[col] = ""
+            if isBlank(row[col]) or math.isnan(row[col]):
+                # print "Row " + str(i) + " country " + row[GDP_COUNTRY_NAME] + " col " + col + " is blank"
+                data[col] = "0"
             else:
+                # print "Row " + str(i) + " country " + row[GDP_COUNTRY_NAME] + " col " + col + " is " + str(row[col])
                 data[col] = str(row[col])
+        # print "Putting GDP Data for country " + row[GDP_COUNTRY_NAME]
         gdpData[row[GDP_COUNTRY_NAME]] = data
     return gdpData
 
 
 def getGDPData(airportCode, fareDate):
     airportCountryName = airport_dict[airportCode][AIRPORT_COUNTRY]
+    # print airportCountryName
     if gdpData.get(airportCountryName) is None:
+        # print "No entry found for " + airportCountryName
         return str(0)
     else:
         quarterString = "Q" + str(((fareDate.month-1) / 4) + 1) + " " + str(fareDate.year)
+        # print quarterString
         try:
-            return str(gdpData[quarterString].get(quarterString))
+            # print gdpData[airportCountryName].get(quarterString)
+            return str(gdpData[airportCountryName].get(quarterString))
         except KeyError:
+            # print "No entry found for " + airportCountryName + " Quarter " + quarterString
             return str(0)
 
 
@@ -232,7 +246,7 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
 
         # Input Values
         line = []
-        departureDate = getDateFromField(row[FARE_SEASON_DATE])
+        departureDate = getDateFromField(row[FARE_SEASON_DATE]) - timedelta(days=365)
 
         if getHotelOccupancy(departureDate, row[ORIGIN]) is None or getHotelOccupancy(departureDate, row[DESTINATION]) is None:
             continue
@@ -241,8 +255,8 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
         line.append(isWeekend(departureDate))
         line.append(month(departureDate))
         line.append(marketShare(row[MARKET_SHARE]))
-        line.append(airportID(row[ORIGIN]))  # origin
-        line.append(airportID(row[DESTINATION]))  # destination
+        line.append(row[ORIGIN])  # origin
+        line.append(row[DESTINATION])  # destination
         oilPrice = findClosetOilPrice(row[FARE_SEASON_DATE])  # probably need to give purchase date?
         line.append(oilPrice)
         country = airport_dict[row[DESTINATION]][COUNTRY]
