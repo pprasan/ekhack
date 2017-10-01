@@ -200,6 +200,7 @@ distanceDict = loadDistance()
 
 # print distanceDict
 gdpData = loadQuarterlyGDPData()
+cutoffDate = datetime(year=2017, month=9, day=1)
 pricingDF = pd.read_csv("../data/emirates/pricing_emirates_full_dataset.csv")
 with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
     headerLine = ["dayOfWeek",
@@ -213,8 +214,8 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
                   "ChangeInStockIndex",
                   "origHotelOccupancy",
                   "destHotelOccupancy",
-                  "origGDPRate",
-                  "destGDPRate",
+                  #"origGDPRate",
+                  #"destGDPRate",
                   "fareType",
                   "distance",
                   "fuelAndInsurance",
@@ -244,8 +245,14 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
         line = []
         departureDate = getDepartureDateFromField(row[FARE_SEASON_DATE])
 
-        if getHotelOccupancy(departureDate, row[ORIGIN]) is None or getHotelOccupancy(departureDate, row[DESTINATION]) is None:
+        if departureDate >= cutoffDate:
             continue
+
+        if getHotelOccupancy(departureDate, row[ORIGIN]) is None or \
+                        getHotelOccupancy(departureDate, row[DESTINATION]) is None:
+            continue
+
+        print departureDate
 
         line.append(dayOfWeek(departureDate))
         line.append(isWeekend(departureDate))
@@ -267,8 +274,8 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
 
         line.append(getHotelOccupancy(departureDate, row[ORIGIN]))
         line.append(getHotelOccupancy(departureDate, row[DESTINATION]))
-        line.append(getGDPData(row[ORIGIN], departureDate))
-        line.append(getGDPData(row[DESTINATION], departureDate))
+        # line.append(getGDPData(row[ORIGIN], departureDate))
+        # line.append(getGDPData(row[DESTINATION], departureDate))
         line.append(row[FARE_TYPE])
 
         distance_key = row[ORIGIN]+':'+row[DESTINATION]
