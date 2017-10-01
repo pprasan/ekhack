@@ -10,12 +10,8 @@ gdpRegex = r"Q(\d)\s(\d{4})"
 dayList = list(calendar.day_abbr)
 monthList = list(calendar.month_abbr)
 
-def getDateFromField(dateField):
-    try:
-        date = datetime.strptime(dateField, "%m/%y/%d")
-    except ValueError:
-        date = datetime.strptime(dateField, "%Y-%m-%d")
-    return date
+def getDepartureDateFromField(dateField):
+    return datetime.strptime(dateField[2:], "%d-%m-%y")
 
 
 def dayOfWeek(date):
@@ -48,7 +44,7 @@ def loadStockData():
         for line in prices:
             data = line.split(" ")
             dateOrigFormat = data[0]
-            date = getDateFromField(dateOrigFormat.strip())
+            date = datetime.strptime(dateOrigFormat.strip(), "%Y-%m-%d")
             stock_dict[date] = data[1].strip()
     return stock_dict
 
@@ -58,7 +54,7 @@ def loadOilPrices():
         for line in prices:
             data = line.split(",")
             dateOrigFormat = data[0]
-            date = getDateFromField(dateOrigFormat.strip())
+            date = datetime.strptime(dateOrigFormat.strip(), "%Y-%m-%d")
             oil_dict[date] = data[2].strip()
     return oil_dict
 
@@ -73,7 +69,7 @@ def loadAttackData():
             country = data[3].strip()
             dateFormat = year + "-" + month + "-" + day
             if day != "0": #bug in data where some days are 0
-              date = getDateFromField(dateFormat.strip()) + timedelta(days=365)
+              date = datetime.strptime(dateFormat.strip(), "%Y-%m-%d") + timedelta(days=365)
               # print date
               if date in attack_dict:
                 attack_dict[date].append(country)
@@ -103,7 +99,7 @@ def airportID(airportCode):
 
 
 def findClosetOilPrice(date):
-    dateTime = getDateFromField(date)
+    dateTime = getDepartureDateFromField(date)
     count = 0
     while dateTime not in oil_dict:
         if count > 10:
@@ -113,7 +109,7 @@ def findClosetOilPrice(date):
     return oil_dict[dateTime]
 
 def findClosetStockDiff(date):
-    dateTime = getDateFromField(date)
+    dateTime = getDepartureDateFromField(date)
     count = 0
     while dateTime not in stock_dict:
         if count > 100:
@@ -246,7 +242,7 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
 
         # Input Values
         line = []
-        departureDate = getDateFromField(row[FARE_SEASON_DATE]) - timedelta(days=365)
+        departureDate = getDepartureDateFromField(row[FARE_SEASON_DATE]) - timedelta(days=365)
 
         if getHotelOccupancy(departureDate, row[ORIGIN]) is None or getHotelOccupancy(departureDate, row[DESTINATION]) is None:
             continue
