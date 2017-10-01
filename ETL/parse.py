@@ -169,6 +169,18 @@ def loadQuarterlyGDPData():
     return gdpData
 
 
+def getGDPData(airportCode, fareDate):
+    airportCountryName = airport_dict[airportCode][AIRPORT_COUNTRY]
+    if gdpData.get(airportCountryName) is None:
+        return str(0)
+    else:
+        quarterString = "Q" + str(((fareDate.month-1) / 4) + 1) + " " + str(fareDate.year)
+        try:
+            return str(gdpData[quarterString].get(quarterString))
+        except KeyError:
+            return str(0)
+
+
 airport_dict = loadAirportData()
 oil_dict = loadOilPrices()
 stock_dict = loadStockData()
@@ -191,6 +203,8 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
                   "ChangeInStockIndex",
                   "origHotelOccupancy",
                   "destHotelOccupancy",
+                  "origGDPRate",
+                  "destGDPRate",
                   "fareType",
                   "distance",
                   "fuelAndInsurance",
@@ -243,6 +257,8 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
 
         line.append(getHotelOccupancy(departureDate, row[ORIGIN]))
         line.append(getHotelOccupancy(departureDate, row[DESTINATION]))
+        line.append(getGDPData(row[ORIGIN], departureDate))
+        line.append(getGDPData(row[DESTINATION], departureDate))
         line.append(row[FARE_TYPE])
 
         distance_key = row[ORIGIN]+':'+row[DESTINATION]
