@@ -102,7 +102,7 @@ def findClosetOilPrice(date):
     dateTime = getDepartureDateFromField(date)
     count = 0
     while dateTime not in oil_dict:
-        if count > 10:
+        if count > 100:
             return '0.0'  # disregard if older than 10 days
         dateTime -= timedelta(days=1)
         count += 1
@@ -242,7 +242,7 @@ with open("../data/emirates/parsedPricingData.csv", "w") as outputFile:
 
         # Input Values
         line = []
-        departureDate = getDepartureDateFromField(row[FARE_SEASON_DATE]) - timedelta(days=365)
+        departureDate = getDepartureDateFromField(row[FARE_SEASON_DATE])
 
         if getHotelOccupancy(departureDate, row[ORIGIN]) is None or getHotelOccupancy(departureDate, row[DESTINATION]) is None:
             continue
